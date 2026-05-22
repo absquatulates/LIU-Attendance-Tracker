@@ -1,0 +1,10 @@
+{
+    "write_flash_args" : [ "--flash_mode", "dio", "--flash_size", "2MB", "--flash_freq", "80m" ],
+    "flash_files" : {
+        "0x0"    : ".pio/build/esp32-c3-devkitm-1/bootloader.bin",
+        "0x8000" : ".pio/build/esp32-c3-devkitm-1/partitions.bin",
+        "0x10000": ".pio/build/esp32-c3-devkitm-1/firmware.bin",
+        "0xe0000": ".pio/build/esp32-c3-devkitm-1/spiffs.bin"
+    },
+    "extra_esptool_args" : { "chip" : "esp32c3" }
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Me",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-c3-devkitm-1", "id": "esp", "top": 0, "left": 0, "attrs": {"cpuFrequency": "max"} },
+    { "type": "board-mfrc522", "id": "rfid", "top": 16.55, "left": 214.64, "attrs": {} }
+],
+"connections": [
+    [ "esp:GND", "rfid:GND", "black", [] ],
+    [ "esp:3V3", "rfid:3.3V", "red", [] ],
+    [ "esp:3", "rfid:MOSI", "blue", [] ],
+    [ "esp:4", "rfid:SCK", "yellow", [] ],
+    [ "esp:5", "rfid:MISO", "green", [] ],
+    [ "esp:0", "rfid:RST", "orange", [] ],
+    [ "esp:7", "rfid:SDA", "purple", [] ],
+    [ "rfid:3.3V", "esp:3V3.2", "green", [ "v-86.4", "h-217.02" ] ],
+    [ "rfid:GND", "esp:GND.6", "black", [ "v57.6", "h-129.34" ] ],
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ]
+  ],
+  "dependencies": {}
+}

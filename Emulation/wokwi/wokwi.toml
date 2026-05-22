@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "flasher_args.json"
+elf = ".pio/build/esp32-c3-devkitm-1/firmware.elf"

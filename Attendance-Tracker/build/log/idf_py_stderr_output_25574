@@ -1,0 +1,83 @@
+Command: make -j 10 all
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/esp_wifi/wifi_apps/roaming_app/include'
+  belongs to component esp_wifi but is being used by component
+  wpa_supplicant.  It is recommended to define the component dependency for
+  wpa_supplicant on the component esp_wifi, i.e.  'idf_component_register(...
+  PRIV_REQUIRES esp_wifi)' in the CMakeLists.txt of wpa_supplicant, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component esp_wifi.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/esp_wifi/wifi_apps/roaming_app/src'
+  belongs to component esp_wifi but is being used by component
+  wpa_supplicant.  It is recommended to define the component dependency for
+  wpa_supplicant on the component esp_wifi, i.e.  'idf_component_register(...
+  PRIV_REQUIRES esp_wifi)' in the CMakeLists.txt of wpa_supplicant, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component esp_wifi.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src'
+  belongs to component wpa_supplicant but is being used by component
+  esp_wifi.  It is recommended to define the component dependency for
+  esp_wifi on the component wpa_supplicant, i.e.  'idf_component_register(...
+  PRIV_REQUIRES wpa_supplicant)' in the CMakeLists.txt of esp_wifi, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component wpa_supplicant.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src'
+  belongs to component wpa_supplicant but is being used by component
+  esp_wifi.  It is recommended to define the component dependency for
+  esp_wifi on the component wpa_supplicant, i.e.  'idf_component_register(...
+  PRIV_REQUIRES wpa_supplicant)' in the CMakeLists.txt of esp_wifi, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component wpa_supplicant.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/15.2.0/../../../../riscv32-esp-elf/bin/ld: esp-idf/freertos/libfreertos.a(app_startup.c.obj): in function `main_task':
+/home/william-hellstrand/esp/esp-idf/components/freertos/app_startup.c:197:(.text.main_task+0x72): undefined reference to `app_main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/testing.elf.dir/build.make:554: testing.elf] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3288: CMakeFiles/testing.elf.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

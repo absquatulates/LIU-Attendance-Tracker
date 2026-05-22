@@ -1,0 +1,2 @@
+source /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/gdbinit/symbols
+source /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/gdbinit/connect

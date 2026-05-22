@@ -1,0 +1,4 @@
+Command: /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/tools/idf_monitor.py -p socket://localhost:5555 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace /home/william-hellstrand/Documents/PlatformIO/Projects/QEMU_V2/build/QEMU_V2.elf /home/william-hellstrand/Documents/PlatformIO/Projects/QEMU_V2/build/bootloader/bootloader.elf -m '/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python' '/home/william-hellstrand/esp/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on socket://localhost:5555 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m

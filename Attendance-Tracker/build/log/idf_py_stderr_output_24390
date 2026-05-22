@@ -1,0 +1,74 @@
+Command: make -j 10 all
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/esp_wifi/wifi_apps/roaming_app/include'
+  belongs to component esp_wifi but is being used by component
+  wpa_supplicant.  It is recommended to define the component dependency for
+  wpa_supplicant on the component esp_wifi, i.e.  'idf_component_register(...
+  PRIV_REQUIRES esp_wifi)' in the CMakeLists.txt of wpa_supplicant, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component esp_wifi.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/esp_wifi/wifi_apps/roaming_app/src'
+  belongs to component esp_wifi but is being used by component
+  wpa_supplicant.  It is recommended to define the component dependency for
+  wpa_supplicant on the component esp_wifi, i.e.  'idf_component_register(...
+  PRIV_REQUIRES esp_wifi)' in the CMakeLists.txt of wpa_supplicant, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component esp_wifi.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src'
+  belongs to component wpa_supplicant but is being used by component
+  esp_wifi.  It is recommended to define the component dependency for
+  esp_wifi on the component wpa_supplicant, i.e.  'idf_component_register(...
+  PRIV_REQUIRES wpa_supplicant)' in the CMakeLists.txt of esp_wifi, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component wpa_supplicant.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+CMake Warning at /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:106 (message):
+  Private include directory
+  '/home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src'
+  belongs to component wpa_supplicant but is being used by component
+  esp_wifi.  It is recommended to define the component dependency for
+  esp_wifi on the component wpa_supplicant, i.e.  'idf_component_register(...
+  PRIV_REQUIRES wpa_supplicant)' in the CMakeLists.txt of esp_wifi, and
+  specify the included directory as idf_component_register(...
+  PRIV_INCLUDE_DIRS <dir relative to component>) in the CMakeLists.txt of
+  component wpa_supplicant.
+Call Stack (most recent call first):
+  /home/william-hellstrand/esp/esp-idf/tools/cmake/component_validation.cmake:130 (__component_validation_check_include_dirs)
+  /home/william-hellstrand/esp/esp-idf/CMakeLists.txt:353 (__component_validation_run_checks)
+
+
+Partitions tables occupies 2.1MB of flash (2162688 bytes) which does not fit in configured flash size 2MB. Change the flash size in menuconfig under the 'Serial Flasher Config' menu.
+make[2]: *** [esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build.make:75: partition_table/partition-table.bin] Error 2
+make[1]: *** [CMakeFiles/Makefile2:3998: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:136: all] Error 2
