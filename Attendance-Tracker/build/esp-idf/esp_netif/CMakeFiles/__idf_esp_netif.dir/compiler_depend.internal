@@ -28,7 +28,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/william-hellstrand/esp/esp-idf/components/esp_event/include/esp_event_base.h
@@ -40,6 +39,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/include/esp_netif_defaults.h
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/include/esp_netif_ip_addr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/include/esp_netif_types.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/esp_netif_handlers.c
@@ -77,7 +77,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -148,6 +147,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/esp_netif_objects.c
@@ -181,7 +181,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h
@@ -212,6 +211,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c
@@ -268,7 +268,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -409,6 +408,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c
@@ -465,7 +465,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -559,6 +558,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c
@@ -615,7 +615,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -729,6 +728,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c
@@ -785,7 +785,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -866,6 +865,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/lwip/netif/ethernetif.c
@@ -922,7 +922,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1027,6 +1026,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_netif/lwip/netif/wlanif.c
@@ -1083,7 +1083,6 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1189,4 +1188,5 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 

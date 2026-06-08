@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/depend.make
@@ -72,44 +72,44 @@ include esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidd.c
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidd.c
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidd.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidd.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.i
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidd.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidd.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.s
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidh.c
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidh.c
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidh.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidh.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.i
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidh.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hidh.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/flags.make
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hid_common.c
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hid_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -MF CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj.d -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hid_common.c
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hid_common.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hid_common.c > CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.i
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hid_common.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hid/src/esp_hid_common.c -o CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.s
 
 # Object files for target __idf_esp_hid
 __idf_esp_hid_OBJECTS = \
@@ -125,19 +125,19 @@ esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/e
 esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
 esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make
 esp-idf/esp_hid/libesp_hid.a: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_hid.a"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean_target.cmake
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hid.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_hid.a"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean_target.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build: esp-idf/esp_hid/libesp_hid.a
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hid.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/clean
 
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/esp_hid /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/esp_hid /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/depend
 

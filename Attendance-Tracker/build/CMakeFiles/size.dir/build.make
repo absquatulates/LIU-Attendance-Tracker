@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for size.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size.dir/compiler_depend.make
 include CMakeFiles/size.dir/progress.make
 
 CMakeFiles/size: testing.map
-	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/testing.map -D OUTPUT_JSON= -P /home/william-hellstrand/esp/esp-idf/tools/cmake/run_size_tool.cmake
+	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/testing.map -D OUTPUT_JSON= -P /home/william-hellstrand/esp/esp-idf/tools/cmake/run_size_tool.cmake
 
 size: CMakeFiles/size
 size: CMakeFiles/size.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/size.dir/clean:
 .PHONY : CMakeFiles/size.dir/clean
 
 CMakeFiles/size.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/size.dir/depend
 

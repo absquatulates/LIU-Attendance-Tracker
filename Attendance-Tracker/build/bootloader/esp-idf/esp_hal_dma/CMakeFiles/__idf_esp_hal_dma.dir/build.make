@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/depend.make
@@ -72,44 +72,44 @@ include esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/flags.make
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/flags.make
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj -MF CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj.d -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj -MF CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj.d -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c > CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c > CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.i
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.s
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/flags.make
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/esp32c3/gdma_periph.c
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj -MF CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/esp32c3/gdma_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj -MF CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/esp32c3/gdma_periph.c
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/esp32c3/gdma_periph.c > CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/esp32c3/gdma_periph.c > CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.i
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/esp32c3/gdma_periph.c -o CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/esp32c3/gdma_periph.c -o CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.s
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/flags.make
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj -MF CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj.d -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj -MF CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj.d -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c > CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c > CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.i
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c -o CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.s
 
 # Object files for target __idf_esp_hal_dma
 __idf_esp_hal_dma_OBJECTS = \
@@ -125,19 +125,19 @@ esp-idf/esp_hal_dma/libesp_hal_dma.a: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_h
 esp-idf/esp_hal_dma/libesp_hal_dma.a: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj
 esp-idf/esp_hal_dma/libesp_hal_dma.a: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make
 esp-idf/esp_hal_dma/libesp_hal_dma.a: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_hal_dma.a"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_dma.dir/cmake_clean_target.cmake
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_dma.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_hal_dma.a"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_dma.dir/cmake_clean_target.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_dma.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build: esp-idf/esp_hal_dma/libesp_hal_dma.a
 .PHONY : esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_dma.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_dma.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/clean
 
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/depend
 

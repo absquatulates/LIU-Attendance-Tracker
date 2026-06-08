@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for _project_elf_src.
 
@@ -69,8 +69,8 @@ include CMakeFiles/_project_elf_src.dir/progress.make
 CMakeFiles/_project_elf_src: project_elf_src_esp32c3.c
 
 project_elf_src_esp32c3.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32c3.c"
-	/usr/bin/cmake -E touch /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/project_elf_src_esp32c3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32c3.c"
+	/usr/bin/cmake -E touch /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/project_elf_src_esp32c3.c
 
 _project_elf_src: CMakeFiles/_project_elf_src
 _project_elf_src: project_elf_src_esp32c3.c
@@ -86,6 +86,6 @@ CMakeFiles/_project_elf_src.dir/clean:
 .PHONY : CMakeFiles/_project_elf_src.dir/clean
 
 CMakeFiles/_project_elf_src.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/_project_elf_src.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/_project_elf_src.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/_project_elf_src.dir/depend
 

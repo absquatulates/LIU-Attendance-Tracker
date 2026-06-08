@@ -1,0 +1,199 @@
+Command: /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/testing.elf /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/bootloader.elf -m '/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python' '/home/william-hellstrand/esp/esp-idf/tools/idf.py'
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4038455c
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5830,len:0x155c
+load:0x403cbf10,len:0xce0
+load:0x403ce710,len:0x2fc0
+entry 0x403cbf1a
+[0;32mI (46) boot: ESP-IDF v6.1-dev-3863-g338f341110 2nd stage bootloader[0m
+[0;32mI (46) boot: compile time May  5 2026 08:42:57[0m
+[0;32mI (46) boot: chip revision: v0.4[0m
+[0;32mI (48) boot: efuse block revision: v1.3[0m
+[0;32mI (52) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (55) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (59) boot.esp32c3: SPI Flash Size : 4MB[0m
+[0;32mI (63) boot: Enabling RNG early entropy source...[0m
+[0;32mI (67) boot: Partition Table:[0m
+[0;32mI (70) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (76) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (83) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (89) boot:  2 factory          factory app      00 00 00010000 000d0000[0m
+[0;32mI (96) boot:  3 spiffs           Unknown data     01 82 000e0000 00080000[0m
+[0;32mI (102) boot: End of partition table[0m
+[0;32mI (106) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0b720h ( 46880) map[0m
+[0;32mI (121) esp_image: segment 1: paddr=0001b748 vaddr=3fc8c800 size=01b38h (  6968) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001d288 vaddr=40380000 size=02d90h ( 11664) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1e558h (124248) map[0m
+[0;32mI (155) esp_image: segment 4: paddr=0003e580 vaddr=40382d90 size=09988h ( 39304) load[0m
+[0;32mI (162) esp_image: segment 5: paddr=00047f10 vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (180) cpu_start: Unicore app[0m
+[0;32mI (188) cpu_start: GPIO 20 and 21 are used as console UART I/O pins[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (191) app_init: Application information:[0m
+[0;32mI (194) app_init: Project name:     testing[0m
+[0;32mI (198) app_init: App version:      7371111-dirty[0m
+[0;32mI (203) app_init: Compile time:     May  5 2026 08:43:23[0m
+[0;32mI (208) app_init: ELF file SHA256:  10ea8e7f6...[0m
+[0;32mI (212) app_init: ESP-IDF:          v6.1-dev-3863-g338f341110[0m
+[0;32mI (218) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (221) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (225) efuse_init: Chip rev:         v0.4[0m
+[0;32mI (229) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (236) heap_init: At 3FC8F510 len 00030AF0 (194 KiB): RAM[0m
+[0;32mI (241) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (247) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (253) heap_init: At 50000024 len 00001FC4 (7 KiB): RTCRAM[0m
+[0;32mI (259) spi_flash: detected chip: generic[0m
+[0;32mI (262) spi_flash: flash io: dio[0m
+[0;32mI (265) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (271) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (278) main_task: Started on CPU0[0m
+[0;32mI (278) main_task: Calling app_main()[0m
+[0;33mW (278) SPIFFS: mount failed, -10025. formatting...[0m
+[0;32mI (6308) RFID: SPIFFS mounted OK — 463 KB total, 0 KB used.[0m
+[0;32mI (6338) RFID: Attendance file ready: /spiffs/attendance.txt[0m
+[0;32mI (6368) RFID: Master UID written to /spiffs/master.txt[0m
+[0;32mI (6368) RFID: Attendance restored: 0 card(s) loaded from /spiffs/attendance.txt[0m
+[0;32mI (6368) RFID: Preloaded card ID=1[0m
+[0;32mI (6368) RFID: Preloaded card ID=2[0m
+[0;32mI (6368) RFID: Preloaded card ID=3[0m
+[0;32mI (6378) RFID: Preloaded card ID=4[0m
+[0;32mI (6488) RFID: MFRC522 version: 0x92 (v2.0)[0m
+[0;32mI (6488) RFID: Waiting for RFID card...[0m
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:1     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4219324
+cnt: 1
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:2     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4370626
+cnt: 2
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:3     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4373008
+cnt: 3
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:4     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4378580
+cnt: 4
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:5     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4373834
+cnt: 5
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:6     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4369384
+cnt: 6
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:7     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4372878
+cnt: 7
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:8     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4369146
+cnt: 8
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:9     UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4381772
+cnt: 9
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:10    UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4369732
+cnt: 10
+
+--- attendance.txt ---
+ID:1    COUNT:0     UID:[04 8E 11 11 B7 73 12]
+ID:2    COUNT:0     UID:[AB CD EF 01 23 45 67]
+ID:3    COUNT:0     UID:[11 22 33 44 11 11 11]
+ID:4    COUNT:0     UID:[DE AD BE EF CA FE 00]
+ID:5    COUNT:11    UID:[04 8E 11 32 B7 73 84]
+----------------------
+
+Elapsed time: 4373534
+cnt: 11

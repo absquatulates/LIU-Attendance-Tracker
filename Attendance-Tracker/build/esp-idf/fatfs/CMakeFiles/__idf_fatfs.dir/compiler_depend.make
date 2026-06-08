@@ -46,7 +46,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj: /home/william-hell
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -105,7 +104,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj: /home/william-hell
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_bdl.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/diskio/diskio_bdl.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -142,7 +142,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_bdl.c.obj: /home/william-
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -211,7 +210,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_bdl.c.obj: /home/william-
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/diskio/diskio_rawflash.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -248,7 +248,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj: /home/wil
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -318,7 +317,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj: /home/wil
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/diskio/diskio_sdmmc.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -355,7 +355,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj: /home/willia
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -428,7 +427,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj: /home/willia
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/diskio/diskio_wl.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -465,7 +465,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj: /home/william-h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -536,7 +535,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj: /home/william-h
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/port/freertos/ffsystem.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -573,7 +573,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj: /home/wil
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -627,7 +626,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj: /home/wil
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/src/ff.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -664,7 +664,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj: /home/william-hellstrand/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -719,7 +718,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj: /home/william-hellstrand/
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/src/ffunicode.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -753,7 +753,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj: /home/william-hell
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -807,7 +806,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj: /home/william-hell
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/vfs/vfs_fat.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -865,7 +865,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj: /home/william-hellst
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -967,7 +966,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj: /home/william-hellst
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h \
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_bdl.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/vfs/vfs_fat_bdl.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1004,7 +1004,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_bdl.c.obj: /home/william-he
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1096,7 +1095,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_bdl.c.obj: /home/william-he
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/vfs/vfs_fat_sdmmc.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1150,7 +1150,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj: /home/william-
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1252,7 +1251,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj: /home/william-
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h \
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h \
+  config/sdkconfig.h
 
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj: /home/william-hellstrand/esp/esp-idf/components/fatfs/vfs/vfs_fat_spiflash.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1289,7 +1289,6 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj: /home/willi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1382,7 +1381,8 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj: /home/willi
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/fatfs/vfs/vfs_fat_spiflash.c:
@@ -1481,13 +1481,13 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj: /home/willi
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h:
 
+/home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/stdlib.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/sched.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_timespec.h:
 

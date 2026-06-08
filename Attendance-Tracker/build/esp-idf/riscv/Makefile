@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/riscv//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/riscv//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rule
 .PHONY : esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_riscv: esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rule
 
 # fast build rule for target.
 __idf_riscv/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build
 .PHONY : __idf_riscv/fast
 
 instruction_decode.obj: instruction_decode.c.obj
@@ -180,7 +180,7 @@ instruction_decode.obj: instruction_decode.c.obj
 
 # target to build an object file
 instruction_decode.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/instruction_decode.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/instruction_decode.c.obj
 .PHONY : instruction_decode.c.obj
 
 instruction_decode.i: instruction_decode.c.i
@@ -188,7 +188,7 @@ instruction_decode.i: instruction_decode.c.i
 
 # target to preprocess a source file
 instruction_decode.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/instruction_decode.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/instruction_decode.c.i
 .PHONY : instruction_decode.c.i
 
 instruction_decode.s: instruction_decode.c.s
@@ -196,7 +196,7 @@ instruction_decode.s: instruction_decode.c.s
 
 # target to generate assembly for a file
 instruction_decode.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/instruction_decode.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/instruction_decode.c.s
 .PHONY : instruction_decode.c.s
 
 interrupt.obj: interrupt.c.obj
@@ -204,7 +204,7 @@ interrupt.obj: interrupt.c.obj
 
 # target to build an object file
 interrupt.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt.c.obj
 .PHONY : interrupt.c.obj
 
 interrupt.i: interrupt.c.i
@@ -212,7 +212,7 @@ interrupt.i: interrupt.c.i
 
 # target to preprocess a source file
 interrupt.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt.c.i
 .PHONY : interrupt.c.i
 
 interrupt.s: interrupt.c.s
@@ -220,7 +220,7 @@ interrupt.s: interrupt.c.s
 
 # target to generate assembly for a file
 interrupt.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt.c.s
 .PHONY : interrupt.c.s
 
 interrupt_intc.obj: interrupt_intc.c.obj
@@ -228,7 +228,7 @@ interrupt_intc.obj: interrupt_intc.c.obj
 
 # target to build an object file
 interrupt_intc.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt_intc.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt_intc.c.obj
 .PHONY : interrupt_intc.c.obj
 
 interrupt_intc.i: interrupt_intc.c.i
@@ -236,7 +236,7 @@ interrupt_intc.i: interrupt_intc.c.i
 
 # target to preprocess a source file
 interrupt_intc.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt_intc.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt_intc.c.i
 .PHONY : interrupt_intc.c.i
 
 interrupt_intc.s: interrupt_intc.c.s
@@ -244,7 +244,7 @@ interrupt_intc.s: interrupt_intc.c.s
 
 # target to generate assembly for a file
 interrupt_intc.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt_intc.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/interrupt_intc.c.s
 .PHONY : interrupt_intc.c.s
 
 rv_utils.obj: rv_utils.c.obj
@@ -252,7 +252,7 @@ rv_utils.obj: rv_utils.c.obj
 
 # target to build an object file
 rv_utils.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj
 .PHONY : rv_utils.c.obj
 
 rv_utils.i: rv_utils.c.i
@@ -260,7 +260,7 @@ rv_utils.i: rv_utils.c.i
 
 # target to preprocess a source file
 rv_utils.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.i
 .PHONY : rv_utils.c.i
 
 rv_utils.s: rv_utils.c.s
@@ -268,7 +268,7 @@ rv_utils.s: rv_utils.c.s
 
 # target to generate assembly for a file
 rv_utils.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.s
 .PHONY : rv_utils.c.s
 
 vectors.obj: vectors.S.obj
@@ -276,7 +276,7 @@ vectors.obj: vectors.S.obj
 
 # target to build an object file
 vectors.S.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors.S.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors.S.obj
 .PHONY : vectors.S.obj
 
 vectors_intc.obj: vectors_intc.S.obj
@@ -284,7 +284,7 @@ vectors_intc.obj: vectors_intc.S.obj
 
 # target to build an object file
 vectors_intc.S.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors_intc.S.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors_intc.S.obj
 .PHONY : vectors_intc.S.obj
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

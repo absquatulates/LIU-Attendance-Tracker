@@ -27,7 +27,6 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h \
@@ -46,7 +45,8 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -86,7 +86,6 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
@@ -122,7 +121,8 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -150,7 +150,6 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h \
@@ -168,7 +167,8 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c:
@@ -193,6 +193,8 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h:
 
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
@@ -207,17 +209,9 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/lib
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_types.h:
 
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_platform.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/strings.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
-
-config/sdkconfig.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_dependencies.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/string.h:
 
@@ -240,6 +234,14 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_synonyms.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_platform.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_dependencies.h:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_stdint.h:
 
@@ -276,8 +278,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/picolibc.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/ieeefp.h:
 

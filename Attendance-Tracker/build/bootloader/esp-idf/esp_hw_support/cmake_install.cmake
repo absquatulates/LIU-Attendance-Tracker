@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hw_support/port/esp32c3/cmake_install.cmake")
+  include("/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hw_support/port/esp32c3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hw_support/modem/cmake_install.cmake")
+  include("/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hw_support/modem/cmake_install.cmake")
 endif()
 

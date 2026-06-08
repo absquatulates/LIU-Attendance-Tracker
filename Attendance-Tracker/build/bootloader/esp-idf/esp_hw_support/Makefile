@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hw_support//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hw_support//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_esp_hw_support: esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
 
 # fast build rule for target.
 __idf_esp_hw_support/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build
 .PHONY : __idf_esp_hw_support/fast
 
 cpu.obj: cpu.c.obj
@@ -135,7 +135,7 @@ cpu.obj: cpu.c.obj
 
 # target to build an object file
 cpu.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
 .PHONY : cpu.c.obj
 
 cpu.i: cpu.c.i
@@ -143,7 +143,7 @@ cpu.i: cpu.c.i
 
 # target to preprocess a source file
 cpu.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.i
 .PHONY : cpu.c.i
 
 cpu.s: cpu.c.s
@@ -151,7 +151,7 @@ cpu.s: cpu.c.s
 
 # target to generate assembly for a file
 cpu.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.s
 .PHONY : cpu.c.s
 
 esp_memory_utils.obj: esp_memory_utils.c.obj
@@ -159,7 +159,7 @@ esp_memory_utils.obj: esp_memory_utils.c.obj
 
 # target to build an object file
 esp_memory_utils.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
 .PHONY : esp_memory_utils.c.obj
 
 esp_memory_utils.i: esp_memory_utils.c.i
@@ -167,7 +167,7 @@ esp_memory_utils.i: esp_memory_utils.c.i
 
 # target to preprocess a source file
 esp_memory_utils.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.i
 .PHONY : esp_memory_utils.c.i
 
 esp_memory_utils.s: esp_memory_utils.c.s
@@ -175,7 +175,7 @@ esp_memory_utils.s: esp_memory_utils.c.s
 
 # target to generate assembly for a file
 esp_memory_utils.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.s
 .PHONY : esp_memory_utils.c.s
 
 port/esp32c3/chip_info.obj: port/esp32c3/chip_info.c.obj
@@ -183,7 +183,7 @@ port/esp32c3/chip_info.obj: port/esp32c3/chip_info.c.obj
 
 # target to build an object file
 port/esp32c3/chip_info.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_info.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_info.c.obj
 .PHONY : port/esp32c3/chip_info.c.obj
 
 port/esp32c3/chip_info.i: port/esp32c3/chip_info.c.i
@@ -191,7 +191,7 @@ port/esp32c3/chip_info.i: port/esp32c3/chip_info.c.i
 
 # target to preprocess a source file
 port/esp32c3/chip_info.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_info.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_info.c.i
 .PHONY : port/esp32c3/chip_info.c.i
 
 port/esp32c3/chip_info.s: port/esp32c3/chip_info.c.s
@@ -199,7 +199,7 @@ port/esp32c3/chip_info.s: port/esp32c3/chip_info.c.s
 
 # target to generate assembly for a file
 port/esp32c3/chip_info.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_info.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_info.c.s
 .PHONY : port/esp32c3/chip_info.c.s
 
 port/esp32c3/cpu_region_protect.obj: port/esp32c3/cpu_region_protect.c.obj
@@ -207,7 +207,7 @@ port/esp32c3/cpu_region_protect.obj: port/esp32c3/cpu_region_protect.c.obj
 
 # target to build an object file
 port/esp32c3/cpu_region_protect.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_region_protect.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_region_protect.c.obj
 .PHONY : port/esp32c3/cpu_region_protect.c.obj
 
 port/esp32c3/cpu_region_protect.i: port/esp32c3/cpu_region_protect.c.i
@@ -215,7 +215,7 @@ port/esp32c3/cpu_region_protect.i: port/esp32c3/cpu_region_protect.c.i
 
 # target to preprocess a source file
 port/esp32c3/cpu_region_protect.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_region_protect.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_region_protect.c.i
 .PHONY : port/esp32c3/cpu_region_protect.c.i
 
 port/esp32c3/cpu_region_protect.s: port/esp32c3/cpu_region_protect.c.s
@@ -223,7 +223,7 @@ port/esp32c3/cpu_region_protect.s: port/esp32c3/cpu_region_protect.c.s
 
 # target to generate assembly for a file
 port/esp32c3/cpu_region_protect.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_region_protect.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_region_protect.c.s
 .PHONY : port/esp32c3/cpu_region_protect.c.s
 
 port/esp32c3/esp_cpu_intr.obj: port/esp32c3/esp_cpu_intr.c.obj
@@ -231,7 +231,7 @@ port/esp32c3/esp_cpu_intr.obj: port/esp32c3/esp_cpu_intr.c.obj
 
 # target to build an object file
 port/esp32c3/esp_cpu_intr.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_intr.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_intr.c.obj
 .PHONY : port/esp32c3/esp_cpu_intr.c.obj
 
 port/esp32c3/esp_cpu_intr.i: port/esp32c3/esp_cpu_intr.c.i
@@ -239,7 +239,7 @@ port/esp32c3/esp_cpu_intr.i: port/esp32c3/esp_cpu_intr.c.i
 
 # target to preprocess a source file
 port/esp32c3/esp_cpu_intr.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_intr.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_intr.c.i
 .PHONY : port/esp32c3/esp_cpu_intr.c.i
 
 port/esp32c3/esp_cpu_intr.s: port/esp32c3/esp_cpu_intr.c.s
@@ -247,7 +247,7 @@ port/esp32c3/esp_cpu_intr.s: port/esp32c3/esp_cpu_intr.c.s
 
 # target to generate assembly for a file
 port/esp32c3/esp_cpu_intr.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_intr.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_intr.c.s
 .PHONY : port/esp32c3/esp_cpu_intr.c.s
 
 port/esp32c3/rtc_clk.obj: port/esp32c3/rtc_clk.c.obj
@@ -255,7 +255,7 @@ port/esp32c3/rtc_clk.obj: port/esp32c3/rtc_clk.c.obj
 
 # target to build an object file
 port/esp32c3/rtc_clk.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.c.obj
 .PHONY : port/esp32c3/rtc_clk.c.obj
 
 port/esp32c3/rtc_clk.i: port/esp32c3/rtc_clk.c.i
@@ -263,7 +263,7 @@ port/esp32c3/rtc_clk.i: port/esp32c3/rtc_clk.c.i
 
 # target to preprocess a source file
 port/esp32c3/rtc_clk.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.c.i
 .PHONY : port/esp32c3/rtc_clk.c.i
 
 port/esp32c3/rtc_clk.s: port/esp32c3/rtc_clk.c.s
@@ -271,7 +271,7 @@ port/esp32c3/rtc_clk.s: port/esp32c3/rtc_clk.c.s
 
 # target to generate assembly for a file
 port/esp32c3/rtc_clk.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.c.s
 .PHONY : port/esp32c3/rtc_clk.c.s
 
 port/esp32c3/rtc_clk_init.obj: port/esp32c3/rtc_clk_init.c.obj
@@ -279,7 +279,7 @@ port/esp32c3/rtc_clk_init.obj: port/esp32c3/rtc_clk_init.c.obj
 
 # target to build an object file
 port/esp32c3/rtc_clk_init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_init.c.obj
 .PHONY : port/esp32c3/rtc_clk_init.c.obj
 
 port/esp32c3/rtc_clk_init.i: port/esp32c3/rtc_clk_init.c.i
@@ -287,7 +287,7 @@ port/esp32c3/rtc_clk_init.i: port/esp32c3/rtc_clk_init.c.i
 
 # target to preprocess a source file
 port/esp32c3/rtc_clk_init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_init.c.i
 .PHONY : port/esp32c3/rtc_clk_init.c.i
 
 port/esp32c3/rtc_clk_init.s: port/esp32c3/rtc_clk_init.c.s
@@ -295,7 +295,7 @@ port/esp32c3/rtc_clk_init.s: port/esp32c3/rtc_clk_init.c.s
 
 # target to generate assembly for a file
 port/esp32c3/rtc_clk_init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_init.c.s
 .PHONY : port/esp32c3/rtc_clk_init.c.s
 
 port/esp32c3/rtc_init.obj: port/esp32c3/rtc_init.c.obj
@@ -303,7 +303,7 @@ port/esp32c3/rtc_init.obj: port/esp32c3/rtc_init.c.obj
 
 # target to build an object file
 port/esp32c3/rtc_init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init.c.obj
 .PHONY : port/esp32c3/rtc_init.c.obj
 
 port/esp32c3/rtc_init.i: port/esp32c3/rtc_init.c.i
@@ -311,7 +311,7 @@ port/esp32c3/rtc_init.i: port/esp32c3/rtc_init.c.i
 
 # target to preprocess a source file
 port/esp32c3/rtc_init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init.c.i
 .PHONY : port/esp32c3/rtc_init.c.i
 
 port/esp32c3/rtc_init.s: port/esp32c3/rtc_init.c.s
@@ -319,7 +319,7 @@ port/esp32c3/rtc_init.s: port/esp32c3/rtc_init.c.s
 
 # target to generate assembly for a file
 port/esp32c3/rtc_init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init.c.s
 .PHONY : port/esp32c3/rtc_init.c.s
 
 port/esp32c3/rtc_sleep.obj: port/esp32c3/rtc_sleep.c.obj
@@ -327,7 +327,7 @@ port/esp32c3/rtc_sleep.obj: port/esp32c3/rtc_sleep.c.obj
 
 # target to build an object file
 port/esp32c3/rtc_sleep.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_sleep.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_sleep.c.obj
 .PHONY : port/esp32c3/rtc_sleep.c.obj
 
 port/esp32c3/rtc_sleep.i: port/esp32c3/rtc_sleep.c.i
@@ -335,7 +335,7 @@ port/esp32c3/rtc_sleep.i: port/esp32c3/rtc_sleep.c.i
 
 # target to preprocess a source file
 port/esp32c3/rtc_sleep.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_sleep.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_sleep.c.i
 .PHONY : port/esp32c3/rtc_sleep.c.i
 
 port/esp32c3/rtc_sleep.s: port/esp32c3/rtc_sleep.c.s
@@ -343,7 +343,7 @@ port/esp32c3/rtc_sleep.s: port/esp32c3/rtc_sleep.c.s
 
 # target to generate assembly for a file
 port/esp32c3/rtc_sleep.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_sleep.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_sleep.c.s
 .PHONY : port/esp32c3/rtc_sleep.c.s
 
 port/esp32c3/rtc_time.obj: port/esp32c3/rtc_time.c.obj
@@ -351,7 +351,7 @@ port/esp32c3/rtc_time.obj: port/esp32c3/rtc_time.c.obj
 
 # target to build an object file
 port/esp32c3/rtc_time.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time.c.obj
 .PHONY : port/esp32c3/rtc_time.c.obj
 
 port/esp32c3/rtc_time.i: port/esp32c3/rtc_time.c.i
@@ -359,7 +359,7 @@ port/esp32c3/rtc_time.i: port/esp32c3/rtc_time.c.i
 
 # target to preprocess a source file
 port/esp32c3/rtc_time.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time.c.i
 .PHONY : port/esp32c3/rtc_time.c.i
 
 port/esp32c3/rtc_time.s: port/esp32c3/rtc_time.c.s
@@ -367,7 +367,7 @@ port/esp32c3/rtc_time.s: port/esp32c3/rtc_time.c.s
 
 # target to generate assembly for a file
 port/esp32c3/rtc_time.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time.c.s
 .PHONY : port/esp32c3/rtc_time.c.s
 
 # Help Target
@@ -420,6 +420,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

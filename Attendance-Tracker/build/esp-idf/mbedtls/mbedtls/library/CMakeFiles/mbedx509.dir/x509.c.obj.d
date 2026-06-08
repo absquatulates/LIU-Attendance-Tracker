@@ -5,7 +5,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h \
  /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_config.h \
  /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \

@@ -52,7 +52,6 @@ esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32c3/esp_coex_adapter.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_coex/include/private/esp_coexist_adapter.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_coex/include/private/esp_coexist_debug.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -119,7 +118,8 @@ esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32c3/esp_coex_adapter.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_coex/src/coexist_debug.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -149,7 +149,6 @@ esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj: /home/wi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_coex/include/private/esp_coexist_debug.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -195,11 +194,12 @@ esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj: /home/wi
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/gpio_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c \
-  config/sdkconfig.h \
-  /home/william-hellstrand/esp/esp-idf/components/esp_coex/include/private/esp_coexist_debug.h
+  /home/william-hellstrand/esp/esp-idf/components/esp_coex/include/private/esp_coexist_debug.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c:
@@ -301,10 +301,6 @@ esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj: 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_time.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_intsup.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_types.h:
 
@@ -471,6 +467,10 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/spinlock.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h:
 

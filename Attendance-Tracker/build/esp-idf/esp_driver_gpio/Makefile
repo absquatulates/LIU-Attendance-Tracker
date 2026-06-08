@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_driver_gpio//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_driver_gpio//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/rule
 .PHONY : esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_driver_gpio: esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.
 
 # fast build rule for target.
 __idf_esp_driver_gpio/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build
 .PHONY : __idf_esp_driver_gpio/fast
 
 src/dedic_gpio.obj: src/dedic_gpio.c.obj
@@ -180,7 +180,7 @@ src/dedic_gpio.obj: src/dedic_gpio.c.obj
 
 # target to build an object file
 src/dedic_gpio.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/dedic_gpio.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/dedic_gpio.c.obj
 .PHONY : src/dedic_gpio.c.obj
 
 src/dedic_gpio.i: src/dedic_gpio.c.i
@@ -188,7 +188,7 @@ src/dedic_gpio.i: src/dedic_gpio.c.i
 
 # target to preprocess a source file
 src/dedic_gpio.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/dedic_gpio.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/dedic_gpio.c.i
 .PHONY : src/dedic_gpio.c.i
 
 src/dedic_gpio.s: src/dedic_gpio.c.s
@@ -196,7 +196,7 @@ src/dedic_gpio.s: src/dedic_gpio.c.s
 
 # target to generate assembly for a file
 src/dedic_gpio.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/dedic_gpio.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/dedic_gpio.c.s
 .PHONY : src/dedic_gpio.c.s
 
 src/gpio.obj: src/gpio.c.obj
@@ -204,7 +204,7 @@ src/gpio.obj: src/gpio.c.obj
 
 # target to build an object file
 src/gpio.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio.c.obj
 .PHONY : src/gpio.c.obj
 
 src/gpio.i: src/gpio.c.i
@@ -212,7 +212,7 @@ src/gpio.i: src/gpio.c.i
 
 # target to preprocess a source file
 src/gpio.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio.c.i
 .PHONY : src/gpio.c.i
 
 src/gpio.s: src/gpio.c.s
@@ -220,7 +220,7 @@ src/gpio.s: src/gpio.c.s
 
 # target to generate assembly for a file
 src/gpio.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio.c.s
 .PHONY : src/gpio.c.s
 
 src/gpio_glitch_filter_ops.obj: src/gpio_glitch_filter_ops.c.obj
@@ -228,7 +228,7 @@ src/gpio_glitch_filter_ops.obj: src/gpio_glitch_filter_ops.c.obj
 
 # target to build an object file
 src/gpio_glitch_filter_ops.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_filter_ops.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_filter_ops.c.obj
 .PHONY : src/gpio_glitch_filter_ops.c.obj
 
 src/gpio_glitch_filter_ops.i: src/gpio_glitch_filter_ops.c.i
@@ -236,7 +236,7 @@ src/gpio_glitch_filter_ops.i: src/gpio_glitch_filter_ops.c.i
 
 # target to preprocess a source file
 src/gpio_glitch_filter_ops.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_filter_ops.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_filter_ops.c.i
 .PHONY : src/gpio_glitch_filter_ops.c.i
 
 src/gpio_glitch_filter_ops.s: src/gpio_glitch_filter_ops.c.s
@@ -244,7 +244,7 @@ src/gpio_glitch_filter_ops.s: src/gpio_glitch_filter_ops.c.s
 
 # target to generate assembly for a file
 src/gpio_glitch_filter_ops.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_filter_ops.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_filter_ops.c.s
 .PHONY : src/gpio_glitch_filter_ops.c.s
 
 src/gpio_pin_glitch_filter.obj: src/gpio_pin_glitch_filter.c.obj
@@ -252,7 +252,7 @@ src/gpio_pin_glitch_filter.obj: src/gpio_pin_glitch_filter.c.obj
 
 # target to build an object file
 src/gpio_pin_glitch_filter.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_pin_glitch_filter.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_pin_glitch_filter.c.obj
 .PHONY : src/gpio_pin_glitch_filter.c.obj
 
 src/gpio_pin_glitch_filter.i: src/gpio_pin_glitch_filter.c.i
@@ -260,7 +260,7 @@ src/gpio_pin_glitch_filter.i: src/gpio_pin_glitch_filter.c.i
 
 # target to preprocess a source file
 src/gpio_pin_glitch_filter.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_pin_glitch_filter.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_pin_glitch_filter.c.i
 .PHONY : src/gpio_pin_glitch_filter.c.i
 
 src/gpio_pin_glitch_filter.s: src/gpio_pin_glitch_filter.c.s
@@ -268,7 +268,7 @@ src/gpio_pin_glitch_filter.s: src/gpio_pin_glitch_filter.c.s
 
 # target to generate assembly for a file
 src/gpio_pin_glitch_filter.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_pin_glitch_filter.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_pin_glitch_filter.c.s
 .PHONY : src/gpio_pin_glitch_filter.c.s
 
 src/rtc_io.obj: src/rtc_io.c.obj
@@ -276,7 +276,7 @@ src/rtc_io.obj: src/rtc_io.c.obj
 
 # target to build an object file
 src/rtc_io.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/rtc_io.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/rtc_io.c.obj
 .PHONY : src/rtc_io.c.obj
 
 src/rtc_io.i: src/rtc_io.c.i
@@ -284,7 +284,7 @@ src/rtc_io.i: src/rtc_io.c.i
 
 # target to preprocess a source file
 src/rtc_io.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/rtc_io.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/rtc_io.c.i
 .PHONY : src/rtc_io.c.i
 
 src/rtc_io.s: src/rtc_io.c.s
@@ -292,7 +292,7 @@ src/rtc_io.s: src/rtc_io.c.s
 
 # target to generate assembly for a file
 src/rtc_io.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/rtc_io.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/build.make esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/rtc_io.c.s
 .PHONY : src/rtc_io.c.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

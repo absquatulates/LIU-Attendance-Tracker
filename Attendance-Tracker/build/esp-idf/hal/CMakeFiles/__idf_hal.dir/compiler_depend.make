@@ -30,7 +30,6 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: /home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -54,7 +53,8 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: /home/william-hellstrand/e
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/extmem_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj: /home/william-hellstrand/esp/esp-idf/components/hal/color_hal.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -69,11 +69,11 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj: /home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/hal/include/hal/color_hal.h \
   /home/william-hellstrand/esp/esp-idf/components/hal/include/hal/color_types.h \
-  /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/assert.h
+  /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+  config/sdkconfig.h
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: /home/william-hellstrand/esp/esp-idf/components/hal/efuse_hal.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -104,7 +104,6 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: /home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -123,7 +122,8 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: /home/william-hellstrand/e
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3/efuse_hal.c.obj: /home/william-hellstrand/esp/esp-idf/components/hal/esp32c3/efuse_hal.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -154,7 +154,6 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3/efuse_hal.c.obj: /home/william-hell
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -173,7 +172,8 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3/efuse_hal.c.obj: /home/william-hell
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: /home/william-hellstrand/esp/esp-idf/components/hal/hal_utils.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -188,10 +188,10 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: /home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/hal/include/hal/hal_utils.h \
-  /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/assert.h
+  /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+  config/sdkconfig.h
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: /home/william-hellstrand/esp/esp-idf/components/hal/mmu_hal.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -222,7 +222,6 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: /home/william-hellstrand/esp
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -244,7 +243,8 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: /home/william-hellstrand/esp
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/extmem_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/esp_rom/esp32c3/esp_rom_caps.h:

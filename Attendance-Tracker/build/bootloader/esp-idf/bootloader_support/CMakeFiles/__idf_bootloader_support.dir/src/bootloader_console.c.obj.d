@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_console.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \

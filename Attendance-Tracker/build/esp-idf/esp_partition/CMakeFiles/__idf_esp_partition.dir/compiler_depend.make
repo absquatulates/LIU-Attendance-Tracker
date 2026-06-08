@@ -35,7 +35,6 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_util.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
   /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/include/esp_efuse_chip.h \
@@ -85,7 +84,8 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_partition/partition_target.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -115,7 +115,6 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/app_update/include/esp_ota_ops.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
@@ -157,7 +156,8 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/esp_app_format/include/esp_app_desc.h:
@@ -167,6 +167,8 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
 /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h:
 
 /home/william-hellstrand/esp/esp-idf/components/app_update/include/esp_ota_ops.h:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h:
 
@@ -244,17 +246,11 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdint.h:
 
-/home/william-hellstrand/esp/esp-idf/components/hal/include/hal/efuse_hal.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
-
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_format.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
 
@@ -269,6 +265,10 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
+
+/home/william-hellstrand/esp/esp-idf/components/hal/include/hal/efuse_hal.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/assert.h:
 

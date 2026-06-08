@@ -34,7 +34,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.ob
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -88,6 +87,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.ob
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c
@@ -122,7 +122,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -175,6 +174,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c
@@ -212,7 +212,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/po
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -291,6 +290,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/po
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/systimer_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c
@@ -328,7 +328,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -382,6 +381,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c
@@ -419,7 +419,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.o
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -473,6 +472,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.o
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c
@@ -510,7 +510,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -567,6 +566,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c
@@ -601,7 +601,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -655,6 +654,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/app_startup.c
@@ -692,7 +692,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -763,6 +762,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/esp_additions/idf_additions.c
@@ -800,7 +800,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -864,6 +863,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c
@@ -898,7 +898,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -951,6 +950,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/heap_idf.c
@@ -985,7 +985,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1039,6 +1038,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/port_common.c
@@ -1076,7 +1076,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1130,6 +1129,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj
  /home/william-hellstrand/esp/esp-idf/components/freertos/port_systick.c
@@ -1164,7 +1164,6 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1228,4 +1227,5 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/systimer_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 

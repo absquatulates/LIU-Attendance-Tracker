@@ -1,6 +1,6 @@
 esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_vfs.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/esp_stdio/stdio_vfs.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/fcntl.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/fcntl.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/fcntl.h \

@@ -56,7 +56,6 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/app_update/include/esp_ota_ops.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
@@ -274,8 +273,11 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: /h
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_dpp.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_wps.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_wps.h \
+  config/sdkconfig.h
 
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_dpp.h:
 
@@ -304,8 +306,6 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: /h
 /home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/csr_pie.h:
 
 /home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/csr_dsp.h:
-
-/home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/csr.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_ssl.h:
 
@@ -413,8 +413,6 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: /h
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/ioctl.h:
 
-/home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/strings.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_extra.h:
@@ -447,6 +445,10 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: /h
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_time.h:
 
+/home/william-hellstrand/esp/esp-idf/components/esp_wifi/include/local/esp_wifi_types_native.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h:
+
 /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_wps.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h:
@@ -456,8 +458,6 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: /h
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_wait.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/picolibc.h:
 
@@ -510,12 +510,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/lwip/lwip/src/include/lwip/errno.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_wifi/include/esp_wifi.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/assert.h:
 
@@ -603,6 +597,12 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_args.h:
 
+/home/william-hellstrand/esp/esp-idf/components/esp_wifi/include/esp_wifi.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
 /home/william-hellstrand/esp/esp-idf/components/app_update/include/esp_ota_ops.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h:
@@ -617,9 +617,7 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h:
 
-/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_wifi/include/local/esp_wifi_types_native.h:
+/home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/inttypes.h:
 
@@ -824,3 +822,5 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_primitives.h:
 
 /home/william-hellstrand/esp/esp-idf/components/riscv/include/esp_private/interrupt_intc.h:
+
+/home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/csr.h:

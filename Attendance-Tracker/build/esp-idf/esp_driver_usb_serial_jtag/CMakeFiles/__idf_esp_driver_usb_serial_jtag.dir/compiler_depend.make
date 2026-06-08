@@ -37,7 +37,6 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -114,7 +113,8 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_struct.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/src/usb_serial_jtag_connection_monitor.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -151,7 +151,6 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -226,7 +225,8 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_struct.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/src/usb_serial_jtag_vfs.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -284,7 +284,6 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -375,7 +374,8 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h \
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_common.h \
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_dev.h \
-  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h
+  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_dev.h:
@@ -465,10 +465,6 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_default_types.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_types.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:
 
@@ -656,10 +652,6 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:
 
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupts.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/strings.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h:
@@ -673,6 +665,14 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/spinlock.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupts.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c:
 

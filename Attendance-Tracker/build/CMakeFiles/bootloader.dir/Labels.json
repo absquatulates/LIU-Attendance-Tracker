@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/bootloader"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/bootloader.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

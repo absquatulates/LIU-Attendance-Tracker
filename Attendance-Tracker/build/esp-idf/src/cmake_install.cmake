@@ -1,4 +1,4 @@
-# Install script for directory: /home/william-hellstrand/Documents/PlatformIO/Projects/testing/src
+# Install script for directory: /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

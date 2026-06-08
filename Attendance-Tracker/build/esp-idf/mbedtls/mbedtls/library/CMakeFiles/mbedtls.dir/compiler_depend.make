@@ -50,7 +50,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj: /home/willia
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -152,7 +151,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj: /home/willia
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -185,7 +185,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/time.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
@@ -205,7 +204,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -242,7 +242,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -343,7 +342,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -378,7 +378,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
@@ -399,7 +398,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -440,7 +440,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -542,7 +541,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -599,7 +599,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -769,7 +768,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/e
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/mps_reader.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -820,7 +820,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.obj: /home/w
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -922,7 +921,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.obj: /home/w
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/mps_trace.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -973,7 +973,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.obj: /home/wi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -1075,7 +1074,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.obj: /home/wi
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_cache.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1126,7 +1126,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj: /home/wi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -1231,7 +1230,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj: /home/wi
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_ciphersuites.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1282,7 +1282,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -1386,7 +1385,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_client.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1437,7 +1437,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj: /home/w
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -1544,7 +1543,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj: /home/w
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_cookie.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1595,7 +1595,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj: /home/w
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -1697,7 +1696,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj: /home/w
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_debug_helpers_generated.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1748,7 +1748,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generat
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -1850,7 +1849,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generat
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_msg.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1901,7 +1901,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj: /home/will
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -2010,7 +2009,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj: /home/will
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_ticket.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2061,7 +2061,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj: /home/w
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -2166,7 +2165,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj: /home/w
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2217,7 +2217,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj: /home/will
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -2328,7 +2327,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj: /home/will
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls12_client.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2379,7 +2379,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -2485,7 +2484,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls12_server.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2536,7 +2536,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -2643,7 +2642,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2694,7 +2694,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -2796,7 +2795,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_generic.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2847,7 +2847,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -2949,7 +2948,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj: 
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_keys.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3000,7 +3000,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj: /ho
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -3102,7 +3101,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj: /ho
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_server.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3153,7 +3153,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -3255,7 +3254,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/timing.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3306,7 +3306,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.obj: /home/willi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -3408,7 +3407,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.obj: /home/willi
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/version.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3459,7 +3459,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.obj: /home/will
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -3562,7 +3561,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.obj: /home/will
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj: /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/version_features.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3613,7 +3613,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -3716,7 +3715,8 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/version.c:
@@ -3771,7 +3771,15 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj: /
 
 /home/william-hellstrand/esp/esp-idf/components/lwip/port/include/netdb.h:
 
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/ctype.h:
+
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_dependencies.h:
+
+/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_debug_helpers_generated.c:
 
@@ -3891,7 +3899,9 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj: /
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/time.h:
 
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h:
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/debug_internal.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupt_reg.h:
 
@@ -3989,24 +3999,6 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj: /
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_types.h:
 
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_dependencies.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/debug_internal.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h:
-
-/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
-
-config/sdkconfig.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/psa_util.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_endian.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_time.h:
@@ -4034,6 +4026,8 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_types.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stdbool.h:
 
@@ -4075,6 +4069,14 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h:
 
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/psa_util.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
+config/sdkconfig.h:
+
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_wait.h:
@@ -4112,8 +4114,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/pthread.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/ctype.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_compat.h:
 

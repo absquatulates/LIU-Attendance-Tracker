@@ -1,6 +1,6 @@
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/memspi_host_driver.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/string.h \

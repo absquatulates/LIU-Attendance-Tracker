@@ -55,7 +55,6 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/app_update/include/esp_ota_ops.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
@@ -184,7 +183,8 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_struct.h:
@@ -251,8 +251,6 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_attr.h:
 
-/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log.h:
-
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/efuse_defs.h:
 
 /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
@@ -266,6 +264,10 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/time.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_system/include/esp_system.h:
+
+config/sdkconfig.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_args.h:
 
@@ -305,6 +307,10 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_sigset.h:
 
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_reg.h:
+
+/home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/time.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_select.h:
@@ -340,10 +346,6 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/alloca.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_default_fcntl.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_stdint.h:
 
@@ -426,10 +428,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/strings.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_reg.h:
-
-/home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h:
 
@@ -554,3 +552,5 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/hal/esp32c3/include/hal/efuse_ll.h:
 
 /home/william-hellstrand/esp/esp-idf/components/heap/include/esp_heap_caps.h:
+
+/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log.h:

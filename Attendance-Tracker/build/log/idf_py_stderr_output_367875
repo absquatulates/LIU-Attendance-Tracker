@@ -1,0 +1,13 @@
+Command: make -j 10 all
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c: In function 'app_main':
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c:601:14: warning: unused variable 'average' [-Wunused-variable]
+  601 |     uint32_t average = 0;
+      |              ^~~~~~~
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c: At top level:
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c:515:31: error: 'PRELOADED_CARDS' defined but not used [-Werror=unused-const-variable=]
+  515 | static const preloaded_card_t PRELOADED_CARDS[] = {
+      |                               ^~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+make[2]: *** [esp-idf/src/CMakeFiles/__idf_src.dir/build.make:76: esp-idf/src/CMakeFiles/__idf_src.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:7036: esp-idf/src/CMakeFiles/__idf_src.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

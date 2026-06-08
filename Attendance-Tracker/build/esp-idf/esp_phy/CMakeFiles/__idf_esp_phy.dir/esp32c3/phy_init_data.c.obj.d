@@ -1,6 +1,6 @@
 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/esp_phy/esp32c3/phy_init_data.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_phy/esp32c3/include/phy_init_data.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_phy/include/esp_phy_init.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdint.h \

@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_common//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_common//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_esp_common: esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 
 # fast build rule for target.
 __idf_esp_common/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build
 .PHONY : __idf_esp_common/fast
 
 src/esp_err_to_name.obj: src/esp_err_to_name.c.obj
@@ -135,7 +135,7 @@ src/esp_err_to_name.obj: src/esp_err_to_name.c.obj
 
 # target to build an object file
 src/esp_err_to_name.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
 .PHONY : src/esp_err_to_name.c.obj
 
 src/esp_err_to_name.i: src/esp_err_to_name.c.i
@@ -143,7 +143,7 @@ src/esp_err_to_name.i: src/esp_err_to_name.c.i
 
 # target to preprocess a source file
 src/esp_err_to_name.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.i
 .PHONY : src/esp_err_to_name.c.i
 
 src/esp_err_to_name.s: src/esp_err_to_name.c.s
@@ -151,7 +151,7 @@ src/esp_err_to_name.s: src/esp_err_to_name.c.s
 
 # target to generate assembly for a file
 src/esp_err_to_name.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.s
 .PHONY : src/esp_err_to_name.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

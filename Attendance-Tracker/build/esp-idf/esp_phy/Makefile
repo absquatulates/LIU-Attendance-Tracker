@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_phy//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_phy//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/rule
 .PHONY : esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_phy: esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/rule
 
 # fast build rule for target.
 __idf_esp_phy/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build
 .PHONY : __idf_esp_phy/fast
 
 esp32c3/phy_init_data.obj: esp32c3/phy_init_data.c.obj
@@ -180,7 +180,7 @@ esp32c3/phy_init_data.obj: esp32c3/phy_init_data.c.obj
 
 # target to build an object file
 esp32c3/phy_init_data.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.obj
 .PHONY : esp32c3/phy_init_data.c.obj
 
 esp32c3/phy_init_data.i: esp32c3/phy_init_data.c.i
@@ -188,7 +188,7 @@ esp32c3/phy_init_data.i: esp32c3/phy_init_data.c.i
 
 # target to preprocess a source file
 esp32c3/phy_init_data.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.i
 .PHONY : esp32c3/phy_init_data.c.i
 
 esp32c3/phy_init_data.s: esp32c3/phy_init_data.c.s
@@ -196,7 +196,7 @@ esp32c3/phy_init_data.s: esp32c3/phy_init_data.c.s
 
 # target to generate assembly for a file
 esp32c3/phy_init_data.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.s
 .PHONY : esp32c3/phy_init_data.c.s
 
 src/btbb_init.obj: src/btbb_init.c.obj
@@ -204,7 +204,7 @@ src/btbb_init.obj: src/btbb_init.c.obj
 
 # target to build an object file
 src/btbb_init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.obj
 .PHONY : src/btbb_init.c.obj
 
 src/btbb_init.i: src/btbb_init.c.i
@@ -212,7 +212,7 @@ src/btbb_init.i: src/btbb_init.c.i
 
 # target to preprocess a source file
 src/btbb_init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.i
 .PHONY : src/btbb_init.c.i
 
 src/btbb_init.s: src/btbb_init.c.s
@@ -220,7 +220,7 @@ src/btbb_init.s: src/btbb_init.c.s
 
 # target to generate assembly for a file
 src/btbb_init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.s
 .PHONY : src/btbb_init.c.s
 
 src/lib_printf.obj: src/lib_printf.c.obj
@@ -228,7 +228,7 @@ src/lib_printf.obj: src/lib_printf.c.obj
 
 # target to build an object file
 src/lib_printf.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj
 .PHONY : src/lib_printf.c.obj
 
 src/lib_printf.i: src/lib_printf.c.i
@@ -236,7 +236,7 @@ src/lib_printf.i: src/lib_printf.c.i
 
 # target to preprocess a source file
 src/lib_printf.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.i
 .PHONY : src/lib_printf.c.i
 
 src/lib_printf.s: src/lib_printf.c.s
@@ -244,7 +244,7 @@ src/lib_printf.s: src/lib_printf.c.s
 
 # target to generate assembly for a file
 src/lib_printf.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.s
 .PHONY : src/lib_printf.c.s
 
 src/phy_common.obj: src/phy_common.c.obj
@@ -252,7 +252,7 @@ src/phy_common.obj: src/phy_common.c.obj
 
 # target to build an object file
 src/phy_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.obj
 .PHONY : src/phy_common.c.obj
 
 src/phy_common.i: src/phy_common.c.i
@@ -260,7 +260,7 @@ src/phy_common.i: src/phy_common.c.i
 
 # target to preprocess a source file
 src/phy_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.i
 .PHONY : src/phy_common.c.i
 
 src/phy_common.s: src/phy_common.c.s
@@ -268,7 +268,7 @@ src/phy_common.s: src/phy_common.c.s
 
 # target to generate assembly for a file
 src/phy_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.s
 .PHONY : src/phy_common.c.s
 
 src/phy_init.obj: src/phy_init.c.obj
@@ -276,7 +276,7 @@ src/phy_init.obj: src/phy_init.c.obj
 
 # target to build an object file
 src/phy_init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj
 .PHONY : src/phy_init.c.obj
 
 src/phy_init.i: src/phy_init.c.i
@@ -284,7 +284,7 @@ src/phy_init.i: src/phy_init.c.i
 
 # target to preprocess a source file
 src/phy_init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.i
 .PHONY : src/phy_init.c.i
 
 src/phy_init.s: src/phy_init.c.s
@@ -292,7 +292,7 @@ src/phy_init.s: src/phy_init.c.s
 
 # target to generate assembly for a file
 src/phy_init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.s
 .PHONY : src/phy_init.c.s
 
 src/phy_override.obj: src/phy_override.c.obj
@@ -300,7 +300,7 @@ src/phy_override.obj: src/phy_override.c.obj
 
 # target to build an object file
 src/phy_override.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.obj
 .PHONY : src/phy_override.c.obj
 
 src/phy_override.i: src/phy_override.c.i
@@ -308,7 +308,7 @@ src/phy_override.i: src/phy_override.c.i
 
 # target to preprocess a source file
 src/phy_override.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.i
 .PHONY : src/phy_override.c.i
 
 src/phy_override.s: src/phy_override.c.s
@@ -316,7 +316,7 @@ src/phy_override.s: src/phy_override.c.s
 
 # target to generate assembly for a file
 src/phy_override.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.s
 .PHONY : src/phy_override.c.s
 
 # Help Target
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

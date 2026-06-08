@@ -1,6 +1,6 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc.h \

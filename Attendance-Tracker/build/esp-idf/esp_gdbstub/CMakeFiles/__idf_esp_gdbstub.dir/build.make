@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/depend.make
@@ -72,86 +72,86 @@ include esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/flags.make
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/flags.make
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c > CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c > CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.i
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.s
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/flags.make
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c > CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c > CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.i
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.s
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/flags.make
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/packet.c
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/packet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/packet.c
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/packet.c > CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/packet.c > CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.i
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/packet.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/packet.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.s
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/flags.make
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c > CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c > CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.i
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/gdbstub_riscv.c.s
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/flags.make
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c > CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c > CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.i
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.s
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/flags.make
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj -MF CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj.d -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c > CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c > CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.i
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c -o CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.s
 
 # Object files for target __idf_esp_gdbstub
 __idf_esp_gdbstub_OBJECTS = \
@@ -173,19 +173,19 @@ esp-idf/esp_gdbstub/libesp_gdbstub.a: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_g
 esp-idf/esp_gdbstub/libesp_gdbstub.a: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/target_xml.c.obj
 esp-idf/esp_gdbstub/libesp_gdbstub.a: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/build.make
 esp-idf/esp_gdbstub/libesp_gdbstub.a: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libesp_gdbstub.a"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_gdbstub.dir/cmake_clean_target.cmake
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_gdbstub.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libesp_gdbstub.a"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_gdbstub.dir/cmake_clean_target.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_gdbstub.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/build: esp-idf/esp_gdbstub/libesp_gdbstub.a
 .PHONY : esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/build
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_gdbstub.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_gdbstub.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/clean
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/esp_gdbstub /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/depend
 

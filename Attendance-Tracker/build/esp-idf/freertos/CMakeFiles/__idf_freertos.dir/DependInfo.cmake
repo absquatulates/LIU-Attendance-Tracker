@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/portasm.S" "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/portasm.S.obj"
+  "/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/portasm.S" "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/portasm.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

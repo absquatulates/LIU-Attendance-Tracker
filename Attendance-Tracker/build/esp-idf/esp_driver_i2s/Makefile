@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_driver_i2s//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_driver_i2s//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/rule
 .PHONY : esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_driver_i2s: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir
 
 # fast build rule for target.
 __idf_esp_driver_i2s/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build
 .PHONY : __idf_esp_driver_i2s/fast
 
 i2s_common.obj: i2s_common.c.obj
@@ -180,7 +180,7 @@ i2s_common.obj: i2s_common.c.obj
 
 # target to build an object file
 i2s_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.obj
 .PHONY : i2s_common.c.obj
 
 i2s_common.i: i2s_common.c.i
@@ -188,7 +188,7 @@ i2s_common.i: i2s_common.c.i
 
 # target to preprocess a source file
 i2s_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.i
 .PHONY : i2s_common.c.i
 
 i2s_common.s: i2s_common.c.s
@@ -196,7 +196,7 @@ i2s_common.s: i2s_common.c.s
 
 # target to generate assembly for a file
 i2s_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.s
 .PHONY : i2s_common.c.s
 
 i2s_pdm.obj: i2s_pdm.c.obj
@@ -204,7 +204,7 @@ i2s_pdm.obj: i2s_pdm.c.obj
 
 # target to build an object file
 i2s_pdm.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.obj
 .PHONY : i2s_pdm.c.obj
 
 i2s_pdm.i: i2s_pdm.c.i
@@ -212,7 +212,7 @@ i2s_pdm.i: i2s_pdm.c.i
 
 # target to preprocess a source file
 i2s_pdm.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.i
 .PHONY : i2s_pdm.c.i
 
 i2s_pdm.s: i2s_pdm.c.s
@@ -220,7 +220,7 @@ i2s_pdm.s: i2s_pdm.c.s
 
 # target to generate assembly for a file
 i2s_pdm.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.s
 .PHONY : i2s_pdm.c.s
 
 i2s_platform.obj: i2s_platform.c.obj
@@ -228,7 +228,7 @@ i2s_platform.obj: i2s_platform.c.obj
 
 # target to build an object file
 i2s_platform.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.obj
 .PHONY : i2s_platform.c.obj
 
 i2s_platform.i: i2s_platform.c.i
@@ -236,7 +236,7 @@ i2s_platform.i: i2s_platform.c.i
 
 # target to preprocess a source file
 i2s_platform.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.i
 .PHONY : i2s_platform.c.i
 
 i2s_platform.s: i2s_platform.c.s
@@ -244,7 +244,7 @@ i2s_platform.s: i2s_platform.c.s
 
 # target to generate assembly for a file
 i2s_platform.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.s
 .PHONY : i2s_platform.c.s
 
 i2s_std.obj: i2s_std.c.obj
@@ -252,7 +252,7 @@ i2s_std.obj: i2s_std.c.obj
 
 # target to build an object file
 i2s_std.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.obj
 .PHONY : i2s_std.c.obj
 
 i2s_std.i: i2s_std.c.i
@@ -260,7 +260,7 @@ i2s_std.i: i2s_std.c.i
 
 # target to preprocess a source file
 i2s_std.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.i
 .PHONY : i2s_std.c.i
 
 i2s_std.s: i2s_std.c.s
@@ -268,7 +268,7 @@ i2s_std.s: i2s_std.c.s
 
 # target to generate assembly for a file
 i2s_std.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.s
 .PHONY : i2s_std.c.s
 
 i2s_tdm.obj: i2s_tdm.c.obj
@@ -276,7 +276,7 @@ i2s_tdm.obj: i2s_tdm.c.obj
 
 # target to build an object file
 i2s_tdm.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.obj
 .PHONY : i2s_tdm.c.obj
 
 i2s_tdm.i: i2s_tdm.c.i
@@ -284,7 +284,7 @@ i2s_tdm.i: i2s_tdm.c.i
 
 # target to preprocess a source file
 i2s_tdm.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.i
 .PHONY : i2s_tdm.c.i
 
 i2s_tdm.s: i2s_tdm.c.s
@@ -292,7 +292,7 @@ i2s_tdm.s: i2s_tdm.c.s
 
 # target to generate assembly for a file
 i2s_tdm.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.s
 .PHONY : i2s_tdm.c.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

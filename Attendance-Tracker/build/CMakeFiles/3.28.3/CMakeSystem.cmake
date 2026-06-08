@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-22-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/toolchain/toolchain-esp32c3.cmake")
+include("/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/toolchain/toolchain-esp32c3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

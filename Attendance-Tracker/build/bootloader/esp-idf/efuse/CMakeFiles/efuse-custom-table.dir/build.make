@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Utility rule file for efuse-custom-table.
 
@@ -74,10 +74,10 @@ esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build: efuse-custom-table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend
 

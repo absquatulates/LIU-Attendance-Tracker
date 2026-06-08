@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Utility rule file for uf2-app.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2-app.dir/compiler_depend.make
 include CMakeFiles/uf2-app.dir/progress.make
 
 CMakeFiles/uf2-app:
-	/usr/bin/cmake -D IDF_PATH=/home/william-hellstrand/esp/esp-idf -D "UF2_CMD=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python;/home/william-hellstrand/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32c3" -D "UF2_ARGS=--json;/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/flasher_args.json;-o;/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/uf2-app.bin;--bin;app" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
+	/usr/bin/cmake -D IDF_PATH=/home/william-hellstrand/esp/esp-idf -D "UF2_CMD=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python;/home/william-hellstrand/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32c3" -D "UF2_ARGS=--json;/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/flasher_args.json;-o;/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/uf2-app.bin;--bin;app" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
 
 uf2-app: CMakeFiles/uf2-app
 uf2-app: CMakeFiles/uf2-app.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uf2-app.dir/clean:
 .PHONY : CMakeFiles/uf2-app.dir/clean
 
 CMakeFiles/uf2-app.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles/uf2-app.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles/uf2-app.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uf2-app.dir/depend
 

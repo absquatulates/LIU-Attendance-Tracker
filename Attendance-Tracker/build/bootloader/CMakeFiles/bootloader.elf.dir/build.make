@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bootloader.elf.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/bootloader.elf.dir/flags.make
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj: CMakeFiles/bootloader.elf.dir/flags.make
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj: project_elf_src_esp32c3.c
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj: CMakeFiles/bootloader.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj"
-	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -c /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/project_elf_src_esp32c3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj"
+	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -c /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/project_elf_src_esp32c3.c
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i"
-	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/project_elf_src_esp32c3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i
+	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/project_elf_src_esp32c3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s"
-	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/project_elf_src_esp32c3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s
+	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/project_elf_src_esp32c3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s
 
 # Object files for target bootloader.elf
 bootloader_elf_OBJECTS = \
@@ -234,7 +234,7 @@ bootloader.elf: /home/william-hellstrand/esp/esp-idf/components/esp_rom/esp32c3/
 bootloader.elf: /home/william-hellstrand/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libc.ld
 bootloader.elf: /home/william-hellstrand/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libc-suboptimal_for_misaligned_mem.ld
 bootloader.elf: CMakeFiles/bootloader.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bootloader.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bootloader.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bootloader.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -246,6 +246,6 @@ CMakeFiles/bootloader.elf.dir/clean:
 .PHONY : CMakeFiles/bootloader.elf.dir/clean
 
 CMakeFiles/bootloader.elf.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bootloader.elf.dir/depend
 

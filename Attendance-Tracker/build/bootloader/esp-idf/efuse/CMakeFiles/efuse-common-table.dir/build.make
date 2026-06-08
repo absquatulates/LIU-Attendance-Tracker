@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Utility rule file for efuse-common-table.
 
@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/efuse-common-table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse-common-table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse-common-table:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/efuse && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/efuse/efuse_table_gen.py /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/esp_efuse_table.csv -t esp32c3 --max_blk_len 256
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/efuse && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/efuse/efuse_table_gen.py /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/esp_efuse_table.csv -t esp32c3 --max_blk_len 256
 
 efuse-common-table: esp-idf/efuse/CMakeFiles/efuse-common-table
 efuse-common-table: esp-idf/efuse/CMakeFiles/efuse-common-table.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/efuse/CMakeFiles/efuse-common-table.dir/build: efuse-common-table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-common-table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse-common-table.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-common-table.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-common-table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-common-table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse-common-table.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-common-table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-common-table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-common-table.dir/depend
 

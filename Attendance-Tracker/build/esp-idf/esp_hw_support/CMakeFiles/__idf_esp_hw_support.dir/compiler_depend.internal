@@ -37,7 +37,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.o
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/include/esp_efuse_rtc_calib.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
@@ -134,6 +133,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.o
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/rtc_cntl_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/clk_ctrl_os.c
@@ -171,7 +171,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -266,6 +265,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_utils.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/clk_utils.c
@@ -301,7 +301,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_utils.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -359,6 +358,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_utils.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/cpu.c
@@ -390,7 +390,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -421,6 +420,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/rtc_cntl_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/esp_clk.c
@@ -458,7 +458,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -551,6 +550,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clock_output.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/esp_clock_output.c
@@ -589,7 +589,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clock_output.c.ob
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -698,6 +697,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clock_output.c.ob
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/gpio_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/esp_gpio_reserve.c
@@ -714,7 +714,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.ob
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_gpio_reserve.h
@@ -722,6 +721,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.ob
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/esp_memory_utils.c
@@ -753,7 +753,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.ob
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -780,6 +779,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.ob
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/heap_align_hw.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/heap_align_hw.c
@@ -810,7 +810,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/heap_align_hw.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/include/esp_efuse_chip.h
  /home/william-hellstrand/esp/esp-idf/components/efuse/include/esp_efuse.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
@@ -859,6 +858,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/heap_align_hw.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/hw_random.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/hw_random.c
@@ -894,7 +894,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/hw_random.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -941,6 +940,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/hw_random.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/rtc_cntl_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/syscon_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/intr_alloc.c
@@ -978,7 +978,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1047,6 +1046,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32c3/sleep_cpu.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/lowpower/port/esp32c3/sleep_cpu.c
@@ -1084,7 +1084,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32c3
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1161,6 +1160,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32c3
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/mac_addr.c
@@ -1191,7 +1191,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/include/esp_efuse_chip.h
  /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/include/esp_efuse_table.h
  /home/william-hellstrand/esp/esp-idf/components/efuse/include/esp_efuse.h
@@ -1221,6 +1220,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi/mspi_intr/mspi_intr.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/mspi/mspi_intr/mspi_intr.c
@@ -1256,7 +1256,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi/mspi_intr/mspi_i
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1301,6 +1300,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi/mspi_intr/mspi_i
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi/mspi_timing_tuning/mspi_timing_tuning.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/mspi_timing_tuning.c
@@ -1336,7 +1336,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi/mspi_timing_tuni
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1391,6 +1390,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi/mspi_timing_tuni
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/periph_ctrl.c
@@ -1428,7 +1428,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1501,6 +1500,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/syscon_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/adc2_init_cal.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/adc2_init_cal.c
@@ -1538,7 +1538,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/adc2_ini
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1620,6 +1619,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/adc2_ini
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/rtc_cntl_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_info.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/chip_info.c
@@ -1646,7 +1646,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_inf
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_chip_info.h
@@ -1666,6 +1665,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/chip_inf
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_region_protect.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/cpu_region_protect.c
@@ -1698,7 +1698,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_regi
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1727,6 +1726,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/cpu_regi
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_clk_tree.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/esp_clk_tree.c
@@ -1757,7 +1757,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_clk_
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1813,6 +1812,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_clk_
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_intr.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/esp_cpu_intr.c
@@ -1844,7 +1844,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1872,6 +1871,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_cpu_
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_memprot.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/esp_memprot.c
@@ -1907,7 +1907,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_memp
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1948,6 +1947,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/esp_memp
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/sensitive_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/io_mux.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/io_mux.c
@@ -1974,7 +1974,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/io_mux.c
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/include/soc/gpio_num.h
@@ -1986,6 +1985,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/io_mux.c
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/clk_tree_defs.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/rtc_clk.c
@@ -2016,7 +2016,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2076,6 +2075,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk.
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_init.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/rtc_clk_init.c
@@ -2111,7 +2111,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2166,6 +2165,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_clk_
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/rtc_init.c
@@ -2196,7 +2196,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2256,6 +2255,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_init
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_sleep.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/rtc_sleep.c
@@ -2285,7 +2285,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_slee
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2341,6 +2340,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_slee
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/rtc_time.c
@@ -2371,7 +2371,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2431,6 +2430,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/rtc_time
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/sar_periph_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/sar_periph_ctrl.c
@@ -2468,7 +2468,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/sar_peri
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2570,6 +2569,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/sar_peri
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/systimer.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/systimer.c
@@ -2584,9 +2584,9 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3/systimer
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_private/systimer.h
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_clk_tree_common.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c
@@ -2617,7 +2617,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_clk_tree_com
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2674,6 +2673,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_clk_tree_com
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/timer_group_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_memprot_conv.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c
@@ -2699,7 +2699,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_memprot_conv
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h
@@ -2717,6 +2716,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_memprot_conv
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/sensitive_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply/brownout.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/power_supply/brownout.c
@@ -2752,7 +2752,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply/brownout
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h
@@ -2854,6 +2853,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply/brownout
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/regi2c_ctrl.c
@@ -2888,7 +2888,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2955,6 +2954,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/revision.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/revision.c
@@ -2975,10 +2975,10 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/revision.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/rtc_module.c
@@ -3018,7 +3018,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3094,6 +3093,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_common.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c
@@ -3131,7 +3131,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_commo
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3200,6 +3199,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_commo
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_tsens_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c
@@ -3237,7 +3237,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_tsens_ctrl.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3335,6 +3334,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_tsens_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_console.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_console.c
@@ -3361,7 +3361,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_console.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3378,6 +3377,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_console.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_event.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_event.c
@@ -3415,7 +3415,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_event.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3485,6 +3484,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_event.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_gpio.c
@@ -3520,7 +3520,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h
@@ -3616,6 +3615,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modem.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_modem.c
@@ -3651,7 +3651,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modem.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3689,6 +3688,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modem.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_modes.c
@@ -3726,7 +3726,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
@@ -3922,10 +3921,11 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h
  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_mspi.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_mspi.c
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_uart.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_uart.c
@@ -3955,7 +3955,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_uart.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3984,6 +3983,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_uart.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/uart_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/uart_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_usb.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_usb.c
@@ -4005,7 +4005,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_usb.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_private/sleep_usb.h
@@ -4013,6 +4012,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_usb.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_wake_stub.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/sleep_wake_stub.c
@@ -4048,7 +4048,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_wake_stub.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4129,6 +4128,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_wake_stub.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/uart_reg.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/uart_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_bus_lock.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/spi_bus_lock.c
@@ -4167,7 +4167,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_bus_lock.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4251,6 +4250,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_bus_lock.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_share_hw_ctrl.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c
@@ -4282,7 +4282,6 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_share_hw_ctrl.c.o
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4328,4 +4327,5 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_share_hw_ctrl.c.o
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 

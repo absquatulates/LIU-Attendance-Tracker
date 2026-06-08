@@ -39,7 +39,6 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -150,6 +149,7 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_driver_i2s/i2s_pdm.c
@@ -189,7 +189,6 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -294,6 +293,7 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_driver_i2s/i2s_platform.c
@@ -333,7 +333,6 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -428,6 +427,7 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_driver_i2s/i2s_std.c
@@ -467,7 +467,6 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -572,6 +571,7 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.obj
  /home/william-hellstrand/esp/esp-idf/components/esp_driver_i2s/i2s_tdm.c
@@ -611,7 +611,6 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -716,4 +715,5 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.obj
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 

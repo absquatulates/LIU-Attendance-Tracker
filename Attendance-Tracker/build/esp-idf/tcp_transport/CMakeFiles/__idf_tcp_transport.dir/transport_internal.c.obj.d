@@ -2,7 +2,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/transport_internal.c \
  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/time.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \

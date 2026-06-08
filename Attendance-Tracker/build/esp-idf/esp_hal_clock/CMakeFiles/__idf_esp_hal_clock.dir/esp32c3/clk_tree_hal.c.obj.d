@@ -1,7 +1,7 @@
 esp-idf/esp_hal_clock/CMakeFiles/__idf_esp_hal_clock.dir/esp32c3/clk_tree_hal.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_clock/esp32c3/clk_tree_hal.c \
  /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_clock/include/hal/clk_tree_hal.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdint.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \

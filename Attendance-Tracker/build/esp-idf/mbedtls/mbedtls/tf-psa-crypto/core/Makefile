@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ tfpsacrypto: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.d
 
 # fast build rule for target.
 tfpsacrypto/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build
 .PHONY : tfpsacrypto/fast
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
@@ -180,7 +180,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
@@ -188,7 +188,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
@@ -196,7 +196,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
@@ -204,7 +204,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
@@ -212,7 +212,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
@@ -220,7 +220,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
@@ -228,7 +228,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj: hom
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
@@ -236,7 +236,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.i: home/
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
@@ -244,7 +244,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.s: home/
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
@@ -252,7 +252,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.o
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
@@ -260,7 +260,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.i
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
@@ -268,7 +268,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.s
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
@@ -276,7 +276,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.obj:
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
@@ -284,7 +284,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.i: h
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
@@ -292,7 +292,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.s: h
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
@@ -300,7 +300,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj:
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
@@ -308,7 +308,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i: h
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
@@ -316,7 +316,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s: h
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
@@ -324,7 +324,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.ob
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
@@ -332,7 +332,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.i:
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
@@ -340,7 +340,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.s:
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
@@ -348,7 +348,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.ob
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
@@ -356,7 +356,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.i:
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
@@ -364,7 +364,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.s:
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
@@ -372,7 +372,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/e
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
@@ -380,7 +380,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/e
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
@@ -388,7 +388,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/e
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
@@ -396,7 +396,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.obj: ho
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.i
@@ -404,7 +404,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.i: home
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
@@ -412,7 +412,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.s: home
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
@@ -420,7 +420,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj:
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
@@ -428,7 +428,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i: h
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
@@ -436,7 +436,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s: h
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
@@ -444,7 +444,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/e
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
@@ -452,7 +452,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/e
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
@@ -460,7 +460,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/e
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
@@ -468,7 +468,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/p
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
@@ -476,7 +476,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/p
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
@@ -484,7 +484,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/p
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
@@ -492,7 +492,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/p
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
@@ -500,7 +500,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/p
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
@@ -508,7 +508,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/p
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
@@ -516,7 +516,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
@@ -524,7 +524,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
@@ -532,7 +532,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj
@@ -540,7 +540,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i
@@ -548,7 +548,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s
@@ -556,7 +556,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
@@ -564,7 +564,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
@@ -572,7 +572,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
@@ -580,7 +580,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/p
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
@@ -588,7 +588,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/ps
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
@@ -596,7 +596,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/ps
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
@@ -604,7 +604,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/ps
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj
@@ -612,7 +612,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_d
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i
@@ -620,7 +620,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_d
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s
@@ -628,7 +628,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_d
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj
@@ -636,7 +636,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_d
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i
@@ -644,7 +644,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_d
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s
@@ -652,7 +652,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_d
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj
@@ -660,7 +660,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i
@@ -668,7 +668,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s
@@ -676,7 +676,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj
@@ -684,7 +684,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i
@@ -692,7 +692,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s
@@ -700,7 +700,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj
@@ -708,7 +708,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i
@@ -716,7 +716,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s
@@ -724,7 +724,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/c
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
@@ -732,7 +732,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/p
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
@@ -740,7 +740,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/p
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
@@ -748,7 +748,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/p
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
@@ -756,7 +756,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdm
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
@@ -764,7 +764,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdm
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
@@ -772,7 +772,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdm
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
@@ -780,7 +780,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj: ho
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
@@ -788,7 +788,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.i: home
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
@@ -796,7 +796,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.s: home
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
@@ -804,7 +804,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj: hom
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
@@ -812,7 +812,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.i: home/
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
@@ -820,7 +820,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.s: home/
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
 
 psa_crypto.obj: psa_crypto.c.obj
@@ -828,7 +828,7 @@ psa_crypto.obj: psa_crypto.c.obj
 
 # target to build an object file
 psa_crypto.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.obj
 .PHONY : psa_crypto.c.obj
 
 psa_crypto.i: psa_crypto.c.i
@@ -836,7 +836,7 @@ psa_crypto.i: psa_crypto.c.i
 
 # target to preprocess a source file
 psa_crypto.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.i
 .PHONY : psa_crypto.c.i
 
 psa_crypto.s: psa_crypto.c.s
@@ -844,7 +844,7 @@ psa_crypto.s: psa_crypto.c.s
 
 # target to generate assembly for a file
 psa_crypto.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.s
 .PHONY : psa_crypto.c.s
 
 psa_crypto_client.obj: psa_crypto_client.c.obj
@@ -852,7 +852,7 @@ psa_crypto_client.obj: psa_crypto_client.c.obj
 
 # target to build an object file
 psa_crypto_client.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.obj
 .PHONY : psa_crypto_client.c.obj
 
 psa_crypto_client.i: psa_crypto_client.c.i
@@ -860,7 +860,7 @@ psa_crypto_client.i: psa_crypto_client.c.i
 
 # target to preprocess a source file
 psa_crypto_client.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.i
 .PHONY : psa_crypto_client.c.i
 
 psa_crypto_client.s: psa_crypto_client.c.s
@@ -868,7 +868,7 @@ psa_crypto_client.s: psa_crypto_client.c.s
 
 # target to generate assembly for a file
 psa_crypto_client.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.s
 .PHONY : psa_crypto_client.c.s
 
 psa_crypto_driver_wrappers_no_static.obj: psa_crypto_driver_wrappers_no_static.c.obj
@@ -876,7 +876,7 @@ psa_crypto_driver_wrappers_no_static.obj: psa_crypto_driver_wrappers_no_static.c
 
 # target to build an object file
 psa_crypto_driver_wrappers_no_static.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj
 .PHONY : psa_crypto_driver_wrappers_no_static.c.obj
 
 psa_crypto_driver_wrappers_no_static.i: psa_crypto_driver_wrappers_no_static.c.i
@@ -884,7 +884,7 @@ psa_crypto_driver_wrappers_no_static.i: psa_crypto_driver_wrappers_no_static.c.i
 
 # target to preprocess a source file
 psa_crypto_driver_wrappers_no_static.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.i
 .PHONY : psa_crypto_driver_wrappers_no_static.c.i
 
 psa_crypto_driver_wrappers_no_static.s: psa_crypto_driver_wrappers_no_static.c.s
@@ -892,7 +892,7 @@ psa_crypto_driver_wrappers_no_static.s: psa_crypto_driver_wrappers_no_static.c.s
 
 # target to generate assembly for a file
 psa_crypto_driver_wrappers_no_static.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.s
 .PHONY : psa_crypto_driver_wrappers_no_static.c.s
 
 psa_crypto_slot_management.obj: psa_crypto_slot_management.c.obj
@@ -900,7 +900,7 @@ psa_crypto_slot_management.obj: psa_crypto_slot_management.c.obj
 
 # target to build an object file
 psa_crypto_slot_management.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.obj
 .PHONY : psa_crypto_slot_management.c.obj
 
 psa_crypto_slot_management.i: psa_crypto_slot_management.c.i
@@ -908,7 +908,7 @@ psa_crypto_slot_management.i: psa_crypto_slot_management.c.i
 
 # target to preprocess a source file
 psa_crypto_slot_management.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.i
 .PHONY : psa_crypto_slot_management.c.i
 
 psa_crypto_slot_management.s: psa_crypto_slot_management.c.s
@@ -916,7 +916,7 @@ psa_crypto_slot_management.s: psa_crypto_slot_management.c.s
 
 # target to generate assembly for a file
 psa_crypto_slot_management.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.s
 .PHONY : psa_crypto_slot_management.c.s
 
 psa_crypto_storage.obj: psa_crypto_storage.c.obj
@@ -924,7 +924,7 @@ psa_crypto_storage.obj: psa_crypto_storage.c.obj
 
 # target to build an object file
 psa_crypto_storage.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.obj
 .PHONY : psa_crypto_storage.c.obj
 
 psa_crypto_storage.i: psa_crypto_storage.c.i
@@ -932,7 +932,7 @@ psa_crypto_storage.i: psa_crypto_storage.c.i
 
 # target to preprocess a source file
 psa_crypto_storage.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.i
 .PHONY : psa_crypto_storage.c.i
 
 psa_crypto_storage.s: psa_crypto_storage.c.s
@@ -940,7 +940,7 @@ psa_crypto_storage.s: psa_crypto_storage.c.s
 
 # target to generate assembly for a file
 psa_crypto_storage.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.s
 .PHONY : psa_crypto_storage.c.s
 
 psa_its_file.obj: psa_its_file.c.obj
@@ -948,7 +948,7 @@ psa_its_file.obj: psa_its_file.c.obj
 
 # target to build an object file
 psa_its_file.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.obj
 .PHONY : psa_its_file.c.obj
 
 psa_its_file.i: psa_its_file.c.i
@@ -956,7 +956,7 @@ psa_its_file.i: psa_its_file.c.i
 
 # target to preprocess a source file
 psa_its_file.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.i
 .PHONY : psa_its_file.c.i
 
 psa_its_file.s: psa_its_file.c.s
@@ -964,7 +964,7 @@ psa_its_file.s: psa_its_file.c.s
 
 # target to generate assembly for a file
 psa_its_file.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.s
 .PHONY : psa_its_file.c.s
 
 tf_psa_crypto_config.obj: tf_psa_crypto_config.c.obj
@@ -972,7 +972,7 @@ tf_psa_crypto_config.obj: tf_psa_crypto_config.c.obj
 
 # target to build an object file
 tf_psa_crypto_config.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.obj
 .PHONY : tf_psa_crypto_config.c.obj
 
 tf_psa_crypto_config.i: tf_psa_crypto_config.c.i
@@ -980,7 +980,7 @@ tf_psa_crypto_config.i: tf_psa_crypto_config.c.i
 
 # target to preprocess a source file
 tf_psa_crypto_config.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.i
 .PHONY : tf_psa_crypto_config.c.i
 
 tf_psa_crypto_config.s: tf_psa_crypto_config.c.s
@@ -988,7 +988,7 @@ tf_psa_crypto_config.s: tf_psa_crypto_config.c.s
 
 # target to generate assembly for a file
 tf_psa_crypto_config.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.s
 .PHONY : tf_psa_crypto_config.c.s
 
 tf_psa_crypto_version.obj: tf_psa_crypto_version.c.obj
@@ -996,7 +996,7 @@ tf_psa_crypto_version.obj: tf_psa_crypto_version.c.obj
 
 # target to build an object file
 tf_psa_crypto_version.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.obj
 .PHONY : tf_psa_crypto_version.c.obj
 
 tf_psa_crypto_version.i: tf_psa_crypto_version.c.i
@@ -1004,7 +1004,7 @@ tf_psa_crypto_version.i: tf_psa_crypto_version.c.i
 
 # target to preprocess a source file
 tf_psa_crypto_version.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.i
 .PHONY : tf_psa_crypto_version.c.i
 
 tf_psa_crypto_version.s: tf_psa_crypto_version.c.s
@@ -1012,7 +1012,7 @@ tf_psa_crypto_version.s: tf_psa_crypto_version.c.s
 
 # target to generate assembly for a file
 tf_psa_crypto_version.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.s
 .PHONY : tf_psa_crypto_version.c.s
 
 # Help Target
@@ -1144,6 +1144,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

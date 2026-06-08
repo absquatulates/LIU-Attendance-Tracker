@@ -1,7 +1,7 @@
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_mem.c \
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdlib.h \

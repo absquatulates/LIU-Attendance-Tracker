@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_event//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_event//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule
 .PHONY : esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_event: esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule
 
 # fast build rule for target.
 __idf_esp_event/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build
 .PHONY : __idf_esp_event/fast
 
 default_event_loop.obj: default_event_loop.c.obj
@@ -180,7 +180,7 @@ default_event_loop.obj: default_event_loop.c.obj
 
 # target to build an object file
 default_event_loop.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.obj
 .PHONY : default_event_loop.c.obj
 
 default_event_loop.i: default_event_loop.c.i
@@ -188,7 +188,7 @@ default_event_loop.i: default_event_loop.c.i
 
 # target to preprocess a source file
 default_event_loop.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.i
 .PHONY : default_event_loop.c.i
 
 default_event_loop.s: default_event_loop.c.s
@@ -196,7 +196,7 @@ default_event_loop.s: default_event_loop.c.s
 
 # target to generate assembly for a file
 default_event_loop.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.s
 .PHONY : default_event_loop.c.s
 
 esp_event.obj: esp_event.c.obj
@@ -204,7 +204,7 @@ esp_event.obj: esp_event.c.obj
 
 # target to build an object file
 esp_event.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj
 .PHONY : esp_event.c.obj
 
 esp_event.i: esp_event.c.i
@@ -212,7 +212,7 @@ esp_event.i: esp_event.c.i
 
 # target to preprocess a source file
 esp_event.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.i
 .PHONY : esp_event.c.i
 
 esp_event.s: esp_event.c.s
@@ -220,7 +220,7 @@ esp_event.s: esp_event.c.s
 
 # target to generate assembly for a file
 esp_event.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.s
 .PHONY : esp_event.c.s
 
 esp_event_private.obj: esp_event_private.c.obj
@@ -228,7 +228,7 @@ esp_event_private.obj: esp_event_private.c.obj
 
 # target to build an object file
 esp_event_private.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj
 .PHONY : esp_event_private.c.obj
 
 esp_event_private.i: esp_event_private.c.i
@@ -236,7 +236,7 @@ esp_event_private.i: esp_event_private.c.i
 
 # target to preprocess a source file
 esp_event_private.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.i
 .PHONY : esp_event_private.c.i
 
 esp_event_private.s: esp_event_private.c.s
@@ -244,7 +244,7 @@ esp_event_private.s: esp_event_private.c.s
 
 # target to generate assembly for a file
 esp_event_private.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.s
 .PHONY : esp_event_private.c.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

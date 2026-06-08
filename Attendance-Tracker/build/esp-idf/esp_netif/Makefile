@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_netif//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_netif//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
 .PHONY : esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_netif: esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
 
 # fast build rule for target.
 __idf_esp_netif/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build
 .PHONY : __idf_esp_netif/fast
 
 esp_netif_defaults.obj: esp_netif_defaults.c.obj
@@ -180,7 +180,7 @@ esp_netif_defaults.obj: esp_netif_defaults.c.obj
 
 # target to build an object file
 esp_netif_defaults.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
 .PHONY : esp_netif_defaults.c.obj
 
 esp_netif_defaults.i: esp_netif_defaults.c.i
@@ -188,7 +188,7 @@ esp_netif_defaults.i: esp_netif_defaults.c.i
 
 # target to preprocess a source file
 esp_netif_defaults.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.i
 .PHONY : esp_netif_defaults.c.i
 
 esp_netif_defaults.s: esp_netif_defaults.c.s
@@ -196,7 +196,7 @@ esp_netif_defaults.s: esp_netif_defaults.c.s
 
 # target to generate assembly for a file
 esp_netif_defaults.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.s
 .PHONY : esp_netif_defaults.c.s
 
 esp_netif_handlers.obj: esp_netif_handlers.c.obj
@@ -204,7 +204,7 @@ esp_netif_handlers.obj: esp_netif_handlers.c.obj
 
 # target to build an object file
 esp_netif_handlers.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
 .PHONY : esp_netif_handlers.c.obj
 
 esp_netif_handlers.i: esp_netif_handlers.c.i
@@ -212,7 +212,7 @@ esp_netif_handlers.i: esp_netif_handlers.c.i
 
 # target to preprocess a source file
 esp_netif_handlers.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.i
 .PHONY : esp_netif_handlers.c.i
 
 esp_netif_handlers.s: esp_netif_handlers.c.s
@@ -220,7 +220,7 @@ esp_netif_handlers.s: esp_netif_handlers.c.s
 
 # target to generate assembly for a file
 esp_netif_handlers.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.s
 .PHONY : esp_netif_handlers.c.s
 
 esp_netif_objects.obj: esp_netif_objects.c.obj
@@ -228,7 +228,7 @@ esp_netif_objects.obj: esp_netif_objects.c.obj
 
 # target to build an object file
 esp_netif_objects.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
 .PHONY : esp_netif_objects.c.obj
 
 esp_netif_objects.i: esp_netif_objects.c.i
@@ -236,7 +236,7 @@ esp_netif_objects.i: esp_netif_objects.c.i
 
 # target to preprocess a source file
 esp_netif_objects.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.i
 .PHONY : esp_netif_objects.c.i
 
 esp_netif_objects.s: esp_netif_objects.c.s
@@ -244,7 +244,7 @@ esp_netif_objects.s: esp_netif_objects.c.s
 
 # target to generate assembly for a file
 esp_netif_objects.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.s
 .PHONY : esp_netif_objects.c.s
 
 lwip/esp_netif_lwip.obj: lwip/esp_netif_lwip.c.obj
@@ -252,7 +252,7 @@ lwip/esp_netif_lwip.obj: lwip/esp_netif_lwip.c.obj
 
 # target to build an object file
 lwip/esp_netif_lwip.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
 .PHONY : lwip/esp_netif_lwip.c.obj
 
 lwip/esp_netif_lwip.i: lwip/esp_netif_lwip.c.i
@@ -260,7 +260,7 @@ lwip/esp_netif_lwip.i: lwip/esp_netif_lwip.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_lwip.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.i
 .PHONY : lwip/esp_netif_lwip.c.i
 
 lwip/esp_netif_lwip.s: lwip/esp_netif_lwip.c.s
@@ -268,7 +268,7 @@ lwip/esp_netif_lwip.s: lwip/esp_netif_lwip.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_lwip.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.s
 .PHONY : lwip/esp_netif_lwip.c.s
 
 lwip/esp_netif_lwip_defaults.obj: lwip/esp_netif_lwip_defaults.c.obj
@@ -276,7 +276,7 @@ lwip/esp_netif_lwip_defaults.obj: lwip/esp_netif_lwip_defaults.c.obj
 
 # target to build an object file
 lwip/esp_netif_lwip_defaults.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
 .PHONY : lwip/esp_netif_lwip_defaults.c.obj
 
 lwip/esp_netif_lwip_defaults.i: lwip/esp_netif_lwip_defaults.c.i
@@ -284,7 +284,7 @@ lwip/esp_netif_lwip_defaults.i: lwip/esp_netif_lwip_defaults.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_lwip_defaults.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.i
 .PHONY : lwip/esp_netif_lwip_defaults.c.i
 
 lwip/esp_netif_lwip_defaults.s: lwip/esp_netif_lwip_defaults.c.s
@@ -292,7 +292,7 @@ lwip/esp_netif_lwip_defaults.s: lwip/esp_netif_lwip_defaults.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_lwip_defaults.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.s
 .PHONY : lwip/esp_netif_lwip_defaults.c.s
 
 lwip/esp_netif_sntp.obj: lwip/esp_netif_sntp.c.obj
@@ -300,7 +300,7 @@ lwip/esp_netif_sntp.obj: lwip/esp_netif_sntp.c.obj
 
 # target to build an object file
 lwip/esp_netif_sntp.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
 .PHONY : lwip/esp_netif_sntp.c.obj
 
 lwip/esp_netif_sntp.i: lwip/esp_netif_sntp.c.i
@@ -308,7 +308,7 @@ lwip/esp_netif_sntp.i: lwip/esp_netif_sntp.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_sntp.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.i
 .PHONY : lwip/esp_netif_sntp.c.i
 
 lwip/esp_netif_sntp.s: lwip/esp_netif_sntp.c.s
@@ -316,7 +316,7 @@ lwip/esp_netif_sntp.s: lwip/esp_netif_sntp.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_sntp.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.s
 .PHONY : lwip/esp_netif_sntp.c.s
 
 lwip/netif/esp_pbuf_ref.obj: lwip/netif/esp_pbuf_ref.c.obj
@@ -324,7 +324,7 @@ lwip/netif/esp_pbuf_ref.obj: lwip/netif/esp_pbuf_ref.c.obj
 
 # target to build an object file
 lwip/netif/esp_pbuf_ref.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
 .PHONY : lwip/netif/esp_pbuf_ref.c.obj
 
 lwip/netif/esp_pbuf_ref.i: lwip/netif/esp_pbuf_ref.c.i
@@ -332,7 +332,7 @@ lwip/netif/esp_pbuf_ref.i: lwip/netif/esp_pbuf_ref.c.i
 
 # target to preprocess a source file
 lwip/netif/esp_pbuf_ref.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.i
 .PHONY : lwip/netif/esp_pbuf_ref.c.i
 
 lwip/netif/esp_pbuf_ref.s: lwip/netif/esp_pbuf_ref.c.s
@@ -340,7 +340,7 @@ lwip/netif/esp_pbuf_ref.s: lwip/netif/esp_pbuf_ref.c.s
 
 # target to generate assembly for a file
 lwip/netif/esp_pbuf_ref.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.s
 .PHONY : lwip/netif/esp_pbuf_ref.c.s
 
 lwip/netif/ethernetif.obj: lwip/netif/ethernetif.c.obj
@@ -348,7 +348,7 @@ lwip/netif/ethernetif.obj: lwip/netif/ethernetif.c.obj
 
 # target to build an object file
 lwip/netif/ethernetif.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
 .PHONY : lwip/netif/ethernetif.c.obj
 
 lwip/netif/ethernetif.i: lwip/netif/ethernetif.c.i
@@ -356,7 +356,7 @@ lwip/netif/ethernetif.i: lwip/netif/ethernetif.c.i
 
 # target to preprocess a source file
 lwip/netif/ethernetif.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.i
 .PHONY : lwip/netif/ethernetif.c.i
 
 lwip/netif/ethernetif.s: lwip/netif/ethernetif.c.s
@@ -364,7 +364,7 @@ lwip/netif/ethernetif.s: lwip/netif/ethernetif.c.s
 
 # target to generate assembly for a file
 lwip/netif/ethernetif.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.s
 .PHONY : lwip/netif/ethernetif.c.s
 
 lwip/netif/wlanif.obj: lwip/netif/wlanif.c.obj
@@ -372,7 +372,7 @@ lwip/netif/wlanif.obj: lwip/netif/wlanif.c.obj
 
 # target to build an object file
 lwip/netif/wlanif.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
 .PHONY : lwip/netif/wlanif.c.obj
 
 lwip/netif/wlanif.i: lwip/netif/wlanif.c.i
@@ -380,7 +380,7 @@ lwip/netif/wlanif.i: lwip/netif/wlanif.c.i
 
 # target to preprocess a source file
 lwip/netif/wlanif.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.i
 .PHONY : lwip/netif/wlanif.c.i
 
 lwip/netif/wlanif.s: lwip/netif/wlanif.c.s
@@ -388,7 +388,7 @@ lwip/netif/wlanif.s: lwip/netif/wlanif.c.s
 
 # target to generate assembly for a file
 lwip/netif/wlanif.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.s
 .PHONY : lwip/netif/wlanif.c.s
 
 # Help Target
@@ -442,6 +442,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

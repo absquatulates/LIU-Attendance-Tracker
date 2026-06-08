@@ -1,7 +1,7 @@
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj: \
  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition.cpp \
  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition.hpp \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdint.h \

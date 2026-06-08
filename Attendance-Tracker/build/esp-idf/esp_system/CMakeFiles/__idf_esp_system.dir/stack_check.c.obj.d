@@ -1,6 +1,6 @@
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/stack_check.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/esp_system/stack_check.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_system/include/esp_system.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdint.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \

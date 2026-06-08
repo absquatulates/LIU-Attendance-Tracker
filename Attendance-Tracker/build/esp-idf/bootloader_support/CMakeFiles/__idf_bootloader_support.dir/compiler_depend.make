@@ -34,7 +34,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
@@ -102,7 +101,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32c3.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32c3.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -137,7 +137,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
@@ -213,7 +212,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -248,7 +248,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
@@ -315,7 +314,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_clock_init.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -343,7 +343,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/port/esp32c3/include/soc/rtc.h \
@@ -370,7 +369,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/chip_revision.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -405,7 +405,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
@@ -482,7 +481,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_common_loader.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -517,7 +517,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
@@ -592,7 +591,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_efuse.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -622,7 +622,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
@@ -650,7 +649,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_mem.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -681,7 +681,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_mem.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -710,7 +709,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_random.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -745,7 +745,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -794,7 +793,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/rtc_cntl_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/syscon_reg.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32c3.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32c3.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -823,7 +823,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -872,7 +871,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/rtc_cntl_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_sha.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_sha.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -908,7 +908,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
@@ -1013,7 +1012,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1050,7 +1050,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
@@ -1162,7 +1161,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3/secure_boot_secure_features.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/esp32c3/secure_boot_secure_features.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1192,7 +1192,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3/s
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
@@ -1240,7 +1239,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3/s
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/esp_image_format.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1275,7 +1275,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
@@ -1375,7 +1374,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1405,7 +1405,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_enc
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
@@ -1461,7 +1460,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_enc
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/xts_aes_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/flash_partitions.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1491,7 +1491,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_par
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1520,7 +1519,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_par
   /home/william-hellstrand/esp/esp-idf/components/log/include/esp_private/log_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj: /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/secure_boot.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1550,7 +1550,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
@@ -1600,7 +1599,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/efuse_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/secure_boot.c:
@@ -1668,6 +1668,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/bignum.h:
 
 /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32c3.c:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h:
 
@@ -1739,11 +1741,11 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_args.h:
 
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h:
+
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_write.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_rom/esp32c3/include/esp32c3/rom/spi_flash.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h:
 
 /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/misc.h:
 
@@ -1830,8 +1832,6 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecdsa.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_mem_reg.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_stdint.h:
 

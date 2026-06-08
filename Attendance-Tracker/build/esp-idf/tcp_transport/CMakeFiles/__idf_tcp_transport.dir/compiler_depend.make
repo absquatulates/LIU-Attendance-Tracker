@@ -56,7 +56,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls_errors.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -237,7 +236,8 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
-  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
+  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
+  config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj: /home/william-hellstrand/esp/esp-idf/components/tcp_transport/transport_internal.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -294,7 +294,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls_errors.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -475,7 +474,8 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
-  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
+  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
+  config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c.obj: /home/william-hellstrand/esp/esp-idf/components/tcp_transport/transport_socks_proxy.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -531,7 +531,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -641,7 +640,8 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
-  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_socks_proxy.h
+  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_socks_proxy.h \
+  config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: /home/william-hellstrand/esp/esp-idf/components/tcp_transport/transport_ssl.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -698,7 +698,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls_errors.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -880,7 +879,8 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: /h
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h \
-  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
+  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
+  config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj: /home/william-hellstrand/esp/esp-idf/components/tcp_transport/transport_ws.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -937,7 +937,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj: /ho
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls_errors.h \
@@ -1123,7 +1122,8 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj: /ho
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_ws.h \
-  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
+  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/lwip/port/include/netinet/in.h:
@@ -1278,9 +1278,9 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj: /ho
 
 /home/william-hellstrand/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
 
-/home/william-hellstrand/esp/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h:
 
-/home/william-hellstrand/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls_errors.h:
 
@@ -1291,6 +1291,14 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj: /ho
 /home/william-hellstrand/esp/esp-idf/components/esp_system/include/esp_system.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h:
+
+/home/william-hellstrand/esp/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:
+
+/home/william-hellstrand/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+
+config/sdkconfig.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_derived.h:
 
@@ -1376,9 +1384,9 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj: /ho
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_default_fcntl.h:
 
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
 
-config/sdkconfig.h:
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_stdint.h:
 
@@ -1465,14 +1473,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/csr_dsp.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 

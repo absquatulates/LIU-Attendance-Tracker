@@ -57,7 +57,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj: /home/william-hells
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
@@ -144,7 +143,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj: /home/william-hells
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs_api.h \
   /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h \
-  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h
+  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h \
+  config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj: /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -187,7 +187,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -215,7 +214,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/include/spiffs_config.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs.h \
-  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h \
+  config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj: /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_check.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -258,7 +258,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -286,7 +285,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/include/spiffs_config.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs.h \
-  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h \
+  config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj: /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -329,7 +329,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj: /home/wil
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -357,7 +356,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj: /home/wil
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/include/spiffs_config.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs.h \
-  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h \
+  config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj: /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -400,7 +400,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj: /ho
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -428,7 +427,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj: /ho
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/include/spiffs_config.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs.h \
-  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h \
+  config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj: /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -471,7 +471,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj: /hom
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -499,7 +498,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj: /hom
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/include/spiffs_config.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs.h \
-  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h \
+  config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj: /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs_api.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -547,7 +547,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj: /home/william-hells
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -618,7 +617,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj: /home/william-hells
   /home/william-hellstrand/esp/esp-idf/components/spiffs/include/esp_spiffs.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/include/spiffs_config.h \
   /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs.h \
-  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs_api.h
+  /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs_api.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs_api.c:
@@ -653,13 +653,11 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj: /home/william-hells
 
 /home/william-hellstrand/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:
 
+config/sdkconfig.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc.h:
-
-/home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/encoding.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/stat.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/select.h:
 
@@ -699,6 +697,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj: /home/william-hells
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_sigset.h:
 
+/home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
 /home/william-hellstrand/esp/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/time.h:
@@ -718,10 +718,6 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj: /home/william-hells
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_default_fcntl.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/dirent.h:
 
@@ -782,8 +778,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/strings.h:
-
-/home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h:
 
@@ -920,3 +914,9 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_level.h:
 
 /home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/csr.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/stat.h:
+
+/home/william-hellstrand/esp/esp-idf/components/riscv/include/riscv/encoding.h:

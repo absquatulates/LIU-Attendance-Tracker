@@ -3,7 +3,7 @@ esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/include/hal/gdma_hal_ahb.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_dma/include/hal/gdma_hal.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stdbool.h \

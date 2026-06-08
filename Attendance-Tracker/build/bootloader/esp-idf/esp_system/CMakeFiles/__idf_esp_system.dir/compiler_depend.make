@@ -34,7 +34,6 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj: /home/william-
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -62,8 +61,11 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj: /home/william-
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
+  config/sdkconfig.h
 
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h:
 
@@ -100,8 +102,6 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj: /home/william-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/picolibc.h:
 
@@ -167,10 +167,6 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h:
 
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
-
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h:
@@ -188,3 +184,7 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupt_reg.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h:

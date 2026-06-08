@@ -1,0 +1,152 @@
+Command: /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/testing.elf /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/bootloader.elf -m '/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python' '/home/william-hellstrand/esp/esp-idf/tools/idf.py'
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xd (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4038455c
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+invalid header: 0xffffff7f
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5830,len:0x155c
+load:0x403cbf10,len:0xce0
+load:0x403ce710,len:0x2fc0
+entry 0x403cbf1a
+[0;32mI (36) boot: ESP-IDF v6.1-dev-3863-g338f341110 2nd stage bootloader[0m
+[0;32mI (37) boot: compile time May  5 2026 08:42:57[0m
+[0;32mI (37) boot: chip revision: v0.4[0m
+[0;32mI (38) boot: efuse block revision: v1.3[0m
+[0;32mI (42) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (46) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32c3: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 000d0000[0m
+[0;32mI (86) boot:  3 spiffs           Unknown data     01 82 000e0000 00080000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0b5d8h ( 46552) map[0m
+[0;32mI (111) esp_image: segment 1: paddr=0001b600 vaddr=3fc8c800 size=01b38h (  6968) load[0m
+[0;32mI (112) esp_image: segment 2: paddr=0001d140 vaddr=40380000 size=02ed8h ( 11992) load[0m
+[0;32mI (120) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1e2c4h (123588) map[0m
+[0;32mI (145) esp_image: segment 4: paddr=0003e2ec vaddr=40382ed8 size=09840h ( 38976) load[0m
+[0;32mI (152) esp_image: segment 5: paddr=00047b34 vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (156) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (157) boot: Disabling RNG early entropy source...[0m
+[0;32mI (170) cpu_start: Unicore app[0m
+[0;32mI (178) cpu_start: GPIO 20 and 21 are used as console UART I/O pins[0m
+[0;32mI (179) cpu_start: Pro cpu start user code[0m
+[0;32mI (179) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (181) app_init: Application information:[0m
+[0;32mI (184) app_init: Project name:     testing[0m
+[0;32mI (188) app_init: App version:      7371111-dirty[0m
+[0;32mI (193) app_init: Compile time:     May  5 2026 08:43:23[0m
+[0;32mI (198) app_init: ELF file SHA256:  8022b8d87...[0m
+[0;32mI (202) app_init: ESP-IDF:          v6.1-dev-3863-g338f341110[0m
+[0;32mI (208) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (211) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (215) efuse_init: Chip rev:         v0.4[0m
+[0;32mI (219) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (226) heap_init: At 3FC8F510 len 00030AF0 (194 KiB): RAM[0m
+[0;32mI (231) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (237) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (243) heap_init: At 50000024 len 00001FC4 (7 KiB): RTCRAM[0m
+[0;32mI (249) spi_flash: detected chip: generic[0m
+[0;32mI (252) spi_flash: flash io: dio[0m
+[0;32mI (255) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (261) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (268) main_task: Started on CPU0[0m
+[0;32mI (268) main_task: Calling app_main()[0m
+[0;33mW (268) SPIFFS: mount failed, -10025. formatting...[0m
+[0;32mI (6068) RFID: SPIFFS mounted OK — 463 KB total, 0 KB used.[0m
+[0;32mI (6098) RFID: Attendance file ready: /spiffs/attendance.txt[0m
+[0;32mI (6128) RFID: Master UID written to /spiffs/master.txt[0m
+[0;32mI (6128) RFID: Attendance restored: 0 card(s) loaded from /spiffs/attendance.txt[0m
+[0;32mI (6238) RFID: MFRC522 version: 0x92 (v2.0)[0m
+[0;32mI (6238) RFID: Waiting for RFID card...[0m
+Elapsed time: 1762427
+Elapsed time: 1919738
+Elapsed time: 1919518
+Elapsed time: 1926392
+Elapsed time: 1920108
+Elapsed time: 1919494
+Elapsed time: 1919726
+Elapsed time: 1919130
+Elapsed time: 1929568
+Elapsed time: 1918032
+Elapsed time: 1920952
+Elapsed time: 1919260
+Elapsed time: 1921620
+Elapsed time: 1926544
+Elapsed time: 1921192
+Elapsed time: 1919168
+Elapsed time: 1920070
+Elapsed time: 1920372
+Elapsed time: 1929240
+Elapsed time: 1917990
+Elapsed time: 1921686
+Elapsed time: 1917610
+Elapsed time: 1921618
+Elapsed time: 1927534
+Elapsed time: 1920722
+Elapsed time: 1919134
+Elapsed time: 1920538
+Elapsed time: 1919674
+Elapsed time: 1929242
+Elapsed time: 1918864
+Elapsed time: 1921266
+Elapsed time: 1917492
+Elapsed time: 1923172
+Elapsed time: 1926828
+Elapsed time: 1920596
+Elapsed time: 1919900
+Elapsed time: 1920018
+Elapsed time: 1919654
+Elapsed time: 1929772
+Elapsed time: 1918200
+Elapsed time: 1921102
+Elapsed time: 1918220
+Elapsed time: 1921512
+Elapsed time: 1926700
+Elapsed time: 1921190
+Elapsed time: 1919224
+Elapsed time: 1920010
+Elapsed time: 1920344
+Elapsed time: 1929258
+Elapsed time: 1917934
+Elapsed time: 1921578
+Elapsed time: 1917518
+Elapsed time: 1921570
+Elapsed time: 1927566
+Elapsed time: 1920738
+Elapsed time: 1918990
+Elapsed time: 1920644
+Elapsed time: 1919598
+Elapsed time: 1929240
+Elapsed time: 1918748
+Elapsed time: 1921140
+Elapsed time: 1917414
+Elapsed time: 1922226
+Elapsed time: 1926724
+Elapsed time: 1920688
+Elapsed time: 1919672
+Elapsed time: 1920004
+Elapsed time: 1919604
+Elapsed time: 1929866
+Elapsed time: 1917986
+Elapsed time: 1920998
+Elapsed time: 1918308
+Elapsed time: 1921754
+Elapsed time: 1926702
+Elapsed time: 1921280
+Elapsed time: 1919110
+Elapsed time: 1919992
+Elapsed time: 1920394
+Elapsed time: 1929320
+Elapsed time: 1917938
+Elapsed time: 1921616
+Elapsed time: 1917488

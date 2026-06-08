@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_driver_rmt//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_driver_rmt//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/rule
 .PHONY : esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_driver_rmt: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir
 
 # fast build rule for target.
 __idf_esp_driver_rmt/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build
 .PHONY : __idf_esp_driver_rmt/fast
 
 src/rmt_common.obj: src/rmt_common.c.obj
@@ -180,7 +180,7 @@ src/rmt_common.obj: src/rmt_common.c.obj
 
 # target to build an object file
 src/rmt_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj
 .PHONY : src/rmt_common.c.obj
 
 src/rmt_common.i: src/rmt_common.c.i
@@ -188,7 +188,7 @@ src/rmt_common.i: src/rmt_common.c.i
 
 # target to preprocess a source file
 src/rmt_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.i
 .PHONY : src/rmt_common.c.i
 
 src/rmt_common.s: src/rmt_common.c.s
@@ -196,7 +196,7 @@ src/rmt_common.s: src/rmt_common.c.s
 
 # target to generate assembly for a file
 src/rmt_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.s
 .PHONY : src/rmt_common.c.s
 
 src/rmt_encoder.obj: src/rmt_encoder.c.obj
@@ -204,7 +204,7 @@ src/rmt_encoder.obj: src/rmt_encoder.c.obj
 
 # target to build an object file
 src/rmt_encoder.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj
 .PHONY : src/rmt_encoder.c.obj
 
 src/rmt_encoder.i: src/rmt_encoder.c.i
@@ -212,7 +212,7 @@ src/rmt_encoder.i: src/rmt_encoder.c.i
 
 # target to preprocess a source file
 src/rmt_encoder.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.i
 .PHONY : src/rmt_encoder.c.i
 
 src/rmt_encoder.s: src/rmt_encoder.c.s
@@ -220,7 +220,7 @@ src/rmt_encoder.s: src/rmt_encoder.c.s
 
 # target to generate assembly for a file
 src/rmt_encoder.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.s
 .PHONY : src/rmt_encoder.c.s
 
 src/rmt_encoder_bytes.obj: src/rmt_encoder_bytes.c.obj
@@ -228,7 +228,7 @@ src/rmt_encoder_bytes.obj: src/rmt_encoder_bytes.c.obj
 
 # target to build an object file
 src/rmt_encoder_bytes.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj
 .PHONY : src/rmt_encoder_bytes.c.obj
 
 src/rmt_encoder_bytes.i: src/rmt_encoder_bytes.c.i
@@ -236,7 +236,7 @@ src/rmt_encoder_bytes.i: src/rmt_encoder_bytes.c.i
 
 # target to preprocess a source file
 src/rmt_encoder_bytes.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.i
 .PHONY : src/rmt_encoder_bytes.c.i
 
 src/rmt_encoder_bytes.s: src/rmt_encoder_bytes.c.s
@@ -244,7 +244,7 @@ src/rmt_encoder_bytes.s: src/rmt_encoder_bytes.c.s
 
 # target to generate assembly for a file
 src/rmt_encoder_bytes.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.s
 .PHONY : src/rmt_encoder_bytes.c.s
 
 src/rmt_encoder_copy.obj: src/rmt_encoder_copy.c.obj
@@ -252,7 +252,7 @@ src/rmt_encoder_copy.obj: src/rmt_encoder_copy.c.obj
 
 # target to build an object file
 src/rmt_encoder_copy.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj
 .PHONY : src/rmt_encoder_copy.c.obj
 
 src/rmt_encoder_copy.i: src/rmt_encoder_copy.c.i
@@ -260,7 +260,7 @@ src/rmt_encoder_copy.i: src/rmt_encoder_copy.c.i
 
 # target to preprocess a source file
 src/rmt_encoder_copy.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.i
 .PHONY : src/rmt_encoder_copy.c.i
 
 src/rmt_encoder_copy.s: src/rmt_encoder_copy.c.s
@@ -268,7 +268,7 @@ src/rmt_encoder_copy.s: src/rmt_encoder_copy.c.s
 
 # target to generate assembly for a file
 src/rmt_encoder_copy.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.s
 .PHONY : src/rmt_encoder_copy.c.s
 
 src/rmt_encoder_simple.obj: src/rmt_encoder_simple.c.obj
@@ -276,7 +276,7 @@ src/rmt_encoder_simple.obj: src/rmt_encoder_simple.c.obj
 
 # target to build an object file
 src/rmt_encoder_simple.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj
 .PHONY : src/rmt_encoder_simple.c.obj
 
 src/rmt_encoder_simple.i: src/rmt_encoder_simple.c.i
@@ -284,7 +284,7 @@ src/rmt_encoder_simple.i: src/rmt_encoder_simple.c.i
 
 # target to preprocess a source file
 src/rmt_encoder_simple.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.i
 .PHONY : src/rmt_encoder_simple.c.i
 
 src/rmt_encoder_simple.s: src/rmt_encoder_simple.c.s
@@ -292,7 +292,7 @@ src/rmt_encoder_simple.s: src/rmt_encoder_simple.c.s
 
 # target to generate assembly for a file
 src/rmt_encoder_simple.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.s
 .PHONY : src/rmt_encoder_simple.c.s
 
 src/rmt_rx.obj: src/rmt_rx.c.obj
@@ -300,7 +300,7 @@ src/rmt_rx.obj: src/rmt_rx.c.obj
 
 # target to build an object file
 src/rmt_rx.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj
 .PHONY : src/rmt_rx.c.obj
 
 src/rmt_rx.i: src/rmt_rx.c.i
@@ -308,7 +308,7 @@ src/rmt_rx.i: src/rmt_rx.c.i
 
 # target to preprocess a source file
 src/rmt_rx.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.i
 .PHONY : src/rmt_rx.c.i
 
 src/rmt_rx.s: src/rmt_rx.c.s
@@ -316,7 +316,7 @@ src/rmt_rx.s: src/rmt_rx.c.s
 
 # target to generate assembly for a file
 src/rmt_rx.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.s
 .PHONY : src/rmt_rx.c.s
 
 src/rmt_tx.obj: src/rmt_tx.c.obj
@@ -324,7 +324,7 @@ src/rmt_tx.obj: src/rmt_tx.c.obj
 
 # target to build an object file
 src/rmt_tx.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj
 .PHONY : src/rmt_tx.c.obj
 
 src/rmt_tx.i: src/rmt_tx.c.i
@@ -332,7 +332,7 @@ src/rmt_tx.i: src/rmt_tx.c.i
 
 # target to preprocess a source file
 src/rmt_tx.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.i
 .PHONY : src/rmt_tx.c.i
 
 src/rmt_tx.s: src/rmt_tx.c.s
@@ -340,7 +340,7 @@ src/rmt_tx.s: src/rmt_tx.c.s
 
 # target to generate assembly for a file
 src/rmt_tx.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.s
 .PHONY : src/rmt_tx.c.s
 
 # Help Target
@@ -388,6 +388,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

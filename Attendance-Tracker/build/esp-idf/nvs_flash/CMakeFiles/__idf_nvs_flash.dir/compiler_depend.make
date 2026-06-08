@@ -215,7 +215,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj: /home/will
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/vector \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -270,7 +269,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj: /home/will
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_bootloader.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -300,7 +300,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj: /home
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -335,7 +334,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj: /home
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/private_include/nvs_constants.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -363,7 +363,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -386,7 +385,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/private_include/nvs_bootloader_aes.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -416,7 +416,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -443,7 +442,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.ob
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/private_include/nvs_bootloader_xts_aes.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -649,7 +649,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -686,7 +685,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_storage.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -889,7 +889,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -923,7 +922,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_memory_management.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_locked.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1129,7 +1129,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_locked.cpp.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -1162,7 +1161,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_locked.cpp.obj: 
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_storage.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_simple.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1368,7 +1368,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_simple.cpp.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1404,7 +1403,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_simple.cpp.obj: 
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_storage.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1607,7 +1607,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj:
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -1632,7 +1631,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj:
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/intrusive_list.h \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_memory_management.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_page.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1836,7 +1836,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_page.cpp.obj: /home/wil
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -1864,7 +1863,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_page.cpp.obj: /home/wil
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_memory_management.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_page.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_pagemanager.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2070,7 +2070,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_pagemanager.cpp.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -2098,7 +2097,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_pagemanager.cpp.obj: /h
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_page.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2193,7 +2193,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj: /hom
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/tuple \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -2226,7 +2225,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj: /hom
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_lookup.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2317,7 +2317,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_lookup.cpp.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/tuple \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -2341,7 +2340,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_lookup.cpp.ob
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_memory_management.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition_lookup.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2547,7 +2547,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.o
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -2590,7 +2589,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.o
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_storage.hpp \
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_platform.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_platform.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2615,14 +2615,14 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_platform.cpp.obj: /home
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
-  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp
+  /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_storage.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2829,7 +2829,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_storage.cpp.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -2877,7 +2876,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_storage.cpp.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_types.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3081,7 +3081,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj: /home/wi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/type_traits \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/typeinfo \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/unordered_map \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -3125,7 +3124,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj: /home/wi
   /home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/partition.hpp \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h:
@@ -3161,6 +3161,8 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj: /home/wi
 /home/william-hellstrand/esp/esp-idf/components/nvs_flash/private_include/nvs_bootloader_xts_aes.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_rom/esp32c3/include/esp32c3/rom/aes.h:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
@@ -3656,8 +3658,6 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj: /home/wi
 
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
-config/sdkconfig.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/bits/locale_classes.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h:
@@ -3696,9 +3696,9 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_crc.h:
 
-/home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_memory_management.hpp:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/bits/stl_pair.h:
+
+/home/william-hellstrand/esp/esp-idf/components/nvs_flash/src/nvs_memory_management.hpp:
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_level.h:
 

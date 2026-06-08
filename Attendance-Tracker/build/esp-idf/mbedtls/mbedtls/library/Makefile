@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls/mbedtls/library//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls/mbedtls/library//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ mbedx509: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule
 
 # fast build rule for target.
 mbedx509/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build
 .PHONY : mbedx509/fast
 
 # Convenience name for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ mbedtls: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule
 
 # fast build rule for target.
 mbedtls/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build
 .PHONY : mbedtls/fast
 
 # Convenience name for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ lib: esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule
 
 # fast build rule for target.
 lib/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build
 .PHONY : lib/fast
 
 debug.obj: debug.c.obj
@@ -208,7 +208,7 @@ debug.obj: debug.c.obj
 
 # target to build an object file
 debug.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj
 .PHONY : debug.c.obj
 
 debug.i: debug.c.i
@@ -216,7 +216,7 @@ debug.i: debug.c.i
 
 # target to preprocess a source file
 debug.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.i
 .PHONY : debug.c.i
 
 debug.s: debug.c.s
@@ -224,7 +224,7 @@ debug.s: debug.c.s
 
 # target to generate assembly for a file
 debug.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.s
 .PHONY : debug.c.s
 
 error.obj: error.c.obj
@@ -232,7 +232,7 @@ error.obj: error.c.obj
 
 # target to build an object file
 error.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/error.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/error.c.obj
 .PHONY : error.c.obj
 
 error.i: error.c.i
@@ -240,7 +240,7 @@ error.i: error.c.i
 
 # target to preprocess a source file
 error.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/error.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/error.c.i
 .PHONY : error.c.i
 
 error.s: error.c.s
@@ -248,7 +248,7 @@ error.s: error.c.s
 
 # target to generate assembly for a file
 error.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/error.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/error.c.s
 .PHONY : error.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
@@ -256,7 +256,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.ob
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i
@@ -264,7 +264,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.i:
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s
@@ -272,7 +272,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.s:
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.obj
@@ -280,7 +280,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.i
@@ -288,7 +288,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.s
@@ -296,7 +296,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj
@@ -304,7 +304,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.obj: home
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.i
@@ -312,7 +312,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.i: home/w
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.s
@@ -320,7 +320,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.s: home/w
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/esp_timing.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
@@ -328,7 +328,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.obj: h
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.i
@@ -336,7 +336,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.i: hom
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.s
@@ -344,7 +344,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.s: hom
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.s
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.obj: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj
@@ -352,7 +352,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.obj: hom
 
 # target to build an object file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.i: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.i
@@ -360,7 +360,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.i: home/
 
 # target to preprocess a source file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.i
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.i
 
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.s: home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.s
@@ -368,7 +368,7 @@ home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.s: home/
 
 # target to generate assembly for a file
 home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.s
 .PHONY : home/william-hellstrand/esp/esp-idf/components/mbedtls/port/net_sockets.c.s
 
 mbedtls_config.obj: mbedtls_config.c.obj
@@ -376,7 +376,7 @@ mbedtls_config.obj: mbedtls_config.c.obj
 
 # target to build an object file
 mbedtls_config.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/mbedtls_config.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/mbedtls_config.c.obj
 .PHONY : mbedtls_config.c.obj
 
 mbedtls_config.i: mbedtls_config.c.i
@@ -384,7 +384,7 @@ mbedtls_config.i: mbedtls_config.c.i
 
 # target to preprocess a source file
 mbedtls_config.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/mbedtls_config.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/mbedtls_config.c.i
 .PHONY : mbedtls_config.c.i
 
 mbedtls_config.s: mbedtls_config.c.s
@@ -392,7 +392,7 @@ mbedtls_config.s: mbedtls_config.c.s
 
 # target to generate assembly for a file
 mbedtls_config.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/mbedtls_config.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/mbedtls_config.c.s
 .PHONY : mbedtls_config.c.s
 
 mps_reader.obj: mps_reader.c.obj
@@ -400,7 +400,7 @@ mps_reader.obj: mps_reader.c.obj
 
 # target to build an object file
 mps_reader.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.obj
 .PHONY : mps_reader.c.obj
 
 mps_reader.i: mps_reader.c.i
@@ -408,7 +408,7 @@ mps_reader.i: mps_reader.c.i
 
 # target to preprocess a source file
 mps_reader.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.i
 .PHONY : mps_reader.c.i
 
 mps_reader.s: mps_reader.c.s
@@ -416,7 +416,7 @@ mps_reader.s: mps_reader.c.s
 
 # target to generate assembly for a file
 mps_reader.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.s
 .PHONY : mps_reader.c.s
 
 mps_trace.obj: mps_trace.c.obj
@@ -424,7 +424,7 @@ mps_trace.obj: mps_trace.c.obj
 
 # target to build an object file
 mps_trace.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.obj
 .PHONY : mps_trace.c.obj
 
 mps_trace.i: mps_trace.c.i
@@ -432,7 +432,7 @@ mps_trace.i: mps_trace.c.i
 
 # target to preprocess a source file
 mps_trace.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.i
 .PHONY : mps_trace.c.i
 
 mps_trace.s: mps_trace.c.s
@@ -440,7 +440,7 @@ mps_trace.s: mps_trace.c.s
 
 # target to generate assembly for a file
 mps_trace.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.s
 .PHONY : mps_trace.c.s
 
 pkcs7.obj: pkcs7.c.obj
@@ -448,7 +448,7 @@ pkcs7.obj: pkcs7.c.obj
 
 # target to build an object file
 pkcs7.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.obj
 .PHONY : pkcs7.c.obj
 
 pkcs7.i: pkcs7.c.i
@@ -456,7 +456,7 @@ pkcs7.i: pkcs7.c.i
 
 # target to preprocess a source file
 pkcs7.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.i
 .PHONY : pkcs7.c.i
 
 pkcs7.s: pkcs7.c.s
@@ -464,7 +464,7 @@ pkcs7.s: pkcs7.c.s
 
 # target to generate assembly for a file
 pkcs7.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.s
 .PHONY : pkcs7.c.s
 
 ssl_cache.obj: ssl_cache.c.obj
@@ -472,7 +472,7 @@ ssl_cache.obj: ssl_cache.c.obj
 
 # target to build an object file
 ssl_cache.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj
 .PHONY : ssl_cache.c.obj
 
 ssl_cache.i: ssl_cache.c.i
@@ -480,7 +480,7 @@ ssl_cache.i: ssl_cache.c.i
 
 # target to preprocess a source file
 ssl_cache.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.i
 .PHONY : ssl_cache.c.i
 
 ssl_cache.s: ssl_cache.c.s
@@ -488,7 +488,7 @@ ssl_cache.s: ssl_cache.c.s
 
 # target to generate assembly for a file
 ssl_cache.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.s
 .PHONY : ssl_cache.c.s
 
 ssl_ciphersuites.obj: ssl_ciphersuites.c.obj
@@ -496,7 +496,7 @@ ssl_ciphersuites.obj: ssl_ciphersuites.c.obj
 
 # target to build an object file
 ssl_ciphersuites.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj
 .PHONY : ssl_ciphersuites.c.obj
 
 ssl_ciphersuites.i: ssl_ciphersuites.c.i
@@ -504,7 +504,7 @@ ssl_ciphersuites.i: ssl_ciphersuites.c.i
 
 # target to preprocess a source file
 ssl_ciphersuites.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.i
 .PHONY : ssl_ciphersuites.c.i
 
 ssl_ciphersuites.s: ssl_ciphersuites.c.s
@@ -512,7 +512,7 @@ ssl_ciphersuites.s: ssl_ciphersuites.c.s
 
 # target to generate assembly for a file
 ssl_ciphersuites.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.s
 .PHONY : ssl_ciphersuites.c.s
 
 ssl_client.obj: ssl_client.c.obj
@@ -520,7 +520,7 @@ ssl_client.obj: ssl_client.c.obj
 
 # target to build an object file
 ssl_client.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj
 .PHONY : ssl_client.c.obj
 
 ssl_client.i: ssl_client.c.i
@@ -528,7 +528,7 @@ ssl_client.i: ssl_client.c.i
 
 # target to preprocess a source file
 ssl_client.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.i
 .PHONY : ssl_client.c.i
 
 ssl_client.s: ssl_client.c.s
@@ -536,7 +536,7 @@ ssl_client.s: ssl_client.c.s
 
 # target to generate assembly for a file
 ssl_client.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.s
 .PHONY : ssl_client.c.s
 
 ssl_cookie.obj: ssl_cookie.c.obj
@@ -544,7 +544,7 @@ ssl_cookie.obj: ssl_cookie.c.obj
 
 # target to build an object file
 ssl_cookie.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj
 .PHONY : ssl_cookie.c.obj
 
 ssl_cookie.i: ssl_cookie.c.i
@@ -552,7 +552,7 @@ ssl_cookie.i: ssl_cookie.c.i
 
 # target to preprocess a source file
 ssl_cookie.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.i
 .PHONY : ssl_cookie.c.i
 
 ssl_cookie.s: ssl_cookie.c.s
@@ -560,7 +560,7 @@ ssl_cookie.s: ssl_cookie.c.s
 
 # target to generate assembly for a file
 ssl_cookie.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.s
 .PHONY : ssl_cookie.c.s
 
 ssl_debug_helpers_generated.obj: ssl_debug_helpers_generated.c.obj
@@ -568,7 +568,7 @@ ssl_debug_helpers_generated.obj: ssl_debug_helpers_generated.c.obj
 
 # target to build an object file
 ssl_debug_helpers_generated.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.obj
 .PHONY : ssl_debug_helpers_generated.c.obj
 
 ssl_debug_helpers_generated.i: ssl_debug_helpers_generated.c.i
@@ -576,7 +576,7 @@ ssl_debug_helpers_generated.i: ssl_debug_helpers_generated.c.i
 
 # target to preprocess a source file
 ssl_debug_helpers_generated.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.i
 .PHONY : ssl_debug_helpers_generated.c.i
 
 ssl_debug_helpers_generated.s: ssl_debug_helpers_generated.c.s
@@ -584,7 +584,7 @@ ssl_debug_helpers_generated.s: ssl_debug_helpers_generated.c.s
 
 # target to generate assembly for a file
 ssl_debug_helpers_generated.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.s
 .PHONY : ssl_debug_helpers_generated.c.s
 
 ssl_msg.obj: ssl_msg.c.obj
@@ -592,7 +592,7 @@ ssl_msg.obj: ssl_msg.c.obj
 
 # target to build an object file
 ssl_msg.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj
 .PHONY : ssl_msg.c.obj
 
 ssl_msg.i: ssl_msg.c.i
@@ -600,7 +600,7 @@ ssl_msg.i: ssl_msg.c.i
 
 # target to preprocess a source file
 ssl_msg.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.i
 .PHONY : ssl_msg.c.i
 
 ssl_msg.s: ssl_msg.c.s
@@ -608,7 +608,7 @@ ssl_msg.s: ssl_msg.c.s
 
 # target to generate assembly for a file
 ssl_msg.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.s
 .PHONY : ssl_msg.c.s
 
 ssl_ticket.obj: ssl_ticket.c.obj
@@ -616,7 +616,7 @@ ssl_ticket.obj: ssl_ticket.c.obj
 
 # target to build an object file
 ssl_ticket.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj
 .PHONY : ssl_ticket.c.obj
 
 ssl_ticket.i: ssl_ticket.c.i
@@ -624,7 +624,7 @@ ssl_ticket.i: ssl_ticket.c.i
 
 # target to preprocess a source file
 ssl_ticket.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.i
 .PHONY : ssl_ticket.c.i
 
 ssl_ticket.s: ssl_ticket.c.s
@@ -632,7 +632,7 @@ ssl_ticket.s: ssl_ticket.c.s
 
 # target to generate assembly for a file
 ssl_ticket.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.s
 .PHONY : ssl_ticket.c.s
 
 ssl_tls.obj: ssl_tls.c.obj
@@ -640,7 +640,7 @@ ssl_tls.obj: ssl_tls.c.obj
 
 # target to build an object file
 ssl_tls.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj
 .PHONY : ssl_tls.c.obj
 
 ssl_tls.i: ssl_tls.c.i
@@ -648,7 +648,7 @@ ssl_tls.i: ssl_tls.c.i
 
 # target to preprocess a source file
 ssl_tls.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.i
 .PHONY : ssl_tls.c.i
 
 ssl_tls.s: ssl_tls.c.s
@@ -656,7 +656,7 @@ ssl_tls.s: ssl_tls.c.s
 
 # target to generate assembly for a file
 ssl_tls.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.s
 .PHONY : ssl_tls.c.s
 
 ssl_tls12_client.obj: ssl_tls12_client.c.obj
@@ -664,7 +664,7 @@ ssl_tls12_client.obj: ssl_tls12_client.c.obj
 
 # target to build an object file
 ssl_tls12_client.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj
 .PHONY : ssl_tls12_client.c.obj
 
 ssl_tls12_client.i: ssl_tls12_client.c.i
@@ -672,7 +672,7 @@ ssl_tls12_client.i: ssl_tls12_client.c.i
 
 # target to preprocess a source file
 ssl_tls12_client.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.i
 .PHONY : ssl_tls12_client.c.i
 
 ssl_tls12_client.s: ssl_tls12_client.c.s
@@ -680,7 +680,7 @@ ssl_tls12_client.s: ssl_tls12_client.c.s
 
 # target to generate assembly for a file
 ssl_tls12_client.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.s
 .PHONY : ssl_tls12_client.c.s
 
 ssl_tls12_server.obj: ssl_tls12_server.c.obj
@@ -688,7 +688,7 @@ ssl_tls12_server.obj: ssl_tls12_server.c.obj
 
 # target to build an object file
 ssl_tls12_server.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj
 .PHONY : ssl_tls12_server.c.obj
 
 ssl_tls12_server.i: ssl_tls12_server.c.i
@@ -696,7 +696,7 @@ ssl_tls12_server.i: ssl_tls12_server.c.i
 
 # target to preprocess a source file
 ssl_tls12_server.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.i
 .PHONY : ssl_tls12_server.c.i
 
 ssl_tls12_server.s: ssl_tls12_server.c.s
@@ -704,7 +704,7 @@ ssl_tls12_server.s: ssl_tls12_server.c.s
 
 # target to generate assembly for a file
 ssl_tls12_server.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.s
 .PHONY : ssl_tls12_server.c.s
 
 ssl_tls13_client.obj: ssl_tls13_client.c.obj
@@ -712,7 +712,7 @@ ssl_tls13_client.obj: ssl_tls13_client.c.obj
 
 # target to build an object file
 ssl_tls13_client.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj
 .PHONY : ssl_tls13_client.c.obj
 
 ssl_tls13_client.i: ssl_tls13_client.c.i
@@ -720,7 +720,7 @@ ssl_tls13_client.i: ssl_tls13_client.c.i
 
 # target to preprocess a source file
 ssl_tls13_client.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.i
 .PHONY : ssl_tls13_client.c.i
 
 ssl_tls13_client.s: ssl_tls13_client.c.s
@@ -728,7 +728,7 @@ ssl_tls13_client.s: ssl_tls13_client.c.s
 
 # target to generate assembly for a file
 ssl_tls13_client.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.s
 .PHONY : ssl_tls13_client.c.s
 
 ssl_tls13_generic.obj: ssl_tls13_generic.c.obj
@@ -736,7 +736,7 @@ ssl_tls13_generic.obj: ssl_tls13_generic.c.obj
 
 # target to build an object file
 ssl_tls13_generic.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj
 .PHONY : ssl_tls13_generic.c.obj
 
 ssl_tls13_generic.i: ssl_tls13_generic.c.i
@@ -744,7 +744,7 @@ ssl_tls13_generic.i: ssl_tls13_generic.c.i
 
 # target to preprocess a source file
 ssl_tls13_generic.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.i
 .PHONY : ssl_tls13_generic.c.i
 
 ssl_tls13_generic.s: ssl_tls13_generic.c.s
@@ -752,7 +752,7 @@ ssl_tls13_generic.s: ssl_tls13_generic.c.s
 
 # target to generate assembly for a file
 ssl_tls13_generic.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.s
 .PHONY : ssl_tls13_generic.c.s
 
 ssl_tls13_keys.obj: ssl_tls13_keys.c.obj
@@ -760,7 +760,7 @@ ssl_tls13_keys.obj: ssl_tls13_keys.c.obj
 
 # target to build an object file
 ssl_tls13_keys.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj
 .PHONY : ssl_tls13_keys.c.obj
 
 ssl_tls13_keys.i: ssl_tls13_keys.c.i
@@ -768,7 +768,7 @@ ssl_tls13_keys.i: ssl_tls13_keys.c.i
 
 # target to preprocess a source file
 ssl_tls13_keys.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.i
 .PHONY : ssl_tls13_keys.c.i
 
 ssl_tls13_keys.s: ssl_tls13_keys.c.s
@@ -776,7 +776,7 @@ ssl_tls13_keys.s: ssl_tls13_keys.c.s
 
 # target to generate assembly for a file
 ssl_tls13_keys.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.s
 .PHONY : ssl_tls13_keys.c.s
 
 ssl_tls13_server.obj: ssl_tls13_server.c.obj
@@ -784,7 +784,7 @@ ssl_tls13_server.obj: ssl_tls13_server.c.obj
 
 # target to build an object file
 ssl_tls13_server.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj
 .PHONY : ssl_tls13_server.c.obj
 
 ssl_tls13_server.i: ssl_tls13_server.c.i
@@ -792,7 +792,7 @@ ssl_tls13_server.i: ssl_tls13_server.c.i
 
 # target to preprocess a source file
 ssl_tls13_server.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.i
 .PHONY : ssl_tls13_server.c.i
 
 ssl_tls13_server.s: ssl_tls13_server.c.s
@@ -800,7 +800,7 @@ ssl_tls13_server.s: ssl_tls13_server.c.s
 
 # target to generate assembly for a file
 ssl_tls13_server.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.s
 .PHONY : ssl_tls13_server.c.s
 
 timing.obj: timing.c.obj
@@ -808,7 +808,7 @@ timing.obj: timing.c.obj
 
 # target to build an object file
 timing.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.obj
 .PHONY : timing.c.obj
 
 timing.i: timing.c.i
@@ -816,7 +816,7 @@ timing.i: timing.c.i
 
 # target to preprocess a source file
 timing.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.i
 .PHONY : timing.c.i
 
 timing.s: timing.c.s
@@ -824,7 +824,7 @@ timing.s: timing.c.s
 
 # target to generate assembly for a file
 timing.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/timing.c.s
 .PHONY : timing.c.s
 
 version.obj: version.c.obj
@@ -832,7 +832,7 @@ version.obj: version.c.obj
 
 # target to build an object file
 version.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.obj
 .PHONY : version.c.obj
 
 version.i: version.c.i
@@ -840,7 +840,7 @@ version.i: version.c.i
 
 # target to preprocess a source file
 version.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.i
 .PHONY : version.c.i
 
 version.s: version.c.s
@@ -848,7 +848,7 @@ version.s: version.c.s
 
 # target to generate assembly for a file
 version.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version.c.s
 .PHONY : version.c.s
 
 version_features.obj: version_features.c.obj
@@ -856,7 +856,7 @@ version_features.obj: version_features.c.obj
 
 # target to build an object file
 version_features.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.obj
 .PHONY : version_features.c.obj
 
 version_features.i: version_features.c.i
@@ -864,7 +864,7 @@ version_features.i: version_features.c.i
 
 # target to preprocess a source file
 version_features.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.i
 .PHONY : version_features.c.i
 
 version_features.s: version_features.c.s
@@ -872,7 +872,7 @@ version_features.s: version_features.c.s
 
 # target to generate assembly for a file
 version_features.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/version_features.c.s
 .PHONY : version_features.c.s
 
 x509.obj: x509.c.obj
@@ -880,7 +880,7 @@ x509.obj: x509.c.obj
 
 # target to build an object file
 x509.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj
 .PHONY : x509.c.obj
 
 x509.i: x509.c.i
@@ -888,7 +888,7 @@ x509.i: x509.c.i
 
 # target to preprocess a source file
 x509.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.i
 .PHONY : x509.c.i
 
 x509.s: x509.c.s
@@ -896,7 +896,7 @@ x509.s: x509.c.s
 
 # target to generate assembly for a file
 x509.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.s
 .PHONY : x509.c.s
 
 x509_create.obj: x509_create.c.obj
@@ -904,7 +904,7 @@ x509_create.obj: x509_create.c.obj
 
 # target to build an object file
 x509_create.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj
 .PHONY : x509_create.c.obj
 
 x509_create.i: x509_create.c.i
@@ -912,7 +912,7 @@ x509_create.i: x509_create.c.i
 
 # target to preprocess a source file
 x509_create.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.i
 .PHONY : x509_create.c.i
 
 x509_create.s: x509_create.c.s
@@ -920,7 +920,7 @@ x509_create.s: x509_create.c.s
 
 # target to generate assembly for a file
 x509_create.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.s
 .PHONY : x509_create.c.s
 
 x509_crl.obj: x509_crl.c.obj
@@ -928,7 +928,7 @@ x509_crl.obj: x509_crl.c.obj
 
 # target to build an object file
 x509_crl.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj
 .PHONY : x509_crl.c.obj
 
 x509_crl.i: x509_crl.c.i
@@ -936,7 +936,7 @@ x509_crl.i: x509_crl.c.i
 
 # target to preprocess a source file
 x509_crl.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.i
 .PHONY : x509_crl.c.i
 
 x509_crl.s: x509_crl.c.s
@@ -944,7 +944,7 @@ x509_crl.s: x509_crl.c.s
 
 # target to generate assembly for a file
 x509_crl.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.s
 .PHONY : x509_crl.c.s
 
 x509_crt.obj: x509_crt.c.obj
@@ -952,7 +952,7 @@ x509_crt.obj: x509_crt.c.obj
 
 # target to build an object file
 x509_crt.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj
 .PHONY : x509_crt.c.obj
 
 x509_crt.i: x509_crt.c.i
@@ -960,7 +960,7 @@ x509_crt.i: x509_crt.c.i
 
 # target to preprocess a source file
 x509_crt.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.i
 .PHONY : x509_crt.c.i
 
 x509_crt.s: x509_crt.c.s
@@ -968,7 +968,7 @@ x509_crt.s: x509_crt.c.s
 
 # target to generate assembly for a file
 x509_crt.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.s
 .PHONY : x509_crt.c.s
 
 x509_csr.obj: x509_csr.c.obj
@@ -976,7 +976,7 @@ x509_csr.obj: x509_csr.c.obj
 
 # target to build an object file
 x509_csr.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.obj
 .PHONY : x509_csr.c.obj
 
 x509_csr.i: x509_csr.c.i
@@ -984,7 +984,7 @@ x509_csr.i: x509_csr.c.i
 
 # target to preprocess a source file
 x509_csr.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.i
 .PHONY : x509_csr.c.i
 
 x509_csr.s: x509_csr.c.s
@@ -992,7 +992,7 @@ x509_csr.s: x509_csr.c.s
 
 # target to generate assembly for a file
 x509_csr.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.s
 .PHONY : x509_csr.c.s
 
 x509_oid.obj: x509_oid.c.obj
@@ -1000,7 +1000,7 @@ x509_oid.obj: x509_oid.c.obj
 
 # target to build an object file
 x509_oid.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_oid.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_oid.c.obj
 .PHONY : x509_oid.c.obj
 
 x509_oid.i: x509_oid.c.i
@@ -1008,7 +1008,7 @@ x509_oid.i: x509_oid.c.i
 
 # target to preprocess a source file
 x509_oid.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_oid.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_oid.c.i
 .PHONY : x509_oid.c.i
 
 x509_oid.s: x509_oid.c.s
@@ -1016,7 +1016,7 @@ x509_oid.s: x509_oid.c.s
 
 # target to generate assembly for a file
 x509_oid.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_oid.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_oid.c.s
 .PHONY : x509_oid.c.s
 
 x509write.obj: x509write.c.obj
@@ -1024,7 +1024,7 @@ x509write.obj: x509write.c.obj
 
 # target to build an object file
 x509write.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj
 .PHONY : x509write.c.obj
 
 x509write.i: x509write.c.i
@@ -1032,7 +1032,7 @@ x509write.i: x509write.c.i
 
 # target to preprocess a source file
 x509write.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.i
 .PHONY : x509write.c.i
 
 x509write.s: x509write.c.s
@@ -1040,7 +1040,7 @@ x509write.s: x509write.c.s
 
 # target to generate assembly for a file
 x509write.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.s
 .PHONY : x509write.c.s
 
 x509write_crt.obj: x509write_crt.c.obj
@@ -1048,7 +1048,7 @@ x509write_crt.obj: x509write_crt.c.obj
 
 # target to build an object file
 x509write_crt.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.obj
 .PHONY : x509write_crt.c.obj
 
 x509write_crt.i: x509write_crt.c.i
@@ -1056,7 +1056,7 @@ x509write_crt.i: x509write_crt.c.i
 
 # target to preprocess a source file
 x509write_crt.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.i
 .PHONY : x509write_crt.c.i
 
 x509write_crt.s: x509write_crt.c.s
@@ -1064,7 +1064,7 @@ x509write_crt.s: x509write_crt.c.s
 
 # target to generate assembly for a file
 x509write_crt.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.s
 .PHONY : x509write_crt.c.s
 
 x509write_csr.obj: x509write_csr.c.obj
@@ -1072,7 +1072,7 @@ x509write_csr.obj: x509write_csr.c.obj
 
 # target to build an object file
 x509write_csr.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.obj
 .PHONY : x509write_csr.c.obj
 
 x509write_csr.i: x509write_csr.c.i
@@ -1080,7 +1080,7 @@ x509write_csr.i: x509write_csr.c.i
 
 # target to preprocess a source file
 x509write_csr.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.i
 .PHONY : x509write_csr.c.i
 
 x509write_csr.s: x509write_csr.c.s
@@ -1088,7 +1088,7 @@ x509write_csr.s: x509write_csr.c.s
 
 # target to generate assembly for a file
 x509write_csr.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.s
 .PHONY : x509write_csr.c.s
 
 # Help Target
@@ -1228,6 +1228,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

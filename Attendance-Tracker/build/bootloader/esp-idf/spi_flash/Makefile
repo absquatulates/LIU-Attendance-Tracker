@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/spi_flash//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/spi_flash//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_spi_flash: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 
 # fast build rule for target.
 __idf_spi_flash/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build
 .PHONY : __idf_spi_flash/fast
 
 spi_flash_wrap.obj: spi_flash_wrap.c.obj
@@ -135,7 +135,7 @@ spi_flash_wrap.obj: spi_flash_wrap.c.obj
 
 # target to build an object file
 spi_flash_wrap.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
 .PHONY : spi_flash_wrap.c.obj
 
 spi_flash_wrap.i: spi_flash_wrap.c.i
@@ -143,7 +143,7 @@ spi_flash_wrap.i: spi_flash_wrap.c.i
 
 # target to preprocess a source file
 spi_flash_wrap.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.i
 .PHONY : spi_flash_wrap.c.i
 
 spi_flash_wrap.s: spi_flash_wrap.c.s
@@ -151,7 +151,7 @@ spi_flash_wrap.s: spi_flash_wrap.c.s
 
 # target to generate assembly for a file
 spi_flash_wrap.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.s
 .PHONY : spi_flash_wrap.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

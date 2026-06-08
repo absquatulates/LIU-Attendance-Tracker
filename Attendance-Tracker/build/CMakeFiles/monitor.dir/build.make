@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for monitor.
 
@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /home/william-hellstrand/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/william-hellstrand/esp/esp-idf -D "SERIAL_TOOL=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;riscv32-esp-elf-;;--target;esp32c3;;--revision;3;;--decode-panic;backtrace;;/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/testing.elf" -D WORKING_DIRECTORY=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build -P run_serial_tool.cmake
+	cd /home/william-hellstrand/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/william-hellstrand/esp/esp-idf -D "SERIAL_TOOL=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;riscv32-esp-elf-;;--target;esp32c3;;--revision;3;;--decode-panic;backtrace;;/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/testing.elf" -D WORKING_DIRECTORY=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build -P run_serial_tool.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/monitor.dir/clean:
 .PHONY : CMakeFiles/monitor.dir/clean
 
 CMakeFiles/monitor.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/monitor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/monitor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/monitor.dir/depend
 

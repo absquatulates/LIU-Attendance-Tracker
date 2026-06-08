@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Utility rule file for bootloader_memory_ld_in_preprocess.
 
@@ -70,8 +70,8 @@ CMakeFiles/bootloader_memory_ld_in_preprocess: ld/bootloader.memory.ld
 
 ld/bootloader.memory.ld: /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.memory.ld.in
 ld/bootloader.memory.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.memory.ld.in -> /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/ld/bootloader.memory.ld"
-	/usr/bin/cmake -DCC=/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.memory.ld.in -DTARGET=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/ld/bootloader.memory.ld "-DCFLAGS=-I\"/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/config\" -I\"/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/linker_script_preprocessor.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.memory.ld.in -> /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/ld/bootloader.memory.ld"
+	/usr/bin/cmake -DCC=/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.memory.ld.in -DTARGET=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/ld/bootloader.memory.ld "-DCFLAGS=-I\"/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/config\" -I\"/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/linker_script_preprocessor.cmake
 
 bootloader_memory_ld_in_preprocess: CMakeFiles/bootloader_memory_ld_in_preprocess
 bootloader_memory_ld_in_preprocess: ld/bootloader.memory.ld
@@ -87,6 +87,6 @@ CMakeFiles/bootloader_memory_ld_in_preprocess.dir/clean:
 .PHONY : CMakeFiles/bootloader_memory_ld_in_preprocess.dir/clean
 
 CMakeFiles/bootloader_memory_ld_in_preprocess.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles/bootloader_memory_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles/bootloader_memory_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bootloader_memory_ld_in_preprocess.dir/depend
 

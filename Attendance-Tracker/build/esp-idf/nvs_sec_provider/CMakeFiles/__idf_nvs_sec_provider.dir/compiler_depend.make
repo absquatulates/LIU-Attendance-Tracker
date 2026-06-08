@@ -34,7 +34,6 @@ esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
   /home/william-hellstrand/esp/esp-idf/components/efuse/esp32c3/include/esp_efuse_chip.h \
   /home/william-hellstrand/esp/esp-idf/components/efuse/include/esp_efuse.h \
@@ -87,8 +86,11 @@ esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
@@ -128,8 +130,6 @@ esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_attr.h:
 
-/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_args.h:
-
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_private/log_attr.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h:
@@ -163,8 +163,6 @@ esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.
 /home/william-hellstrand/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc.h:
 
@@ -251,6 +249,8 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h:
+
+/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_args.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h:
 

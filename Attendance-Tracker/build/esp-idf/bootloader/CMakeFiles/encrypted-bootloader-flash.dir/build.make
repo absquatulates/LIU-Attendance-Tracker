@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for encrypted-bootloader-flash.
 
@@ -67,9 +67,9 @@ include esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/compiler_de
 include esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/progress.make
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/bootloader && /usr/bin/cmake -E echo "Error: The target encrypted-bootloader-flash requires"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/bootloader && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/bootloader && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/william-hellstrand/esp/esp-idf/tools/cmake/scripts/fail.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/bootloader && /usr/bin/cmake -E echo "Error: The target encrypted-bootloader-flash requires"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/bootloader && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/bootloader && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/william-hellstrand/esp/esp-idf/tools/cmake/scripts/fail.cmake
 
 encrypted-bootloader-flash: esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash
 encrypted-bootloader-flash: esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build.make
@@ -80,10 +80,10 @@ esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build: encrypted-bo
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-bootloader-flash.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-bootloader-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/clean
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/depend
 

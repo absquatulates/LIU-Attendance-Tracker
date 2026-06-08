@@ -56,7 +56,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.o
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls_errors.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -246,7 +245,8 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.o
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
   /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h \
-  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h
+  /home/william-hellstrand/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h \
+  config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_http_client/lib/http_auth.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -302,7 +302,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -469,7 +468,8 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/interrupt_core0_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_http_client/lib/http_header.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -512,7 +512,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.o
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_check.h \
@@ -540,7 +539,8 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.o
   /home/william-hellstrand/esp/esp-idf/components/log/include/esp_private/log_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_http_client/lib/http_utils.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -582,7 +582,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_check.h \
@@ -609,7 +608,8 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
   /home/william-hellstrand/esp/esp-idf/components/log/include/esp_private/log_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/esp_http_client/lib/http_utils.c:
@@ -756,6 +756,10 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_format.h:
 
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h:
+
 /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls_errors.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_system/include/esp_task.h:
@@ -785,10 +789,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
 /home/william-hellstrand/esp/esp-idf/components/heap/include/multi_heap.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
-
-/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_config.h:
-
-/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/list.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private_access.h:
 
@@ -841,6 +841,10 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_default_fcntl.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_types.h:
 
@@ -936,19 +940,11 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
 
 /home/william-hellstrand/esp/esp-idf/components/esp-tls/esp_tls.h:
 
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
-
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
 config/sdkconfig.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h:
 
@@ -1111,3 +1107,7 @@ config/sdkconfig.h:
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/alloca.h:
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_color.h:
+
+/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/list.h:
+
+/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_config.h:

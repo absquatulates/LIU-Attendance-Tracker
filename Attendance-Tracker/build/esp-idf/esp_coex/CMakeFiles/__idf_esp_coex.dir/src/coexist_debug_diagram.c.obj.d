@@ -1,4 +1,4 @@
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c \
  /home/william-hellstrand/esp/esp-idf/components/esp_coex/include/private/esp_coexist_debug.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_dma//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_dma//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/rule
 .PHONY : esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_hal_dma: esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/rule
 
 # fast build rule for target.
 __idf_esp_hal_dma/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build
 .PHONY : __idf_esp_hal_dma/fast
 
 esp32c3/gdma_periph.obj: esp32c3/gdma_periph.c.obj
@@ -180,7 +180,7 @@ esp32c3/gdma_periph.obj: esp32c3/gdma_periph.c.obj
 
 # target to build an object file
 esp32c3/gdma_periph.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.obj
 .PHONY : esp32c3/gdma_periph.c.obj
 
 esp32c3/gdma_periph.i: esp32c3/gdma_periph.c.i
@@ -188,7 +188,7 @@ esp32c3/gdma_periph.i: esp32c3/gdma_periph.c.i
 
 # target to preprocess a source file
 esp32c3/gdma_periph.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.i
 .PHONY : esp32c3/gdma_periph.c.i
 
 esp32c3/gdma_periph.s: esp32c3/gdma_periph.c.s
@@ -196,7 +196,7 @@ esp32c3/gdma_periph.s: esp32c3/gdma_periph.c.s
 
 # target to generate assembly for a file
 esp32c3/gdma_periph.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32c3/gdma_periph.c.s
 .PHONY : esp32c3/gdma_periph.c.s
 
 gdma_hal_ahb_v1.obj: gdma_hal_ahb_v1.c.obj
@@ -204,7 +204,7 @@ gdma_hal_ahb_v1.obj: gdma_hal_ahb_v1.c.obj
 
 # target to build an object file
 gdma_hal_ahb_v1.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj
 .PHONY : gdma_hal_ahb_v1.c.obj
 
 gdma_hal_ahb_v1.i: gdma_hal_ahb_v1.c.i
@@ -212,7 +212,7 @@ gdma_hal_ahb_v1.i: gdma_hal_ahb_v1.c.i
 
 # target to preprocess a source file
 gdma_hal_ahb_v1.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.i
 .PHONY : gdma_hal_ahb_v1.c.i
 
 gdma_hal_ahb_v1.s: gdma_hal_ahb_v1.c.s
@@ -220,7 +220,7 @@ gdma_hal_ahb_v1.s: gdma_hal_ahb_v1.c.s
 
 # target to generate assembly for a file
 gdma_hal_ahb_v1.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.s
 .PHONY : gdma_hal_ahb_v1.c.s
 
 gdma_hal_top.obj: gdma_hal_top.c.obj
@@ -228,7 +228,7 @@ gdma_hal_top.obj: gdma_hal_top.c.obj
 
 # target to build an object file
 gdma_hal_top.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj
 .PHONY : gdma_hal_top.c.obj
 
 gdma_hal_top.i: gdma_hal_top.c.i
@@ -236,7 +236,7 @@ gdma_hal_top.i: gdma_hal_top.c.i
 
 # target to preprocess a source file
 gdma_hal_top.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.i
 .PHONY : gdma_hal_top.c.i
 
 gdma_hal_top.s: gdma_hal_top.c.s
@@ -244,7 +244,7 @@ gdma_hal_top.s: gdma_hal_top.c.s
 
 # target to generate assembly for a file
 gdma_hal_top.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/build.make esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.s
 .PHONY : gdma_hal_top.c.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

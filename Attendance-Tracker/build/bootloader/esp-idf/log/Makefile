@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/log//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/log//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/log/CMakeFiles/__idf_log.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/CMakeFiles/__idf_log.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/CMakeFiles/__idf_log.dir/rule
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_log: esp-idf/log/CMakeFiles/__idf_log.dir/rule
 
 # fast build rule for target.
 __idf_log/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
 .PHONY : __idf_log/fast
 
 src/buffer/log_buffers.obj: src/buffer/log_buffers.c.obj
@@ -135,7 +135,7 @@ src/buffer/log_buffers.obj: src/buffer/log_buffers.c.obj
 
 # target to build an object file
 src/buffer/log_buffers.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj
 .PHONY : src/buffer/log_buffers.c.obj
 
 src/buffer/log_buffers.i: src/buffer/log_buffers.c.i
@@ -143,7 +143,7 @@ src/buffer/log_buffers.i: src/buffer/log_buffers.c.i
 
 # target to preprocess a source file
 src/buffer/log_buffers.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.i
 .PHONY : src/buffer/log_buffers.c.i
 
 src/buffer/log_buffers.s: src/buffer/log_buffers.c.s
@@ -151,7 +151,7 @@ src/buffer/log_buffers.s: src/buffer/log_buffers.c.s
 
 # target to generate assembly for a file
 src/buffer/log_buffers.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.s
 .PHONY : src/buffer/log_buffers.c.s
 
 src/log.obj: src/log.c.obj
@@ -159,7 +159,7 @@ src/log.obj: src/log.c.obj
 
 # target to build an object file
 src/log.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
 .PHONY : src/log.c.obj
 
 src/log.i: src/log.c.i
@@ -167,7 +167,7 @@ src/log.i: src/log.c.i
 
 # target to preprocess a source file
 src/log.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.i
 .PHONY : src/log.c.i
 
 src/log.s: src/log.c.s
@@ -175,7 +175,7 @@ src/log.s: src/log.c.s
 
 # target to generate assembly for a file
 src/log.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.s
 .PHONY : src/log.c.s
 
 src/log_format_text.obj: src/log_format_text.c.obj
@@ -183,7 +183,7 @@ src/log_format_text.obj: src/log_format_text.c.obj
 
 # target to build an object file
 src/log_format_text.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
 .PHONY : src/log_format_text.c.obj
 
 src/log_format_text.i: src/log_format_text.c.i
@@ -191,7 +191,7 @@ src/log_format_text.i: src/log_format_text.c.i
 
 # target to preprocess a source file
 src/log_format_text.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.i
 .PHONY : src/log_format_text.c.i
 
 src/log_format_text.s: src/log_format_text.c.s
@@ -199,7 +199,7 @@ src/log_format_text.s: src/log_format_text.c.s
 
 # target to generate assembly for a file
 src/log_format_text.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.s
 .PHONY : src/log_format_text.c.s
 
 src/log_print.obj: src/log_print.c.obj
@@ -207,7 +207,7 @@ src/log_print.obj: src/log_print.c.obj
 
 # target to build an object file
 src/log_print.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
 .PHONY : src/log_print.c.obj
 
 src/log_print.i: src/log_print.c.i
@@ -215,7 +215,7 @@ src/log_print.i: src/log_print.c.i
 
 # target to preprocess a source file
 src/log_print.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.i
 .PHONY : src/log_print.c.i
 
 src/log_print.s: src/log_print.c.s
@@ -223,7 +223,7 @@ src/log_print.s: src/log_print.c.s
 
 # target to generate assembly for a file
 src/log_print.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.s
 .PHONY : src/log_print.c.s
 
 src/log_timestamp_common.obj: src/log_timestamp_common.c.obj
@@ -231,7 +231,7 @@ src/log_timestamp_common.obj: src/log_timestamp_common.c.obj
 
 # target to build an object file
 src/log_timestamp_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
 .PHONY : src/log_timestamp_common.c.obj
 
 src/log_timestamp_common.i: src/log_timestamp_common.c.i
@@ -239,7 +239,7 @@ src/log_timestamp_common.i: src/log_timestamp_common.c.i
 
 # target to preprocess a source file
 src/log_timestamp_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.i
 .PHONY : src/log_timestamp_common.c.i
 
 src/log_timestamp_common.s: src/log_timestamp_common.c.s
@@ -247,7 +247,7 @@ src/log_timestamp_common.s: src/log_timestamp_common.c.s
 
 # target to generate assembly for a file
 src/log_timestamp_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.s
 .PHONY : src/log_timestamp_common.c.s
 
 src/noos/log_lock.obj: src/noos/log_lock.c.obj
@@ -255,7 +255,7 @@ src/noos/log_lock.obj: src/noos/log_lock.c.obj
 
 # target to build an object file
 src/noos/log_lock.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
 .PHONY : src/noos/log_lock.c.obj
 
 src/noos/log_lock.i: src/noos/log_lock.c.i
@@ -263,7 +263,7 @@ src/noos/log_lock.i: src/noos/log_lock.c.i
 
 # target to preprocess a source file
 src/noos/log_lock.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.i
 .PHONY : src/noos/log_lock.c.i
 
 src/noos/log_lock.s: src/noos/log_lock.c.s
@@ -271,7 +271,7 @@ src/noos/log_lock.s: src/noos/log_lock.c.s
 
 # target to generate assembly for a file
 src/noos/log_lock.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.s
 .PHONY : src/noos/log_lock.c.s
 
 src/noos/log_timestamp.obj: src/noos/log_timestamp.c.obj
@@ -279,7 +279,7 @@ src/noos/log_timestamp.obj: src/noos/log_timestamp.c.obj
 
 # target to build an object file
 src/noos/log_timestamp.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
 .PHONY : src/noos/log_timestamp.c.obj
 
 src/noos/log_timestamp.i: src/noos/log_timestamp.c.i
@@ -287,7 +287,7 @@ src/noos/log_timestamp.i: src/noos/log_timestamp.c.i
 
 # target to preprocess a source file
 src/noos/log_timestamp.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.i
 .PHONY : src/noos/log_timestamp.c.i
 
 src/noos/log_timestamp.s: src/noos/log_timestamp.c.s
@@ -295,7 +295,7 @@ src/noos/log_timestamp.s: src/noos/log_timestamp.c.s
 
 # target to generate assembly for a file
 src/noos/log_timestamp.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.s
 .PHONY : src/noos/log_timestamp.c.s
 
 src/noos/util.obj: src/noos/util.c.obj
@@ -303,7 +303,7 @@ src/noos/util.obj: src/noos/util.c.obj
 
 # target to build an object file
 src/noos/util.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.obj
 .PHONY : src/noos/util.c.obj
 
 src/noos/util.i: src/noos/util.c.i
@@ -311,7 +311,7 @@ src/noos/util.i: src/noos/util.c.i
 
 # target to preprocess a source file
 src/noos/util.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.i
 .PHONY : src/noos/util.c.i
 
 src/noos/util.s: src/noos/util.c.s
@@ -319,7 +319,7 @@ src/noos/util.s: src/noos/util.c.s
 
 # target to generate assembly for a file
 src/noos/util.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.s
 .PHONY : src/noos/util.c.s
 
 src/util.obj: src/util.c.obj
@@ -327,7 +327,7 @@ src/util.obj: src/util.c.obj
 
 # target to build an object file
 src/util.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj
 .PHONY : src/util.c.obj
 
 src/util.i: src/util.c.i
@@ -335,7 +335,7 @@ src/util.i: src/util.c.i
 
 # target to preprocess a source file
 src/util.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.i
 .PHONY : src/util.c.i
 
 src/util.s: src/util.c.s
@@ -343,7 +343,7 @@ src/util.s: src/util.c.s
 
 # target to generate assembly for a file
 src/util.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.s
 .PHONY : src/util.c.s
 
 # Help Target
@@ -393,6 +393,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

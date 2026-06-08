@@ -3,7 +3,7 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/protocomm/proto-c/session.pb-c.h \
  /home/william-hellstrand/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdlib.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \

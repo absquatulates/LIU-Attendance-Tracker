@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testing.elf.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/testing.elf.dir/flags.make
 CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj: CMakeFiles/testing.elf.dir/flags.make
 CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj: project_elf_src_esp32c3.c
 CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj: CMakeFiles/testing.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj"
-	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj -MF CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj.d -o CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj -c /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/project_elf_src_esp32c3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj"
+	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj -MF CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj.d -o CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.obj -c /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/project_elf_src_esp32c3.c
 
 CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.i"
-	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/project_elf_src_esp32c3.c > CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.i
+	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/project_elf_src_esp32c3.c > CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.i
 
 CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.s"
-	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/project_elf_src_esp32c3.c -o CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.s
+	/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/project_elf_src_esp32c3.c -o CMakeFiles/testing.elf.dir/project_elf_src_esp32c3.c.s
 
 # Object files for target testing.elf
 testing_elf_OBJECTS = \
@@ -553,7 +553,7 @@ testing.elf: /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/ld/esp3
 testing.elf: /home/william-hellstrand/esp/esp-idf/components/esp_hal_regi2c/esp32c3/rom.regi2c.ld
 testing.elf: esp-idf/esp_system/ld/sections.ld
 testing.elf: CMakeFiles/testing.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testing.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testing.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testing.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -565,6 +565,6 @@ CMakeFiles/testing.elf.dir/clean:
 .PHONY : CMakeFiles/testing.elf.dir/clean
 
 CMakeFiles/testing.elf.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/testing.elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/testing.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/testing.elf.dir/depend
 

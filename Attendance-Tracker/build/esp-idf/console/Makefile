@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/console//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/console//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/console/CMakeFiles/__idf_console.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/CMakeFiles/__idf_console.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/console/CMakeFiles/__idf_console.dir/rule
 .PHONY : esp-idf/console/CMakeFiles/__idf_console.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_console: esp-idf/console/CMakeFiles/__idf_console.dir/rule
 
 # fast build rule for target.
 __idf_console/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/build
 .PHONY : __idf_console/fast
 
 argtable3/arg_cmd.obj: argtable3/arg_cmd.c.obj
@@ -180,7 +180,7 @@ argtable3/arg_cmd.obj: argtable3/arg_cmd.c.obj
 
 # target to build an object file
 argtable3/arg_cmd.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.obj
 .PHONY : argtable3/arg_cmd.c.obj
 
 argtable3/arg_cmd.i: argtable3/arg_cmd.c.i
@@ -188,7 +188,7 @@ argtable3/arg_cmd.i: argtable3/arg_cmd.c.i
 
 # target to preprocess a source file
 argtable3/arg_cmd.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.i
 .PHONY : argtable3/arg_cmd.c.i
 
 argtable3/arg_cmd.s: argtable3/arg_cmd.c.s
@@ -196,7 +196,7 @@ argtable3/arg_cmd.s: argtable3/arg_cmd.c.s
 
 # target to generate assembly for a file
 argtable3/arg_cmd.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.s
 .PHONY : argtable3/arg_cmd.c.s
 
 argtable3/arg_date.obj: argtable3/arg_date.c.obj
@@ -204,7 +204,7 @@ argtable3/arg_date.obj: argtable3/arg_date.c.obj
 
 # target to build an object file
 argtable3/arg_date.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.obj
 .PHONY : argtable3/arg_date.c.obj
 
 argtable3/arg_date.i: argtable3/arg_date.c.i
@@ -212,7 +212,7 @@ argtable3/arg_date.i: argtable3/arg_date.c.i
 
 # target to preprocess a source file
 argtable3/arg_date.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.i
 .PHONY : argtable3/arg_date.c.i
 
 argtable3/arg_date.s: argtable3/arg_date.c.s
@@ -220,7 +220,7 @@ argtable3/arg_date.s: argtable3/arg_date.c.s
 
 # target to generate assembly for a file
 argtable3/arg_date.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.s
 .PHONY : argtable3/arg_date.c.s
 
 argtable3/arg_dbl.obj: argtable3/arg_dbl.c.obj
@@ -228,7 +228,7 @@ argtable3/arg_dbl.obj: argtable3/arg_dbl.c.obj
 
 # target to build an object file
 argtable3/arg_dbl.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.obj
 .PHONY : argtable3/arg_dbl.c.obj
 
 argtable3/arg_dbl.i: argtable3/arg_dbl.c.i
@@ -236,7 +236,7 @@ argtable3/arg_dbl.i: argtable3/arg_dbl.c.i
 
 # target to preprocess a source file
 argtable3/arg_dbl.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.i
 .PHONY : argtable3/arg_dbl.c.i
 
 argtable3/arg_dbl.s: argtable3/arg_dbl.c.s
@@ -244,7 +244,7 @@ argtable3/arg_dbl.s: argtable3/arg_dbl.c.s
 
 # target to generate assembly for a file
 argtable3/arg_dbl.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.s
 .PHONY : argtable3/arg_dbl.c.s
 
 argtable3/arg_dstr.obj: argtable3/arg_dstr.c.obj
@@ -252,7 +252,7 @@ argtable3/arg_dstr.obj: argtable3/arg_dstr.c.obj
 
 # target to build an object file
 argtable3/arg_dstr.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.obj
 .PHONY : argtable3/arg_dstr.c.obj
 
 argtable3/arg_dstr.i: argtable3/arg_dstr.c.i
@@ -260,7 +260,7 @@ argtable3/arg_dstr.i: argtable3/arg_dstr.c.i
 
 # target to preprocess a source file
 argtable3/arg_dstr.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.i
 .PHONY : argtable3/arg_dstr.c.i
 
 argtable3/arg_dstr.s: argtable3/arg_dstr.c.s
@@ -268,7 +268,7 @@ argtable3/arg_dstr.s: argtable3/arg_dstr.c.s
 
 # target to generate assembly for a file
 argtable3/arg_dstr.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.s
 .PHONY : argtable3/arg_dstr.c.s
 
 argtable3/arg_end.obj: argtable3/arg_end.c.obj
@@ -276,7 +276,7 @@ argtable3/arg_end.obj: argtable3/arg_end.c.obj
 
 # target to build an object file
 argtable3/arg_end.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.obj
 .PHONY : argtable3/arg_end.c.obj
 
 argtable3/arg_end.i: argtable3/arg_end.c.i
@@ -284,7 +284,7 @@ argtable3/arg_end.i: argtable3/arg_end.c.i
 
 # target to preprocess a source file
 argtable3/arg_end.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.i
 .PHONY : argtable3/arg_end.c.i
 
 argtable3/arg_end.s: argtable3/arg_end.c.s
@@ -292,7 +292,7 @@ argtable3/arg_end.s: argtable3/arg_end.c.s
 
 # target to generate assembly for a file
 argtable3/arg_end.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.s
 .PHONY : argtable3/arg_end.c.s
 
 argtable3/arg_file.obj: argtable3/arg_file.c.obj
@@ -300,7 +300,7 @@ argtable3/arg_file.obj: argtable3/arg_file.c.obj
 
 # target to build an object file
 argtable3/arg_file.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.obj
 .PHONY : argtable3/arg_file.c.obj
 
 argtable3/arg_file.i: argtable3/arg_file.c.i
@@ -308,7 +308,7 @@ argtable3/arg_file.i: argtable3/arg_file.c.i
 
 # target to preprocess a source file
 argtable3/arg_file.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.i
 .PHONY : argtable3/arg_file.c.i
 
 argtable3/arg_file.s: argtable3/arg_file.c.s
@@ -316,7 +316,7 @@ argtable3/arg_file.s: argtable3/arg_file.c.s
 
 # target to generate assembly for a file
 argtable3/arg_file.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.s
 .PHONY : argtable3/arg_file.c.s
 
 argtable3/arg_hashtable.obj: argtable3/arg_hashtable.c.obj
@@ -324,7 +324,7 @@ argtable3/arg_hashtable.obj: argtable3/arg_hashtable.c.obj
 
 # target to build an object file
 argtable3/arg_hashtable.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.obj
 .PHONY : argtable3/arg_hashtable.c.obj
 
 argtable3/arg_hashtable.i: argtable3/arg_hashtable.c.i
@@ -332,7 +332,7 @@ argtable3/arg_hashtable.i: argtable3/arg_hashtable.c.i
 
 # target to preprocess a source file
 argtable3/arg_hashtable.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.i
 .PHONY : argtable3/arg_hashtable.c.i
 
 argtable3/arg_hashtable.s: argtable3/arg_hashtable.c.s
@@ -340,7 +340,7 @@ argtable3/arg_hashtable.s: argtable3/arg_hashtable.c.s
 
 # target to generate assembly for a file
 argtable3/arg_hashtable.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.s
 .PHONY : argtable3/arg_hashtable.c.s
 
 argtable3/arg_int.obj: argtable3/arg_int.c.obj
@@ -348,7 +348,7 @@ argtable3/arg_int.obj: argtable3/arg_int.c.obj
 
 # target to build an object file
 argtable3/arg_int.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj
 .PHONY : argtable3/arg_int.c.obj
 
 argtable3/arg_int.i: argtable3/arg_int.c.i
@@ -356,7 +356,7 @@ argtable3/arg_int.i: argtable3/arg_int.c.i
 
 # target to preprocess a source file
 argtable3/arg_int.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.i
 .PHONY : argtable3/arg_int.c.i
 
 argtable3/arg_int.s: argtable3/arg_int.c.s
@@ -364,7 +364,7 @@ argtable3/arg_int.s: argtable3/arg_int.c.s
 
 # target to generate assembly for a file
 argtable3/arg_int.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.s
 .PHONY : argtable3/arg_int.c.s
 
 argtable3/arg_lit.obj: argtable3/arg_lit.c.obj
@@ -372,7 +372,7 @@ argtable3/arg_lit.obj: argtable3/arg_lit.c.obj
 
 # target to build an object file
 argtable3/arg_lit.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj
 .PHONY : argtable3/arg_lit.c.obj
 
 argtable3/arg_lit.i: argtable3/arg_lit.c.i
@@ -380,7 +380,7 @@ argtable3/arg_lit.i: argtable3/arg_lit.c.i
 
 # target to preprocess a source file
 argtable3/arg_lit.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.i
 .PHONY : argtable3/arg_lit.c.i
 
 argtable3/arg_lit.s: argtable3/arg_lit.c.s
@@ -388,7 +388,7 @@ argtable3/arg_lit.s: argtable3/arg_lit.c.s
 
 # target to generate assembly for a file
 argtable3/arg_lit.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.s
 .PHONY : argtable3/arg_lit.c.s
 
 argtable3/arg_rem.obj: argtable3/arg_rem.c.obj
@@ -396,7 +396,7 @@ argtable3/arg_rem.obj: argtable3/arg_rem.c.obj
 
 # target to build an object file
 argtable3/arg_rem.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj
 .PHONY : argtable3/arg_rem.c.obj
 
 argtable3/arg_rem.i: argtable3/arg_rem.c.i
@@ -404,7 +404,7 @@ argtable3/arg_rem.i: argtable3/arg_rem.c.i
 
 # target to preprocess a source file
 argtable3/arg_rem.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.i
 .PHONY : argtable3/arg_rem.c.i
 
 argtable3/arg_rem.s: argtable3/arg_rem.c.s
@@ -412,7 +412,7 @@ argtable3/arg_rem.s: argtable3/arg_rem.c.s
 
 # target to generate assembly for a file
 argtable3/arg_rem.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.s
 .PHONY : argtable3/arg_rem.c.s
 
 argtable3/arg_rex.obj: argtable3/arg_rex.c.obj
@@ -420,7 +420,7 @@ argtable3/arg_rex.obj: argtable3/arg_rex.c.obj
 
 # target to build an object file
 argtable3/arg_rex.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj
 .PHONY : argtable3/arg_rex.c.obj
 
 argtable3/arg_rex.i: argtable3/arg_rex.c.i
@@ -428,7 +428,7 @@ argtable3/arg_rex.i: argtable3/arg_rex.c.i
 
 # target to preprocess a source file
 argtable3/arg_rex.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.i
 .PHONY : argtable3/arg_rex.c.i
 
 argtable3/arg_rex.s: argtable3/arg_rex.c.s
@@ -436,7 +436,7 @@ argtable3/arg_rex.s: argtable3/arg_rex.c.s
 
 # target to generate assembly for a file
 argtable3/arg_rex.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.s
 .PHONY : argtable3/arg_rex.c.s
 
 argtable3/arg_str.obj: argtable3/arg_str.c.obj
@@ -444,7 +444,7 @@ argtable3/arg_str.obj: argtable3/arg_str.c.obj
 
 # target to build an object file
 argtable3/arg_str.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj
 .PHONY : argtable3/arg_str.c.obj
 
 argtable3/arg_str.i: argtable3/arg_str.c.i
@@ -452,7 +452,7 @@ argtable3/arg_str.i: argtable3/arg_str.c.i
 
 # target to preprocess a source file
 argtable3/arg_str.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.i
 .PHONY : argtable3/arg_str.c.i
 
 argtable3/arg_str.s: argtable3/arg_str.c.s
@@ -460,7 +460,7 @@ argtable3/arg_str.s: argtable3/arg_str.c.s
 
 # target to generate assembly for a file
 argtable3/arg_str.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.s
 .PHONY : argtable3/arg_str.c.s
 
 argtable3/arg_utils.obj: argtable3/arg_utils.c.obj
@@ -468,7 +468,7 @@ argtable3/arg_utils.obj: argtable3/arg_utils.c.obj
 
 # target to build an object file
 argtable3/arg_utils.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj
 .PHONY : argtable3/arg_utils.c.obj
 
 argtable3/arg_utils.i: argtable3/arg_utils.c.i
@@ -476,7 +476,7 @@ argtable3/arg_utils.i: argtable3/arg_utils.c.i
 
 # target to preprocess a source file
 argtable3/arg_utils.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.i
 .PHONY : argtable3/arg_utils.c.i
 
 argtable3/arg_utils.s: argtable3/arg_utils.c.s
@@ -484,7 +484,7 @@ argtable3/arg_utils.s: argtable3/arg_utils.c.s
 
 # target to generate assembly for a file
 argtable3/arg_utils.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.s
 .PHONY : argtable3/arg_utils.c.s
 
 argtable3/argtable3.obj: argtable3/argtable3.c.obj
@@ -492,7 +492,7 @@ argtable3/argtable3.obj: argtable3/argtable3.c.obj
 
 # target to build an object file
 argtable3/argtable3.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj
 .PHONY : argtable3/argtable3.c.obj
 
 argtable3/argtable3.i: argtable3/argtable3.c.i
@@ -500,7 +500,7 @@ argtable3/argtable3.i: argtable3/argtable3.c.i
 
 # target to preprocess a source file
 argtable3/argtable3.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.i
 .PHONY : argtable3/argtable3.c.i
 
 argtable3/argtable3.s: argtable3/argtable3.c.s
@@ -508,7 +508,7 @@ argtable3/argtable3.s: argtable3/argtable3.c.s
 
 # target to generate assembly for a file
 argtable3/argtable3.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.s
 .PHONY : argtable3/argtable3.c.s
 
 commands.obj: commands.c.obj
@@ -516,7 +516,7 @@ commands.obj: commands.c.obj
 
 # target to build an object file
 commands.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj
 .PHONY : commands.c.obj
 
 commands.i: commands.c.i
@@ -524,7 +524,7 @@ commands.i: commands.c.i
 
 # target to preprocess a source file
 commands.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.i
 .PHONY : commands.c.i
 
 commands.s: commands.c.s
@@ -532,7 +532,7 @@ commands.s: commands.c.s
 
 # target to generate assembly for a file
 commands.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.s
 .PHONY : commands.c.s
 
 esp_console_common.obj: esp_console_common.c.obj
@@ -540,7 +540,7 @@ esp_console_common.obj: esp_console_common.c.obj
 
 # target to build an object file
 esp_console_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.obj
 .PHONY : esp_console_common.c.obj
 
 esp_console_common.i: esp_console_common.c.i
@@ -548,7 +548,7 @@ esp_console_common.i: esp_console_common.c.i
 
 # target to preprocess a source file
 esp_console_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.i
 .PHONY : esp_console_common.c.i
 
 esp_console_common.s: esp_console_common.c.s
@@ -556,7 +556,7 @@ esp_console_common.s: esp_console_common.c.s
 
 # target to generate assembly for a file
 esp_console_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.s
 .PHONY : esp_console_common.c.s
 
 esp_console_repl_chip.obj: esp_console_repl_chip.c.obj
@@ -564,7 +564,7 @@ esp_console_repl_chip.obj: esp_console_repl_chip.c.obj
 
 # target to build an object file
 esp_console_repl_chip.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.obj
 .PHONY : esp_console_repl_chip.c.obj
 
 esp_console_repl_chip.i: esp_console_repl_chip.c.i
@@ -572,7 +572,7 @@ esp_console_repl_chip.i: esp_console_repl_chip.c.i
 
 # target to preprocess a source file
 esp_console_repl_chip.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.i
 .PHONY : esp_console_repl_chip.c.i
 
 esp_console_repl_chip.s: esp_console_repl_chip.c.s
@@ -580,7 +580,7 @@ esp_console_repl_chip.s: esp_console_repl_chip.c.s
 
 # target to generate assembly for a file
 esp_console_repl_chip.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.s
 .PHONY : esp_console_repl_chip.c.s
 
 esp_console_repl_internal.obj: esp_console_repl_internal.c.obj
@@ -588,7 +588,7 @@ esp_console_repl_internal.obj: esp_console_repl_internal.c.obj
 
 # target to build an object file
 esp_console_repl_internal.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_internal.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_internal.c.obj
 .PHONY : esp_console_repl_internal.c.obj
 
 esp_console_repl_internal.i: esp_console_repl_internal.c.i
@@ -596,7 +596,7 @@ esp_console_repl_internal.i: esp_console_repl_internal.c.i
 
 # target to preprocess a source file
 esp_console_repl_internal.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_internal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_internal.c.i
 .PHONY : esp_console_repl_internal.c.i
 
 esp_console_repl_internal.s: esp_console_repl_internal.c.s
@@ -604,7 +604,7 @@ esp_console_repl_internal.s: esp_console_repl_internal.c.s
 
 # target to generate assembly for a file
 esp_console_repl_internal.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_internal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_internal.c.s
 .PHONY : esp_console_repl_internal.c.s
 
 linenoise/linenoise.obj: linenoise/linenoise.c.obj
@@ -612,7 +612,7 @@ linenoise/linenoise.obj: linenoise/linenoise.c.obj
 
 # target to build an object file
 linenoise/linenoise.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj
 .PHONY : linenoise/linenoise.c.obj
 
 linenoise/linenoise.i: linenoise/linenoise.c.i
@@ -620,7 +620,7 @@ linenoise/linenoise.i: linenoise/linenoise.c.i
 
 # target to preprocess a source file
 linenoise/linenoise.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.i
 .PHONY : linenoise/linenoise.c.i
 
 linenoise/linenoise.s: linenoise/linenoise.c.s
@@ -628,7 +628,7 @@ linenoise/linenoise.s: linenoise/linenoise.c.s
 
 # target to generate assembly for a file
 linenoise/linenoise.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.s
 .PHONY : linenoise/linenoise.c.s
 
 split_argv.obj: split_argv.c.obj
@@ -636,7 +636,7 @@ split_argv.obj: split_argv.c.obj
 
 # target to build an object file
 split_argv.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj
 .PHONY : split_argv.c.obj
 
 split_argv.i: split_argv.c.i
@@ -644,7 +644,7 @@ split_argv.i: split_argv.c.i
 
 # target to preprocess a source file
 split_argv.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.i
 .PHONY : split_argv.c.i
 
 split_argv.s: split_argv.c.s
@@ -652,7 +652,7 @@ split_argv.s: split_argv.c.s
 
 # target to generate assembly for a file
 split_argv.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.s
 .PHONY : split_argv.c.s
 
 # Help Target
@@ -739,6 +739,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

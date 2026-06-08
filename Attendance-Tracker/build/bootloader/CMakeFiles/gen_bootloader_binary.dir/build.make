@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Utility rule file for gen_bootloader_binary.
 
@@ -69,10 +69,10 @@ include CMakeFiles/gen_bootloader_binary.dir/progress.make
 CMakeFiles/gen_bootloader_binary: .bin_timestamp
 
 .bin_timestamp: bootloader.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32c3 elf2image --flash-mode dio --flash-freq 80m --flash-size 4MB --min-rev 3 --min-rev-full 3 --max-rev-full 199 -o /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/bootloader.bin /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/bootloader.elf
-	/usr/bin/cmake -E echo "Generated /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/bootloader.bin"
-	/usr/bin/cmake -E md5sum /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/bootloader.bin > /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/.bin_timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32c3 elf2image --flash-mode dio --flash-freq 80m --flash-size 4MB --min-rev 3 --min-rev-full 3 --max-rev-full 199 -o /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/bootloader.bin /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/bootloader.elf
+	/usr/bin/cmake -E echo "Generated /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/bootloader.bin"
+	/usr/bin/cmake -E md5sum /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/bootloader.bin > /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/.bin_timestamp
 
 gen_bootloader_binary: .bin_timestamp
 gen_bootloader_binary: CMakeFiles/gen_bootloader_binary
@@ -88,6 +88,6 @@ CMakeFiles/gen_bootloader_binary.dir/clean:
 .PHONY : CMakeFiles/gen_bootloader_binary.dir/clean
 
 CMakeFiles/gen_bootloader_binary.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles/gen_bootloader_binary.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles/gen_bootloader_binary.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gen_bootloader_binary.dir/depend
 

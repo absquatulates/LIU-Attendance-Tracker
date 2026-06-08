@@ -13,25 +13,27 @@ esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/curve-specific.inc \
   /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/platform-specific.inc \
   /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/types.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC.c \
   /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC_vli.h \
-  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
+  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
 
 /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC_vli.h:
 
+config/sdkconfig.h:
+
+/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC.h:
+
 /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC.c:
 
 /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/types.h:
-
-/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/curve-specific.inc:
 
 /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/platform-specific.inc:
 
@@ -59,6 +61,4 @@ esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj: /h
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
 
-/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC.h:
-
-config/sdkconfig.h:
+/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/curve-specific.inc:

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_partition//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_partition//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/rule
 .PHONY : esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_partition: esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/ru
 
 # fast build rule for target.
 __idf_esp_partition/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build
 .PHONY : __idf_esp_partition/fast
 
 partition.obj: partition.c.obj
@@ -180,7 +180,7 @@ partition.obj: partition.c.obj
 
 # target to build an object file
 partition.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
 .PHONY : partition.c.obj
 
 partition.i: partition.c.i
@@ -188,7 +188,7 @@ partition.i: partition.c.i
 
 # target to preprocess a source file
 partition.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.i
 .PHONY : partition.c.i
 
 partition.s: partition.c.s
@@ -196,7 +196,7 @@ partition.s: partition.c.s
 
 # target to generate assembly for a file
 partition.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.s
 .PHONY : partition.c.s
 
 partition_target.obj: partition_target.c.obj
@@ -204,7 +204,7 @@ partition_target.obj: partition_target.c.obj
 
 # target to build an object file
 partition_target.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
 .PHONY : partition_target.c.obj
 
 partition_target.i: partition_target.c.i
@@ -212,7 +212,7 @@ partition_target.i: partition_target.c.i
 
 # target to preprocess a source file
 partition_target.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.i
 .PHONY : partition_target.c.i
 
 partition_target.s: partition_target.c.s
@@ -220,7 +220,7 @@ partition_target.s: partition_target.c.s
 
 # target to generate assembly for a file
 partition_target.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/build.make esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.s
 .PHONY : partition_target.c.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

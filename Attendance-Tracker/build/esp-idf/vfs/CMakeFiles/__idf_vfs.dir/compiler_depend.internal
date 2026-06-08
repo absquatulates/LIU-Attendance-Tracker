@@ -59,7 +59,6 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -137,6 +136,7 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_null.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/vfs.c
@@ -195,7 +195,6 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -273,6 +272,7 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/private_include/esp_vfs_private.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_calls.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/vfs_calls.c
@@ -331,7 +331,6 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_calls.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -411,6 +410,7 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_calls.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/private_include/esp_vfs_private.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/private_include/esp_vfs_utils.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/vfs_eventfd.c
@@ -471,7 +471,6 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -547,6 +546,7 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_eventfd.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/vfs_semihost.c
@@ -606,7 +606,6 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/utime.h
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h
  /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -683,4 +682,5 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/include/esp_vfs_ops.h
  /home/william-hellstrand/esp/esp-idf/components/vfs/openocd_semihosting.h
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h
 

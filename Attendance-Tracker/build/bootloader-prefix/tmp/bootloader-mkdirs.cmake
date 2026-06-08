@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/home/william-hellstrand/esp/esp-idf/components/bootloader/subproject"
-  "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader"
-  "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix"
-  "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/tmp"
-  "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src"
-  "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader"
+  "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix"
+  "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/tmp"
+  "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src"
+  "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

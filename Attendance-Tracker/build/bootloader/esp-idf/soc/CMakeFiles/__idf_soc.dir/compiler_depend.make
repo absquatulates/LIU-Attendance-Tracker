@@ -19,14 +19,14 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: /home/william-he
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/dport_access.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
+  config/sdkconfig.h
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/gpio_periph.c.obj: /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/gpio_periph.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -46,7 +46,6 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/gpio_periph.c.obj: /home/william-he
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
@@ -56,7 +55,8 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/gpio_periph.c.obj: /home/william-he
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/io_mux_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/interrupts.c.obj: /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/interrupts.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -70,9 +70,9 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/interrupts.c.obj: /home/william-hel
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupts.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupts.h \
+  config/sdkconfig.h
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/mpi_periph.c.obj: /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/mpi_periph.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -92,7 +92,6 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/mpi_periph.c.obj: /home/william-hel
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
@@ -103,7 +102,8 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/mpi_periph.c.obj: /home/william-hel
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/xts_aes_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/mpi_periph.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/power_supply_periph.c.obj: /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/power_supply_periph.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -117,10 +117,10 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3/power_supply_periph.c.obj: /home/wi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupts.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/power_supply_periph.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/power_supply_periph.h \
+  config/sdkconfig.h
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: /home/william-hellstrand/esp/esp-idf/components/soc/lldesc.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -136,10 +136,10 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: /home/william-hellstrand/esp/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_lldesc.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/lldesc.h:
@@ -208,16 +208,6 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: /home/william-hellstrand/esp/
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc.h:
 
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
-
-config/sdkconfig.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/power_supply_periph.c:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/assert.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h:
-
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/stdlib.h:
@@ -227,5 +217,15 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
+
+config/sdkconfig.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/power_supply_periph.c:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/assert.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/io_mux_reg.h:

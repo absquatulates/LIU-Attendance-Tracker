@@ -29,7 +29,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -56,7 +55,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.obj: /
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/BDL_Access.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/Flash_Access.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/Flash_Access.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/Partition.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -86,7 +86,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -114,7 +113,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj: /h
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/Flash_Access.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/Partition.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/Partition.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/SPI_Flash.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -144,7 +144,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -177,7 +176,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj: /h
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/Flash_Access.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/SPI_Flash.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/SPI_Flash.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -207,7 +207,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -237,7 +236,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj: 
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Cfg.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Perf.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Flash.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -267,7 +267,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -298,7 +297,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj: 
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Perf.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Safe.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Flash.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/WL_Flash.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -328,7 +328,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj: /ho
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -358,7 +357,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj: /ho
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/Flash_Access.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Config.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Flash.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/crc32.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -372,10 +372,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_crc.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/crc32.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/crc32.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/wear_levelling.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -412,7 +412,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/bits/version.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/new \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/pstl/pstl_config.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -447,7 +446,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.ob
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Perf.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Safe.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Flash.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h \
+  config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj: /home/william-hellstrand/esp/esp-idf/components/wear_levelling/wl_blockdev.cpp \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -484,7 +484,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/bits/version.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/new \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/riscv32-esp-elf/include/c++/15.2.0/pstl/pstl_config.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -519,7 +518,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj: 
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Perf.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Ext_Safe.h \
   /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_Flash.h \
-  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h
+  /home/william-hellstrand/esp/esp-idf/components/wear_levelling/private_include/WL_State.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/wear_levelling/include/wear_levelling.h:
@@ -580,8 +580,6 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj: 
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_private/log_attr.h:
 
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/strings.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_locale.h:
@@ -593,6 +591,8 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj: 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdio.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
 
 /home/william-hellstrand/esp/esp-idf/components/wear_levelling/crc32.h:
 

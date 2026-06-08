@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_uart//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_uart//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/rule
 .PHONY : esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_hal_uart: esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/rule
 
 # fast build rule for target.
 __idf_esp_hal_uart/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build
 .PHONY : __idf_esp_hal_uart/fast
 
 esp32c3/uart_periph.obj: esp32c3/uart_periph.c.obj
@@ -180,7 +180,7 @@ esp32c3/uart_periph.obj: esp32c3/uart_periph.c.obj
 
 # target to build an object file
 esp32c3/uart_periph.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32c3/uart_periph.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32c3/uart_periph.c.obj
 .PHONY : esp32c3/uart_periph.c.obj
 
 esp32c3/uart_periph.i: esp32c3/uart_periph.c.i
@@ -188,7 +188,7 @@ esp32c3/uart_periph.i: esp32c3/uart_periph.c.i
 
 # target to preprocess a source file
 esp32c3/uart_periph.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32c3/uart_periph.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32c3/uart_periph.c.i
 .PHONY : esp32c3/uart_periph.c.i
 
 esp32c3/uart_periph.s: esp32c3/uart_periph.c.s
@@ -196,7 +196,7 @@ esp32c3/uart_periph.s: esp32c3/uart_periph.c.s
 
 # target to generate assembly for a file
 esp32c3/uart_periph.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32c3/uart_periph.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32c3/uart_periph.c.s
 .PHONY : esp32c3/uart_periph.c.s
 
 uart_hal.obj: uart_hal.c.obj
@@ -204,7 +204,7 @@ uart_hal.obj: uart_hal.c.obj
 
 # target to build an object file
 uart_hal.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal.c.obj
 .PHONY : uart_hal.c.obj
 
 uart_hal.i: uart_hal.c.i
@@ -212,7 +212,7 @@ uart_hal.i: uart_hal.c.i
 
 # target to preprocess a source file
 uart_hal.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal.c.i
 .PHONY : uart_hal.c.i
 
 uart_hal.s: uart_hal.c.s
@@ -220,7 +220,7 @@ uart_hal.s: uart_hal.c.s
 
 # target to generate assembly for a file
 uart_hal.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal.c.s
 .PHONY : uart_hal.c.s
 
 uart_hal_iram.obj: uart_hal_iram.c.obj
@@ -228,7 +228,7 @@ uart_hal_iram.obj: uart_hal_iram.c.obj
 
 # target to build an object file
 uart_hal_iram.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal_iram.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal_iram.c.obj
 .PHONY : uart_hal_iram.c.obj
 
 uart_hal_iram.i: uart_hal_iram.c.i
@@ -236,7 +236,7 @@ uart_hal_iram.i: uart_hal_iram.c.i
 
 # target to preprocess a source file
 uart_hal_iram.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal_iram.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal_iram.c.i
 .PHONY : uart_hal_iram.c.i
 
 uart_hal_iram.s: uart_hal_iram.c.s
@@ -244,7 +244,7 @@ uart_hal_iram.s: uart_hal_iram.c.s
 
 # target to generate assembly for a file
 uart_hal_iram.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal_iram.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal_iram.c.s
 .PHONY : uart_hal_iram.c.s
 
 uhci_hal.obj: uhci_hal.c.obj
@@ -252,7 +252,7 @@ uhci_hal.obj: uhci_hal.c.obj
 
 # target to build an object file
 uhci_hal.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.obj
 .PHONY : uhci_hal.c.obj
 
 uhci_hal.i: uhci_hal.c.i
@@ -260,7 +260,7 @@ uhci_hal.i: uhci_hal.c.i
 
 # target to preprocess a source file
 uhci_hal.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.i
 .PHONY : uhci_hal.c.i
 
 uhci_hal.s: uhci_hal.c.s
@@ -268,7 +268,7 @@ uhci_hal.s: uhci_hal.c.s
 
 # target to generate assembly for a file
 uhci_hal.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/build.make esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.s
 .PHONY : uhci_hal.c.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

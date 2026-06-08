@@ -36,7 +36,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj: /home/willia
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -132,7 +131,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj: /home/willia
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/esp_flash_api.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -167,7 +167,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj: /home/will
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -253,7 +252,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj: /home/will
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/esp_flash_internal.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/memspi_host_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/esp_flash_spi_init.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -288,7 +288,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj: /home
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
@@ -394,7 +393,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj: /home
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/memspi_host_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_brownout_hook.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/flash_brownout_hook.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -415,13 +415,13 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_brownout_hook.c.obj: /hom
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash.h \
-  /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/flash_mmap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -458,7 +458,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj: /home/william
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -540,7 +539,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj: /home/william
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/flash_ops.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -577,7 +577,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: /home/william-
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
@@ -693,7 +692,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: /home/william-
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/memspi_host_driver.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -728,7 +728,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj: /home
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -777,7 +776,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj: /home
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/memspi_host_driver.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/memspi_host_driver.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_blockdev.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_blockdev.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -807,7 +807,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_blockdev.c.obj: /home
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -825,7 +824,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_blockdev.c.obj: /home
   /home/william-hellstrand/esp/esp-idf/components/heap/include/multi_heap.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_boya.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_boya.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -851,7 +851,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_boya.c.obj: /hom
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -872,7 +871,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_boya.c.obj: /hom
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_gd.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_drivers.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -902,7 +902,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -942,7 +941,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_mxic.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_th.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_winbond.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_gd.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -977,7 +977,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1012,7 +1011,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_gd.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_generic.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1047,7 +1047,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1106,7 +1105,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_issi.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1132,7 +1132,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj: /hom
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1153,7 +1152,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj: /hom
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_issi.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1188,7 +1188,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj: /hom
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1237,7 +1236,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj: /hom
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1272,7 +1272,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1321,7 +1320,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj: 
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_th.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1347,7 +1347,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj: /home/
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1367,7 +1366,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj: /home/
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_chip_winbond.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1402,7 +1402,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1436,7 +1435,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_driver.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_os_func_app.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1473,7 +1473,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -1570,7 +1569,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj: /h
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_freq_limit_cbs.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_os_func_noos.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1602,7 +1602,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj: /
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -1642,7 +1641,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj: /
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/reg_base.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
+  config/sdkconfig.h
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_wrap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1677,7 +1677,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/wil
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
@@ -1735,7 +1734,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/wil
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/spi_flash/spi_flash_wrap.c:
@@ -1902,6 +1902,10 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/wil
 
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
+config/sdkconfig.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h:
 
 /home/william-hellstrand/esp/esp-idf/components/heap/include/multi_heap.h:
@@ -1961,10 +1965,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/wil
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_stdint.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/extmem_reg.h:
 
@@ -2138,12 +2138,6 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_args.h:
 
-/home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_struct.h:
-
-/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_attr.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/assert.h:
 
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_buffer.h:
@@ -2205,3 +2199,9 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_mem_struct.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_reg.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_struct.h:
+
+/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_attr.h:
+
+/home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash.h:

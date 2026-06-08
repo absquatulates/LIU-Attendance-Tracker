@@ -1,3 +1,0 @@
-Command: /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python -m esptool -p /dev/ttyACM0 -b 460800 --before default-reset --after hard-reset --chip esp32c3 --no-stub erase-flash
-esptool v5.3.dev2
-Serial port /dev/ttyACM0:

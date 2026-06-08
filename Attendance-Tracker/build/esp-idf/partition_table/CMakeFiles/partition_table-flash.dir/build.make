@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for partition_table-flash.
 
@@ -67,8 +67,8 @@ include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/compiler_de
 include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
 
 partition_table-flash: esp-idf/partition_table/CMakeFiles/partition_table-flash
 partition_table-flash: esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build.make
@@ -79,10 +79,10 @@ esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build: partition_ta
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/partition_table /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/partition_table /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend
 

@@ -2,6 +2,7 @@
 #include <string.h>
 #include <errno.h>
 #include <stdlib.h>
+#include <time.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/spi_master.h"
@@ -46,14 +47,12 @@ static const char *TAG = "RFID";
 
 static spi_device_handle_t spi;
 
-// ── Settings ─────────────────────────────────────────────────────────────────
+//  Settings
 
 #define MAX_UID_LEN      10
 #define CARD_COOLDOWN_MS 4000  // ignore re-scans of the same card within this window
 #define UID_FILTER_LEN   7     // only accept UIDs of this byte length (0 = accept all)
 
-static const uint8_t MASTER_UID[]   = { 0x04, 0x8E, 0x11, 0x32, 0xB7, 0x73, 0x84 };
-static const uint8_t MASTER_UID_LEN = 7;
 
 /**
  * Parse a hex UID string like "04 8E 11 32 B7 73 84" into a byte array.
@@ -71,33 +70,25 @@ static uint8_t parse_uid(const char *str, uint8_t *out, uint8_t max_len)
     return count;
 }
 
-// ── Card registry ────────────────────────────────────────────────────────────
+// Card registry
 
-#define MAX_CARDS 16
+#define MAX_CARDS 512 //16
 
 typedef struct {
     uint8_t  uid[MAX_UID_LEN];
     uint8_t  uid_len;
-    int      id;            // assigned integer ID (1-based)
-    int      count;         // how many times this card has been counted
+    int      id;            
+    int      count;         
     int64_t  last_seen_ms;  // timestamp of last accepted scan (ms)
 } card_entry_t;
 
 static card_entry_t card_registry[MAX_CARDS];
 static int          card_registry_size = 0;
 
-/**
- * Look up a card by UID.
- *   - New card:  registers it, assigns the next int ID, count = 1, returns entry.
- *   - Known card within CARD_COOLDOWN_MS: suppressed — returns NULL.
- *   - Known card after cooldown: increments count, updates timestamp, returns entry.
- *   - Registry full + unknown card: logs warning, returns NULL.
- */
 static card_entry_t *registry_get_or_add(const uint8_t *uid, uint8_t uid_len)
 {
     int64_t now_ms = esp_timer_get_time() / 1000;
 
-    // Search for existing entry
     for (int i = 0; i < card_registry_size; i++) {
         if (card_registry[i].uid_len == uid_len &&
             memcmp(card_registry[i].uid, uid, uid_len) == 0) {
@@ -107,7 +98,7 @@ static card_entry_t *registry_get_or_add(const uint8_t *uid, uint8_t uid_len)
                 ESP_LOGD(TAG, "Card ID=%d suppressed (cooldown, %lld ms remaining)",
                          card_registry[i].id,
                          (long long)(CARD_COOLDOWN_MS - elapsed));
-                return NULL; // within cooldown window — ignore
+                return NULL; 
             }
 
             card_registry[i].count++;
@@ -115,24 +106,19 @@ static card_entry_t *registry_get_or_add(const uint8_t *uid, uint8_t uid_len)
             return &card_registry[i];
         }
     }
-
-    // New card — check space
     if (card_registry_size >= MAX_CARDS) {
         ESP_LOGW(TAG, "Card registry full! Cannot register new card.");
         return NULL;
     }
 
-    // Register it
     card_entry_t *entry = &card_registry[card_registry_size++];
     memcpy(entry->uid, uid, uid_len);
     entry->uid_len    = uid_len;
-    entry->id         = card_registry_size; // 1-based sequential ID
+    entry->id         = card_registry_size;
     entry->count      = 1;
     entry->last_seen_ms = now_ms;
     return entry;
 }
-
-// ── SPI read/write helpers ──────────────────────────────────────────────────
 
 static uint8_t mfrc522_read_reg(uint8_t reg)
 {
@@ -167,8 +153,7 @@ static void mfrc522_clear_bits(uint8_t reg, uint8_t mask)
     mfrc522_write_reg(reg, mfrc522_read_reg(reg) & (~mask));
 }
 
-// ── Init ────────────────────────────────────────────────────────────────────
-
+// Init 
 static void mfrc522_reset(void)
 {
     gpio_set_level(PIN_RST, 0);
@@ -189,13 +174,9 @@ static void mfrc522_init(void)
 
     mfrc522_set_bits(MFRC522_REG_TX_CONTROL, 0x03);
 
-    uint8_t ver = mfrc522_read_reg(MFRC522_REG_VERSION);
-    ESP_LOGI(TAG, "MFRC522 version: 0x%02X (%s)",
-             ver,
-             ver == 0x91 ? "v1.0" : ver == 0x92 ? "v2.0" : "unknown");
 }
 
-// ── Transceive helper ───────────────────────────────────────────────────────
+// Transceive helper
 
 typedef enum {
     STATUS_OK,
@@ -243,7 +224,6 @@ static status_t mfrc522_transceive(
     return STATUS_OK;
 }
 
-// ── Card detection ──────────────────────────────────────────────────────────
 
 static bool mfrc522_detect_card(void)
 {
@@ -313,7 +293,6 @@ static status_t mfrc522_get_uid(uint8_t *uid, uint8_t *uid_len)
         }
 
         uint8_t sak = sak_buf[0];
-        ESP_LOGD(TAG, "Level %d SAK: 0x%02X", level, sak);
 
         if (!(sak & 0x04)) break;
     }
@@ -323,43 +302,18 @@ static status_t mfrc522_get_uid(uint8_t *uid, uint8_t *uid_len)
     return STATUS_OK;
 }
 
-// ── SPIFFS / attendance file ─────────────────────────────────────────────────
 
 #define ATTENDANCE_FILE "/spiffs/attendance.txt"
-#define MASTER_FILE     "/spiffs/master.txt"
 
 static bool spiffs_mounted = false;
 
-static void attendance_load(void); // forward declaration
-
-static void master_write(void)
-{
-    FILE *f = fopen(MASTER_FILE, "w");
-    if (f == NULL) {
-        ESP_LOGE(TAG, "Failed to open %s for writing (errno %d: %s)",
-                 MASTER_FILE, errno, strerror(errno));
-        return;
-    }
-
-    char uid_str[MAX_UID_LEN * 3 + 1] = {0};
-    for (uint8_t i = 0; i < MASTER_UID_LEN; i++) {
-        char byte_str[4];
-        snprintf(byte_str, sizeof(byte_str), "%02X ", MASTER_UID[i]);
-        strcat(uid_str, byte_str);
-    }
-    size_t len = strlen(uid_str);
-    if (len > 0) uid_str[len - 1] = '\0';
-
-    fprintf(f, "MASTER UID:[%s]\n", uid_str);
-    fclose(f);
-    ESP_LOGI(TAG, "Master UID written to %s", MASTER_FILE);
-}
+static void attendance_load(void); 
 
 static void spiffs_init(void)
 {
     esp_vfs_spiffs_conf_t conf = {
         .base_path              = "/spiffs",
-        .partition_label        = NULL,   // use default "spiffs" partition
+        .partition_label        = NULL,   
         .max_files              = 4,
         .format_if_mount_failed = true,
     };
@@ -387,34 +341,15 @@ static void spiffs_init(void)
         return;
     }
 
-    ESP_LOGI(TAG, "SPIFFS mounted OK — %zu KB total, %zu KB used.", total / 1024, used / 1024);
-
-    // Quick write-test so we catch permission/corruption issues early
-    FILE *f = fopen(ATTENDANCE_FILE, "a");
-    if (f == NULL) {
-        ESP_LOGE(TAG, "SPIFFS: mounted but cannot open %s (errno %d: %s). "
-                      "Try erasing the partition with: idf.py erase-flash",
-                 ATTENDANCE_FILE, errno, strerror(errno));
-        return;
-    }
-    fclose(f);
-
     spiffs_mounted = true;
-    ESP_LOGI(TAG, "Attendance file ready: %s", ATTENDANCE_FILE);
-
-    master_write();
     attendance_load();
 }
 
-/**
- * On boot, read attendance.txt and restore the card registry from it.
- * Expected line format: "ID:1    COUNT:5     UID:[04 8E 11 32 B7 73 84]"
- */
+
 static void attendance_load(void)
 {
     FILE *f = fopen(ATTENDANCE_FILE, "r");
     if (f == NULL) {
-        ESP_LOGI(TAG, "No existing attendance file — starting fresh.");
         return;
     }
 
@@ -424,12 +359,10 @@ static void attendance_load(void)
         int id, count;
         char uid_str[64] = {0};
 
-        // Parse "ID:1    COUNT:5     UID:[04 8E 11 32 B7 73 84]"
         if (sscanf(line, "ID:%d COUNT:%d UID:[%63[^]]]", &id, &count, uid_str) != 3)
             continue;
 
         if (card_registry_size >= MAX_CARDS) {
-            ESP_LOGW(TAG, "Registry full during restore — stopping at %d cards.", restored);
             break;
         }
 
@@ -437,23 +370,18 @@ static void attendance_load(void)
         entry->uid_len = parse_uid(uid_str, entry->uid, MAX_UID_LEN);
         entry->id      = id;
         entry->count   = count;
-        entry->last_seen_ms = 0; // cooldown not carried over — card can be scanned immediately
+        entry->last_seen_ms = 0; // cooldown not carried over card can be scanned immediately
         restored++;
-        ESP_LOGI(TAG, "Restored card ID=%d COUNT=%d", id, count);
     }
 
     fclose(f);
-    ESP_LOGI(TAG, "Attendance restored: %d card(s) loaded from %s", restored, ATTENDANCE_FILE);
 }
 
-/**
- * Rewrite attendance.txt with one line per registered card (latest count).
- * Then read it back and print it.
- */
+
 static void attendance_log(void)
 {
     if (!spiffs_mounted) {
-        ESP_LOGW(TAG, "SPIFFS not mounted — skipping attendance write.");
+        ESP_LOGW(TAG, "SPIFFS not mounted");
         return;
     }
 
@@ -468,7 +396,6 @@ static void attendance_log(void)
     for (int i = 0; i < card_registry_size; i++) {
         const card_entry_t *card = &card_registry[i];
 
-        // Build UID string
         char uid_str[MAX_UID_LEN * 3 + 1] = {0};
         for (uint8_t b = 0; b < card->uid_len; b++) {
             char byte_str[4];
@@ -484,9 +411,9 @@ static void attendance_log(void)
     }
 
     fclose(f);
-    //ESP_LOGI(TAG, "Attendance written to %s", ATTENDANCE_FILE);
 
-    // Read back and print
+    //To see whats in the ATTENDANCE_FILE 
+    /*
     f = fopen(ATTENDANCE_FILE, "r");
     if (f == NULL) {
         ESP_LOGE(TAG, "Failed to open %s for reading (errno %d: %s)",
@@ -502,16 +429,68 @@ static void attendance_log(void)
     printf("----------------------\n\n");
 
     fclose(f);
+    */
 }
 
-// ── Main ────────────────────────────────────────────────────────────────────
+
+// Preloaded cards
+
+typedef struct {
+    uint8_t uid[MAX_UID_LEN];
+    uint8_t uid_len;
+} preloaded_card_t;
+
+static const preloaded_card_t PRELOADED_CARDS[] = {
+    { { 0x04, 0x8E, 0x11, 0x11, 0xB7, 0x73, 0x12 }, 7 },
+    { { 0xAB, 0xCD, 0xEF, 0x01, 0x23, 0x45, 0x67 }, 7 },
+    { { 0x11, 0x22, 0x33, 0x44, 0x11, 0x11, 0x11 }, 7 },
+    { { 0xDE, 0xAD, 0xBE, 0xEF, 0xCA, 0xFE, 0x00 }, 7 },
+    { { 0xDE, 0xAD, 0xBE, 0xEF, 0xCA, 0xFE, 0x05 }, 7 },
+    { { 0xDE, 0xAD, 0xBE, 0xEF, 0xCA, 0xFE, 0x04 }, 7 },
+    { { 0xDE, 0xAD, 0xBE, 0xEF, 0xCA, 0xFE, 0x03 }, 7 },
+    { { 0xDE, 0xAD, 0xBE, 0xEF, 0xCA, 0xFE, 0x02 }, 7 },
+    { { 0xDE, 0xAD, 0xBE, 0xEF, 0xCA, 0xFE, 0x01 }, 7 },
+};
+#define PRELOADED_CARDS_COUNT (sizeof(PRELOADED_CARDS) / sizeof(PRELOADED_CARDS[0]))
+
+static void registry_preload(void)
+{
+    for (int i = 0; i < PRELOADED_CARDS_COUNT; i++) {
+        if (card_registry_size >= MAX_CARDS) {
+            ESP_LOGW(TAG, "Registry full during preload");
+            break;
+        }
+
+        const preloaded_card_t *p = &PRELOADED_CARDS[i];
+        bool already_exists = false;
+        for (int j = 0; j < card_registry_size; j++) {
+            if (card_registry[j].uid_len == p->uid_len &&
+                memcmp(card_registry[j].uid, p->uid, p->uid_len) == 0) {
+                already_exists = true;
+                break;
+            }
+        }
+        if (already_exists) {
+            continue;
+        }
+
+        card_entry_t *entry = &card_registry[card_registry_size++];
+        memcpy(entry->uid, p->uid, p->uid_len);
+        entry->uid_len      = p->uid_len;
+        entry->id           = card_registry_size; 
+        entry->count        = 0;                  
+        entry->last_seen_ms = 0;
+    }
+}
+
+
+// Main
 
 void app_main(void)
 {
-    // SPIFFS (must come before any file I/O)
     spiffs_init();
+    registry_preload();
 
-    // RST pin
     gpio_config_t rst_conf = {
         .pin_bit_mask = (1ULL << PIN_RST),
         .mode         = GPIO_MODE_OUTPUT,
@@ -519,7 +498,6 @@ void app_main(void)
     gpio_config(&rst_conf);
     gpio_set_level(PIN_RST, 1);
 
-    // SPI bus
     spi_bus_config_t bus_cfg = {
         .mosi_io_num   = PIN_MOSI,
         .miso_io_num   = PIN_MISO,
@@ -529,7 +507,6 @@ void app_main(void)
     };
     ESP_ERROR_CHECK(spi_bus_initialize(SPI2_HOST, &bus_cfg, SPI_DMA_CH_AUTO));
 
-    // SPI device
     spi_device_interface_config_t dev_cfg = {
         .clock_speed_hz = 5 * 1000 * 1000,
         .mode           = 0,
@@ -539,23 +516,26 @@ void app_main(void)
     ESP_ERROR_CHECK(spi_bus_add_device(SPI2_HOST, &dev_cfg, &spi));
 
     mfrc522_init();
-    ESP_LOGI(TAG, "Waiting for RFID card...");
 
     uint8_t last_uid[MAX_UID_LEN] = {0};
     uint8_t last_uid_len = 0;
+    struct timespec start_t, end;
+    int cnt = 0;
 
     while (1) {
         if (mfrc522_detect_card()) {
             uint8_t uid[MAX_UID_LEN];
             uint8_t uid_len = 0;
+            
+            uint32_t start = esp_cpu_get_cycle_count();
+            clock_gettime(CLOCK_MONOTONIC, &start_t);
 
             if (mfrc522_get_uid(uid, &uid_len) == STATUS_OK) {
-                // Debounce: only process if UID changed
                 if (uid_len != last_uid_len || memcmp(uid, last_uid, uid_len) != 0) {
+                    
                     memcpy(last_uid, uid, uid_len);
                     last_uid_len = uid_len;
 
-                    // Filter by UID length (0 = accept all)
                     if (UID_FILTER_LEN != 0 && uid_len != UID_FILTER_LEN) {
                         ESP_LOGD(TAG, "Ignoring %d-byte UID (filter=%d)", uid_len, UID_FILTER_LEN);
                         continue;
@@ -565,15 +545,23 @@ void app_main(void)
                     if (card != NULL) { 
 
                         attendance_log();
+                        cnt++;
+                        uint32_t elapsed = esp_cpu_get_cycle_count() - start;
+                        printf("Elapsed time: %lu\n", elapsed);
+
+                        clock_gettime(CLOCK_MONOTONIC, &end);
+                        double elapsed_t = (end.tv_sec - start_t.tv_sec) +
+                                        (end.tv_nsec - start_t.tv_nsec) / 1e9;
+                        printf("Elapsed: %.6f seconds\n", elapsed_t);
+
+                        printf("cnt: %u\n", cnt);
                     }
                 }
             }
         } else {
-            // Card left — reset debounce
             memset(last_uid, 0, sizeof(last_uid));
             last_uid_len = 0;
         }
-
         vTaskDelay(pdMS_TO_TICKS(200));
     }
 }

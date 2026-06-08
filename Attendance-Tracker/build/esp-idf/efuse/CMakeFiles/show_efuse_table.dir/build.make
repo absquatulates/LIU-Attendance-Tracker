@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for show_efuse_table.
 
@@ -67,8 +67,8 @@ include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/show_efuse_table:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"show_efuse_table\" is deprecated. Have you wanted to run \"show-efuse-table\" instead?"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse && /usr/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"show_efuse_table\" is deprecated. Have you wanted to run \"show-efuse-table\" instead?"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse && /usr/bin/cmake -E echo 
 
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build.make
@@ -79,10 +79,10 @@ esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build: show_efuse_table
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/show_efuse_table.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/show_efuse_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse/CMakeFiles/show_efuse_table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse/CMakeFiles/show_efuse_table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend
 

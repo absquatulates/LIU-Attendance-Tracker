@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_driver_dma//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_driver_dma//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/rule
 .PHONY : esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_driver_dma: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir
 
 # fast build rule for target.
 __idf_esp_driver_dma/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build
 .PHONY : __idf_esp_driver_dma/fast
 
 src/async_memcpy_gdma.obj: src/async_memcpy_gdma.c.obj
@@ -180,7 +180,7 @@ src/async_memcpy_gdma.obj: src/async_memcpy_gdma.c.obj
 
 # target to build an object file
 src/async_memcpy_gdma.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/async_memcpy_gdma.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/async_memcpy_gdma.c.obj
 .PHONY : src/async_memcpy_gdma.c.obj
 
 src/async_memcpy_gdma.i: src/async_memcpy_gdma.c.i
@@ -188,7 +188,7 @@ src/async_memcpy_gdma.i: src/async_memcpy_gdma.c.i
 
 # target to preprocess a source file
 src/async_memcpy_gdma.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/async_memcpy_gdma.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/async_memcpy_gdma.c.i
 .PHONY : src/async_memcpy_gdma.c.i
 
 src/async_memcpy_gdma.s: src/async_memcpy_gdma.c.s
@@ -196,7 +196,7 @@ src/async_memcpy_gdma.s: src/async_memcpy_gdma.c.s
 
 # target to generate assembly for a file
 src/async_memcpy_gdma.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/async_memcpy_gdma.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/async_memcpy_gdma.c.s
 .PHONY : src/async_memcpy_gdma.c.s
 
 src/esp_async_memcpy.obj: src/esp_async_memcpy.c.obj
@@ -204,7 +204,7 @@ src/esp_async_memcpy.obj: src/esp_async_memcpy.c.obj
 
 # target to build an object file
 src/esp_async_memcpy.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_async_memcpy.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_async_memcpy.c.obj
 .PHONY : src/esp_async_memcpy.c.obj
 
 src/esp_async_memcpy.i: src/esp_async_memcpy.c.i
@@ -212,7 +212,7 @@ src/esp_async_memcpy.i: src/esp_async_memcpy.c.i
 
 # target to preprocess a source file
 src/esp_async_memcpy.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_async_memcpy.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_async_memcpy.c.i
 .PHONY : src/esp_async_memcpy.c.i
 
 src/esp_async_memcpy.s: src/esp_async_memcpy.c.s
@@ -220,7 +220,7 @@ src/esp_async_memcpy.s: src/esp_async_memcpy.c.s
 
 # target to generate assembly for a file
 src/esp_async_memcpy.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_async_memcpy.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_async_memcpy.c.s
 .PHONY : src/esp_async_memcpy.c.s
 
 src/esp_dma_utils.obj: src/esp_dma_utils.c.obj
@@ -228,7 +228,7 @@ src/esp_dma_utils.obj: src/esp_dma_utils.c.obj
 
 # target to build an object file
 src/esp_dma_utils.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj
 .PHONY : src/esp_dma_utils.c.obj
 
 src/esp_dma_utils.i: src/esp_dma_utils.c.i
@@ -236,7 +236,7 @@ src/esp_dma_utils.i: src/esp_dma_utils.c.i
 
 # target to preprocess a source file
 src/esp_dma_utils.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.i
 .PHONY : src/esp_dma_utils.c.i
 
 src/esp_dma_utils.s: src/esp_dma_utils.c.s
@@ -244,7 +244,7 @@ src/esp_dma_utils.s: src/esp_dma_utils.c.s
 
 # target to generate assembly for a file
 src/esp_dma_utils.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.s
 .PHONY : src/esp_dma_utils.c.s
 
 src/gdma.obj: src/gdma.c.obj
@@ -252,7 +252,7 @@ src/gdma.obj: src/gdma.c.obj
 
 # target to build an object file
 src/gdma.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma.c.obj
 .PHONY : src/gdma.c.obj
 
 src/gdma.i: src/gdma.c.i
@@ -260,7 +260,7 @@ src/gdma.i: src/gdma.c.i
 
 # target to preprocess a source file
 src/gdma.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma.c.i
 .PHONY : src/gdma.c.i
 
 src/gdma.s: src/gdma.c.s
@@ -268,7 +268,7 @@ src/gdma.s: src/gdma.c.s
 
 # target to generate assembly for a file
 src/gdma.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma.c.s
 .PHONY : src/gdma.c.s
 
 src/gdma_link.obj: src/gdma_link.c.obj
@@ -276,7 +276,7 @@ src/gdma_link.obj: src/gdma_link.c.obj
 
 # target to build an object file
 src/gdma_link.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj
 .PHONY : src/gdma_link.c.obj
 
 src/gdma_link.i: src/gdma_link.c.i
@@ -284,7 +284,7 @@ src/gdma_link.i: src/gdma_link.c.i
 
 # target to preprocess a source file
 src/gdma_link.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.i
 .PHONY : src/gdma_link.c.i
 
 src/gdma_link.s: src/gdma_link.c.s
@@ -292,7 +292,7 @@ src/gdma_link.s: src/gdma_link.c.s
 
 # target to generate assembly for a file
 src/gdma_link.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.s
 .PHONY : src/gdma_link.c.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

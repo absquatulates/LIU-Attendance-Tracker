@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_security//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_security//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule
 .PHONY : esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_security: esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule
 
 # fast build rule for target.
 __idf_esp_security/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build
 .PHONY : __idf_esp_security/fast
 
 src/esp_crypto_lock.obj: src/esp_crypto_lock.c.obj
@@ -180,7 +180,7 @@ src/esp_crypto_lock.obj: src/esp_crypto_lock.c.obj
 
 # target to build an object file
 src/esp_crypto_lock.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.obj
 .PHONY : src/esp_crypto_lock.c.obj
 
 src/esp_crypto_lock.i: src/esp_crypto_lock.c.i
@@ -188,7 +188,7 @@ src/esp_crypto_lock.i: src/esp_crypto_lock.c.i
 
 # target to preprocess a source file
 src/esp_crypto_lock.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.i
 .PHONY : src/esp_crypto_lock.c.i
 
 src/esp_crypto_lock.s: src/esp_crypto_lock.c.s
@@ -196,7 +196,7 @@ src/esp_crypto_lock.s: src/esp_crypto_lock.c.s
 
 # target to generate assembly for a file
 src/esp_crypto_lock.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.s
 .PHONY : src/esp_crypto_lock.c.s
 
 src/esp_crypto_periph_clk.obj: src/esp_crypto_periph_clk.c.obj
@@ -204,7 +204,7 @@ src/esp_crypto_periph_clk.obj: src/esp_crypto_periph_clk.c.obj
 
 # target to build an object file
 src/esp_crypto_periph_clk.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.obj
 .PHONY : src/esp_crypto_periph_clk.c.obj
 
 src/esp_crypto_periph_clk.i: src/esp_crypto_periph_clk.c.i
@@ -212,7 +212,7 @@ src/esp_crypto_periph_clk.i: src/esp_crypto_periph_clk.c.i
 
 # target to preprocess a source file
 src/esp_crypto_periph_clk.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.i
 .PHONY : src/esp_crypto_periph_clk.c.i
 
 src/esp_crypto_periph_clk.s: src/esp_crypto_periph_clk.c.s
@@ -220,7 +220,7 @@ src/esp_crypto_periph_clk.s: src/esp_crypto_periph_clk.c.s
 
 # target to generate assembly for a file
 src/esp_crypto_periph_clk.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.s
 .PHONY : src/esp_crypto_periph_clk.c.s
 
 src/esp_ds.obj: src/esp_ds.c.obj
@@ -228,7 +228,7 @@ src/esp_ds.obj: src/esp_ds.c.obj
 
 # target to build an object file
 src/esp_ds.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_ds.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_ds.c.obj
 .PHONY : src/esp_ds.c.obj
 
 src/esp_ds.i: src/esp_ds.c.i
@@ -236,7 +236,7 @@ src/esp_ds.i: src/esp_ds.c.i
 
 # target to preprocess a source file
 src/esp_ds.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_ds.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_ds.c.i
 .PHONY : src/esp_ds.c.i
 
 src/esp_ds.s: src/esp_ds.c.s
@@ -244,7 +244,7 @@ src/esp_ds.s: src/esp_ds.c.s
 
 # target to generate assembly for a file
 src/esp_ds.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_ds.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_ds.c.s
 .PHONY : src/esp_ds.c.s
 
 src/esp_hmac.obj: src/esp_hmac.c.obj
@@ -252,7 +252,7 @@ src/esp_hmac.obj: src/esp_hmac.c.obj
 
 # target to build an object file
 src/esp_hmac.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_hmac.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_hmac.c.obj
 .PHONY : src/esp_hmac.c.obj
 
 src/esp_hmac.i: src/esp_hmac.c.i
@@ -260,7 +260,7 @@ src/esp_hmac.i: src/esp_hmac.c.i
 
 # target to preprocess a source file
 src/esp_hmac.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_hmac.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_hmac.c.i
 .PHONY : src/esp_hmac.c.i
 
 src/esp_hmac.s: src/esp_hmac.c.s
@@ -268,7 +268,7 @@ src/esp_hmac.s: src/esp_hmac.c.s
 
 # target to generate assembly for a file
 src/esp_hmac.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_hmac.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_hmac.c.s
 .PHONY : src/esp_hmac.c.s
 
 src/init.obj: src/init.c.obj
@@ -276,7 +276,7 @@ src/init.obj: src/init.c.obj
 
 # target to build an object file
 src/init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/init.c.obj
 .PHONY : src/init.c.obj
 
 src/init.i: src/init.c.i
@@ -284,7 +284,7 @@ src/init.i: src/init.c.i
 
 # target to preprocess a source file
 src/init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/init.c.i
 .PHONY : src/init.c.i
 
 src/init.s: src/init.c.s
@@ -292,7 +292,7 @@ src/init.s: src/init.c.s
 
 # target to generate assembly for a file
 src/init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/build.make esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/init.c.s
 .PHONY : src/init.c.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

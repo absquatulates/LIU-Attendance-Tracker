@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for tfpsacrypto-apidoc.
 
@@ -78,10 +78,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/build: t
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/build
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto && $(CMAKE_COMMAND) -P CMakeFiles/tfpsacrypto-apidoc.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto && $(CMAKE_COMMAND) -P CMakeFiles/tfpsacrypto-apidoc.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/clean
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/depend
 

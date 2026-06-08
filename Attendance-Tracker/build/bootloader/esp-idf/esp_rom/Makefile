@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_rom//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_rom//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
 .PHONY : esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_esp_rom: esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
 
 # fast build rule for target.
 __idf_esp_rom/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build
 .PHONY : __idf_esp_rom/fast
 
 patches/esp_rom_crc.obj: patches/esp_rom_crc.c.obj
@@ -135,7 +135,7 @@ patches/esp_rom_crc.obj: patches/esp_rom_crc.c.obj
 
 # target to build an object file
 patches/esp_rom_crc.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
 .PHONY : patches/esp_rom_crc.c.obj
 
 patches/esp_rom_crc.i: patches/esp_rom_crc.c.i
@@ -143,7 +143,7 @@ patches/esp_rom_crc.i: patches/esp_rom_crc.c.i
 
 # target to preprocess a source file
 patches/esp_rom_crc.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.i
 .PHONY : patches/esp_rom_crc.c.i
 
 patches/esp_rom_crc.s: patches/esp_rom_crc.c.s
@@ -151,7 +151,7 @@ patches/esp_rom_crc.s: patches/esp_rom_crc.c.s
 
 # target to generate assembly for a file
 patches/esp_rom_crc.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.s
 .PHONY : patches/esp_rom_crc.c.s
 
 patches/esp_rom_efuse.obj: patches/esp_rom_efuse.c.obj
@@ -159,7 +159,7 @@ patches/esp_rom_efuse.obj: patches/esp_rom_efuse.c.obj
 
 # target to build an object file
 patches/esp_rom_efuse.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
 .PHONY : patches/esp_rom_efuse.c.obj
 
 patches/esp_rom_efuse.i: patches/esp_rom_efuse.c.i
@@ -167,7 +167,7 @@ patches/esp_rom_efuse.i: patches/esp_rom_efuse.c.i
 
 # target to preprocess a source file
 patches/esp_rom_efuse.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.i
 .PHONY : patches/esp_rom_efuse.c.i
 
 patches/esp_rom_efuse.s: patches/esp_rom_efuse.c.s
@@ -175,7 +175,7 @@ patches/esp_rom_efuse.s: patches/esp_rom_efuse.c.s
 
 # target to generate assembly for a file
 patches/esp_rom_efuse.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.s
 .PHONY : patches/esp_rom_efuse.c.s
 
 patches/esp_rom_gpio.obj: patches/esp_rom_gpio.c.obj
@@ -183,7 +183,7 @@ patches/esp_rom_gpio.obj: patches/esp_rom_gpio.c.obj
 
 # target to build an object file
 patches/esp_rom_gpio.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj
 .PHONY : patches/esp_rom_gpio.c.obj
 
 patches/esp_rom_gpio.i: patches/esp_rom_gpio.c.i
@@ -191,7 +191,7 @@ patches/esp_rom_gpio.i: patches/esp_rom_gpio.c.i
 
 # target to preprocess a source file
 patches/esp_rom_gpio.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.i
 .PHONY : patches/esp_rom_gpio.c.i
 
 patches/esp_rom_gpio.s: patches/esp_rom_gpio.c.s
@@ -199,7 +199,7 @@ patches/esp_rom_gpio.s: patches/esp_rom_gpio.c.s
 
 # target to generate assembly for a file
 patches/esp_rom_gpio.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.s
 .PHONY : patches/esp_rom_gpio.c.s
 
 patches/esp_rom_print.obj: patches/esp_rom_print.c.obj
@@ -207,7 +207,7 @@ patches/esp_rom_print.obj: patches/esp_rom_print.c.obj
 
 # target to build an object file
 patches/esp_rom_print.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj
 .PHONY : patches/esp_rom_print.c.obj
 
 patches/esp_rom_print.i: patches/esp_rom_print.c.i
@@ -215,7 +215,7 @@ patches/esp_rom_print.i: patches/esp_rom_print.c.i
 
 # target to preprocess a source file
 patches/esp_rom_print.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.i
 .PHONY : patches/esp_rom_print.c.i
 
 patches/esp_rom_print.s: patches/esp_rom_print.c.s
@@ -223,7 +223,7 @@ patches/esp_rom_print.s: patches/esp_rom_print.c.s
 
 # target to generate assembly for a file
 patches/esp_rom_print.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.s
 .PHONY : patches/esp_rom_print.c.s
 
 patches/esp_rom_serial_output.obj: patches/esp_rom_serial_output.c.obj
@@ -231,7 +231,7 @@ patches/esp_rom_serial_output.obj: patches/esp_rom_serial_output.c.obj
 
 # target to build an object file
 patches/esp_rom_serial_output.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.obj
 .PHONY : patches/esp_rom_serial_output.c.obj
 
 patches/esp_rom_serial_output.i: patches/esp_rom_serial_output.c.i
@@ -239,7 +239,7 @@ patches/esp_rom_serial_output.i: patches/esp_rom_serial_output.c.i
 
 # target to preprocess a source file
 patches/esp_rom_serial_output.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.i
 .PHONY : patches/esp_rom_serial_output.c.i
 
 patches/esp_rom_serial_output.s: patches/esp_rom_serial_output.c.s
@@ -247,7 +247,7 @@ patches/esp_rom_serial_output.s: patches/esp_rom_serial_output.c.s
 
 # target to generate assembly for a file
 patches/esp_rom_serial_output.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.s
 .PHONY : patches/esp_rom_serial_output.c.s
 
 patches/esp_rom_spiflash.obj: patches/esp_rom_spiflash.c.obj
@@ -255,7 +255,7 @@ patches/esp_rom_spiflash.obj: patches/esp_rom_spiflash.c.obj
 
 # target to build an object file
 patches/esp_rom_spiflash.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
 .PHONY : patches/esp_rom_spiflash.c.obj
 
 patches/esp_rom_spiflash.i: patches/esp_rom_spiflash.c.i
@@ -263,7 +263,7 @@ patches/esp_rom_spiflash.i: patches/esp_rom_spiflash.c.i
 
 # target to preprocess a source file
 patches/esp_rom_spiflash.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.i
 .PHONY : patches/esp_rom_spiflash.c.i
 
 patches/esp_rom_spiflash.s: patches/esp_rom_spiflash.c.s
@@ -271,7 +271,7 @@ patches/esp_rom_spiflash.s: patches/esp_rom_spiflash.c.s
 
 # target to generate assembly for a file
 patches/esp_rom_spiflash.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.s
 .PHONY : patches/esp_rom_spiflash.c.s
 
 patches/esp_rom_sys.obj: patches/esp_rom_sys.c.obj
@@ -279,7 +279,7 @@ patches/esp_rom_sys.obj: patches/esp_rom_sys.c.obj
 
 # target to build an object file
 patches/esp_rom_sys.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
 .PHONY : patches/esp_rom_sys.c.obj
 
 patches/esp_rom_sys.i: patches/esp_rom_sys.c.i
@@ -287,7 +287,7 @@ patches/esp_rom_sys.i: patches/esp_rom_sys.c.i
 
 # target to preprocess a source file
 patches/esp_rom_sys.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.i
 .PHONY : patches/esp_rom_sys.c.i
 
 patches/esp_rom_sys.s: patches/esp_rom_sys.c.s
@@ -295,7 +295,7 @@ patches/esp_rom_sys.s: patches/esp_rom_sys.c.s
 
 # target to generate assembly for a file
 patches/esp_rom_sys.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.s
 .PHONY : patches/esp_rom_sys.c.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32c3.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32c3.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/rtc_cntl_reg.h \

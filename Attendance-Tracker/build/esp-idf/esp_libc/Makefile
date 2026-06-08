@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_libc//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_libc//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/rule
 .PHONY : esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_libc: esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/rule
 
 # fast build rule for target.
 __idf_esp_libc/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build
 .PHONY : __idf_esp_libc/fast
 
 src/abort.obj: src/abort.c.obj
@@ -180,7 +180,7 @@ src/abort.obj: src/abort.c.obj
 
 # target to build an object file
 src/abort.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/abort.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/abort.c.obj
 .PHONY : src/abort.c.obj
 
 src/abort.i: src/abort.c.i
@@ -188,7 +188,7 @@ src/abort.i: src/abort.c.i
 
 # target to preprocess a source file
 src/abort.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/abort.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/abort.c.i
 .PHONY : src/abort.c.i
 
 src/abort.s: src/abort.c.s
@@ -196,7 +196,7 @@ src/abort.s: src/abort.c.s
 
 # target to generate assembly for a file
 src/abort.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/abort.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/abort.c.s
 .PHONY : src/abort.c.s
 
 src/assert.obj: src/assert.c.obj
@@ -204,7 +204,7 @@ src/assert.obj: src/assert.c.obj
 
 # target to build an object file
 src/assert.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/assert.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/assert.c.obj
 .PHONY : src/assert.c.obj
 
 src/assert.i: src/assert.c.i
@@ -212,7 +212,7 @@ src/assert.i: src/assert.c.i
 
 # target to preprocess a source file
 src/assert.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/assert.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/assert.c.i
 .PHONY : src/assert.c.i
 
 src/assert.s: src/assert.c.s
@@ -220,7 +220,7 @@ src/assert.s: src/assert.c.s
 
 # target to generate assembly for a file
 src/assert.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/assert.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/assert.c.s
 .PHONY : src/assert.c.s
 
 src/getentropy.obj: src/getentropy.c.obj
@@ -228,7 +228,7 @@ src/getentropy.obj: src/getentropy.c.obj
 
 # target to build an object file
 src/getentropy.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/getentropy.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/getentropy.c.obj
 .PHONY : src/getentropy.c.obj
 
 src/getentropy.i: src/getentropy.c.i
@@ -236,7 +236,7 @@ src/getentropy.i: src/getentropy.c.i
 
 # target to preprocess a source file
 src/getentropy.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/getentropy.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/getentropy.c.i
 .PHONY : src/getentropy.c.i
 
 src/getentropy.s: src/getentropy.c.s
@@ -244,7 +244,7 @@ src/getentropy.s: src/getentropy.c.s
 
 # target to generate assembly for a file
 src/getentropy.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/getentropy.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/getentropy.c.s
 .PHONY : src/getentropy.c.s
 
 src/heap.obj: src/heap.c.obj
@@ -252,7 +252,7 @@ src/heap.obj: src/heap.c.obj
 
 # target to build an object file
 src/heap.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/heap.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/heap.c.obj
 .PHONY : src/heap.c.obj
 
 src/heap.i: src/heap.c.i
@@ -260,7 +260,7 @@ src/heap.i: src/heap.c.i
 
 # target to preprocess a source file
 src/heap.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/heap.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/heap.c.i
 .PHONY : src/heap.c.i
 
 src/heap.s: src/heap.c.s
@@ -268,7 +268,7 @@ src/heap.s: src/heap.c.s
 
 # target to generate assembly for a file
 src/heap.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/heap.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/heap.c.s
 .PHONY : src/heap.c.s
 
 src/init.obj: src/init.c.obj
@@ -276,7 +276,7 @@ src/init.obj: src/init.c.obj
 
 # target to build an object file
 src/init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/init.c.obj
 .PHONY : src/init.c.obj
 
 src/init.i: src/init.c.i
@@ -284,7 +284,7 @@ src/init.i: src/init.c.i
 
 # target to preprocess a source file
 src/init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/init.c.i
 .PHONY : src/init.c.i
 
 src/init.s: src/init.c.s
@@ -292,7 +292,7 @@ src/init.s: src/init.c.s
 
 # target to generate assembly for a file
 src/init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/init.c.s
 .PHONY : src/init.c.s
 
 src/locks.obj: src/locks.c.obj
@@ -300,7 +300,7 @@ src/locks.obj: src/locks.c.obj
 
 # target to build an object file
 src/locks.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/locks.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/locks.c.obj
 .PHONY : src/locks.c.obj
 
 src/locks.i: src/locks.c.i
@@ -308,7 +308,7 @@ src/locks.i: src/locks.c.i
 
 # target to preprocess a source file
 src/locks.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/locks.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/locks.c.i
 .PHONY : src/locks.c.i
 
 src/locks.s: src/locks.c.s
@@ -316,7 +316,7 @@ src/locks.s: src/locks.c.s
 
 # target to generate assembly for a file
 src/locks.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/locks.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/locks.c.s
 .PHONY : src/locks.c.s
 
 src/picolibc/bufio_setvbuf.obj: src/picolibc/bufio_setvbuf.c.obj
@@ -324,7 +324,7 @@ src/picolibc/bufio_setvbuf.obj: src/picolibc/bufio_setvbuf.c.obj
 
 # target to build an object file
 src/picolibc/bufio_setvbuf.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/bufio_setvbuf.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/bufio_setvbuf.c.obj
 .PHONY : src/picolibc/bufio_setvbuf.c.obj
 
 src/picolibc/bufio_setvbuf.i: src/picolibc/bufio_setvbuf.c.i
@@ -332,7 +332,7 @@ src/picolibc/bufio_setvbuf.i: src/picolibc/bufio_setvbuf.c.i
 
 # target to preprocess a source file
 src/picolibc/bufio_setvbuf.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/bufio_setvbuf.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/bufio_setvbuf.c.i
 .PHONY : src/picolibc/bufio_setvbuf.c.i
 
 src/picolibc/bufio_setvbuf.s: src/picolibc/bufio_setvbuf.c.s
@@ -340,7 +340,7 @@ src/picolibc/bufio_setvbuf.s: src/picolibc/bufio_setvbuf.c.s
 
 # target to generate assembly for a file
 src/picolibc/bufio_setvbuf.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/bufio_setvbuf.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/bufio_setvbuf.c.s
 .PHONY : src/picolibc/bufio_setvbuf.c.s
 
 src/picolibc/errno.obj: src/picolibc/errno.c.obj
@@ -348,7 +348,7 @@ src/picolibc/errno.obj: src/picolibc/errno.c.obj
 
 # target to build an object file
 src/picolibc/errno.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/errno.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/errno.c.obj
 .PHONY : src/picolibc/errno.c.obj
 
 src/picolibc/errno.i: src/picolibc/errno.c.i
@@ -356,7 +356,7 @@ src/picolibc/errno.i: src/picolibc/errno.c.i
 
 # target to preprocess a source file
 src/picolibc/errno.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/errno.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/errno.c.i
 .PHONY : src/picolibc/errno.c.i
 
 src/picolibc/errno.s: src/picolibc/errno.c.s
@@ -364,7 +364,7 @@ src/picolibc/errno.s: src/picolibc/errno.c.s
 
 # target to generate assembly for a file
 src/picolibc/errno.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/errno.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/errno.c.s
 .PHONY : src/picolibc/errno.c.s
 
 src/picolibc/fopencookie.obj: src/picolibc/fopencookie.c.obj
@@ -372,7 +372,7 @@ src/picolibc/fopencookie.obj: src/picolibc/fopencookie.c.obj
 
 # target to build an object file
 src/picolibc/fopencookie.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/fopencookie.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/fopencookie.c.obj
 .PHONY : src/picolibc/fopencookie.c.obj
 
 src/picolibc/fopencookie.i: src/picolibc/fopencookie.c.i
@@ -380,7 +380,7 @@ src/picolibc/fopencookie.i: src/picolibc/fopencookie.c.i
 
 # target to preprocess a source file
 src/picolibc/fopencookie.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/fopencookie.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/fopencookie.c.i
 .PHONY : src/picolibc/fopencookie.c.i
 
 src/picolibc/fopencookie.s: src/picolibc/fopencookie.c.s
@@ -388,7 +388,7 @@ src/picolibc/fopencookie.s: src/picolibc/fopencookie.c.s
 
 # target to generate assembly for a file
 src/picolibc/fopencookie.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/fopencookie.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/fopencookie.c.s
 .PHONY : src/picolibc/fopencookie.c.s
 
 src/picolibc/getreent.obj: src/picolibc/getreent.c.obj
@@ -396,7 +396,7 @@ src/picolibc/getreent.obj: src/picolibc/getreent.c.obj
 
 # target to build an object file
 src/picolibc/getreent.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/getreent.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/getreent.c.obj
 .PHONY : src/picolibc/getreent.c.obj
 
 src/picolibc/getreent.i: src/picolibc/getreent.c.i
@@ -404,7 +404,7 @@ src/picolibc/getreent.i: src/picolibc/getreent.c.i
 
 # target to preprocess a source file
 src/picolibc/getreent.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/getreent.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/getreent.c.i
 .PHONY : src/picolibc/getreent.c.i
 
 src/picolibc/getreent.s: src/picolibc/getreent.c.s
@@ -412,7 +412,7 @@ src/picolibc/getreent.s: src/picolibc/getreent.c.s
 
 # target to generate assembly for a file
 src/picolibc/getreent.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/getreent.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/getreent.c.s
 .PHONY : src/picolibc/getreent.c.s
 
 src/picolibc/open_memstream.obj: src/picolibc/open_memstream.c.obj
@@ -420,7 +420,7 @@ src/picolibc/open_memstream.obj: src/picolibc/open_memstream.c.obj
 
 # target to build an object file
 src/picolibc/open_memstream.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/open_memstream.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/open_memstream.c.obj
 .PHONY : src/picolibc/open_memstream.c.obj
 
 src/picolibc/open_memstream.i: src/picolibc/open_memstream.c.i
@@ -428,7 +428,7 @@ src/picolibc/open_memstream.i: src/picolibc/open_memstream.c.i
 
 # target to preprocess a source file
 src/picolibc/open_memstream.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/open_memstream.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/open_memstream.c.i
 .PHONY : src/picolibc/open_memstream.c.i
 
 src/picolibc/open_memstream.s: src/picolibc/open_memstream.c.s
@@ -436,7 +436,7 @@ src/picolibc/open_memstream.s: src/picolibc/open_memstream.c.s
 
 # target to generate assembly for a file
 src/picolibc/open_memstream.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/open_memstream.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/open_memstream.c.s
 .PHONY : src/picolibc/open_memstream.c.s
 
 src/picolibc/picolibc_init.obj: src/picolibc/picolibc_init.c.obj
@@ -444,7 +444,7 @@ src/picolibc/picolibc_init.obj: src/picolibc/picolibc_init.c.obj
 
 # target to build an object file
 src/picolibc/picolibc_init.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/picolibc_init.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/picolibc_init.c.obj
 .PHONY : src/picolibc/picolibc_init.c.obj
 
 src/picolibc/picolibc_init.i: src/picolibc/picolibc_init.c.i
@@ -452,7 +452,7 @@ src/picolibc/picolibc_init.i: src/picolibc/picolibc_init.c.i
 
 # target to preprocess a source file
 src/picolibc/picolibc_init.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/picolibc_init.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/picolibc_init.c.i
 .PHONY : src/picolibc/picolibc_init.c.i
 
 src/picolibc/picolibc_init.s: src/picolibc/picolibc_init.c.s
@@ -460,7 +460,7 @@ src/picolibc/picolibc_init.s: src/picolibc/picolibc_init.c.s
 
 # target to generate assembly for a file
 src/picolibc/picolibc_init.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/picolibc_init.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/picolibc_init.c.s
 .PHONY : src/picolibc/picolibc_init.c.s
 
 src/picolibc/rand.obj: src/picolibc/rand.c.obj
@@ -468,7 +468,7 @@ src/picolibc/rand.obj: src/picolibc/rand.c.obj
 
 # target to build an object file
 src/picolibc/rand.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/rand.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/rand.c.obj
 .PHONY : src/picolibc/rand.c.obj
 
 src/picolibc/rand.i: src/picolibc/rand.c.i
@@ -476,7 +476,7 @@ src/picolibc/rand.i: src/picolibc/rand.c.i
 
 # target to preprocess a source file
 src/picolibc/rand.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/rand.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/rand.c.i
 .PHONY : src/picolibc/rand.c.i
 
 src/picolibc/rand.s: src/picolibc/rand.c.s
@@ -484,7 +484,7 @@ src/picolibc/rand.s: src/picolibc/rand.c.s
 
 # target to generate assembly for a file
 src/picolibc/rand.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/rand.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/rand.c.s
 .PHONY : src/picolibc/rand.c.s
 
 src/poll.obj: src/poll.c.obj
@@ -492,7 +492,7 @@ src/poll.obj: src/poll.c.obj
 
 # target to build an object file
 src/poll.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/poll.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/poll.c.obj
 .PHONY : src/poll.c.obj
 
 src/poll.i: src/poll.c.i
@@ -500,7 +500,7 @@ src/poll.i: src/poll.c.i
 
 # target to preprocess a source file
 src/poll.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/poll.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/poll.c.i
 .PHONY : src/poll.c.i
 
 src/poll.s: src/poll.c.s
@@ -508,7 +508,7 @@ src/poll.s: src/poll.c.s
 
 # target to generate assembly for a file
 src/poll.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/poll.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/poll.c.s
 .PHONY : src/poll.c.s
 
 src/port/esp_time_impl.obj: src/port/esp_time_impl.c.obj
@@ -516,7 +516,7 @@ src/port/esp_time_impl.obj: src/port/esp_time_impl.c.obj
 
 # target to build an object file
 src/port/esp_time_impl.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/esp_time_impl.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/esp_time_impl.c.obj
 .PHONY : src/port/esp_time_impl.c.obj
 
 src/port/esp_time_impl.i: src/port/esp_time_impl.c.i
@@ -524,7 +524,7 @@ src/port/esp_time_impl.i: src/port/esp_time_impl.c.i
 
 # target to preprocess a source file
 src/port/esp_time_impl.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/esp_time_impl.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/esp_time_impl.c.i
 .PHONY : src/port/esp_time_impl.c.i
 
 src/port/esp_time_impl.s: src/port/esp_time_impl.c.s
@@ -532,7 +532,7 @@ src/port/esp_time_impl.s: src/port/esp_time_impl.c.s
 
 # target to generate assembly for a file
 src/port/esp_time_impl.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/esp_time_impl.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/esp_time_impl.c.s
 .PHONY : src/port/esp_time_impl.c.s
 
 src/port/riscv/memcpy.obj: src/port/riscv/memcpy.c.obj
@@ -540,7 +540,7 @@ src/port/riscv/memcpy.obj: src/port/riscv/memcpy.c.obj
 
 # target to build an object file
 src/port/riscv/memcpy.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memcpy.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memcpy.c.obj
 .PHONY : src/port/riscv/memcpy.c.obj
 
 src/port/riscv/memcpy.i: src/port/riscv/memcpy.c.i
@@ -548,7 +548,7 @@ src/port/riscv/memcpy.i: src/port/riscv/memcpy.c.i
 
 # target to preprocess a source file
 src/port/riscv/memcpy.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memcpy.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memcpy.c.i
 .PHONY : src/port/riscv/memcpy.c.i
 
 src/port/riscv/memcpy.s: src/port/riscv/memcpy.c.s
@@ -556,7 +556,7 @@ src/port/riscv/memcpy.s: src/port/riscv/memcpy.c.s
 
 # target to generate assembly for a file
 src/port/riscv/memcpy.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memcpy.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memcpy.c.s
 .PHONY : src/port/riscv/memcpy.c.s
 
 src/port/riscv/memmove.obj: src/port/riscv/memmove.c.obj
@@ -564,7 +564,7 @@ src/port/riscv/memmove.obj: src/port/riscv/memmove.c.obj
 
 # target to build an object file
 src/port/riscv/memmove.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memmove.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memmove.c.obj
 .PHONY : src/port/riscv/memmove.c.obj
 
 src/port/riscv/memmove.i: src/port/riscv/memmove.c.i
@@ -572,7 +572,7 @@ src/port/riscv/memmove.i: src/port/riscv/memmove.c.i
 
 # target to preprocess a source file
 src/port/riscv/memmove.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memmove.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memmove.c.i
 .PHONY : src/port/riscv/memmove.c.i
 
 src/port/riscv/memmove.s: src/port/riscv/memmove.c.s
@@ -580,7 +580,7 @@ src/port/riscv/memmove.s: src/port/riscv/memmove.c.s
 
 # target to generate assembly for a file
 src/port/riscv/memmove.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memmove.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/memmove.c.s
 .PHONY : src/port/riscv/memmove.c.s
 
 src/port/riscv/strcmp.obj: src/port/riscv/strcmp.S.obj
@@ -588,7 +588,7 @@ src/port/riscv/strcmp.obj: src/port/riscv/strcmp.S.obj
 
 # target to build an object file
 src/port/riscv/strcmp.S.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcmp.S.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcmp.S.obj
 .PHONY : src/port/riscv/strcmp.S.obj
 
 src/port/riscv/strcpy.obj: src/port/riscv/strcpy.c.obj
@@ -596,7 +596,7 @@ src/port/riscv/strcpy.obj: src/port/riscv/strcpy.c.obj
 
 # target to build an object file
 src/port/riscv/strcpy.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcpy.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcpy.c.obj
 .PHONY : src/port/riscv/strcpy.c.obj
 
 src/port/riscv/strcpy.i: src/port/riscv/strcpy.c.i
@@ -604,7 +604,7 @@ src/port/riscv/strcpy.i: src/port/riscv/strcpy.c.i
 
 # target to preprocess a source file
 src/port/riscv/strcpy.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcpy.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcpy.c.i
 .PHONY : src/port/riscv/strcpy.c.i
 
 src/port/riscv/strcpy.s: src/port/riscv/strcpy.c.s
@@ -612,7 +612,7 @@ src/port/riscv/strcpy.s: src/port/riscv/strcpy.c.s
 
 # target to generate assembly for a file
 src/port/riscv/strcpy.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcpy.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/port/riscv/strcpy.c.s
 .PHONY : src/port/riscv/strcpy.c.s
 
 src/pthread.obj: src/pthread.c.obj
@@ -620,7 +620,7 @@ src/pthread.obj: src/pthread.c.obj
 
 # target to build an object file
 src/pthread.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/pthread.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/pthread.c.obj
 .PHONY : src/pthread.c.obj
 
 src/pthread.i: src/pthread.c.i
@@ -628,7 +628,7 @@ src/pthread.i: src/pthread.c.i
 
 # target to preprocess a source file
 src/pthread.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/pthread.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/pthread.c.i
 .PHONY : src/pthread.c.i
 
 src/pthread.s: src/pthread.c.s
@@ -636,7 +636,7 @@ src/pthread.s: src/pthread.c.s
 
 # target to generate assembly for a file
 src/pthread.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/pthread.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/pthread.c.s
 .PHONY : src/pthread.c.s
 
 src/random.obj: src/random.c.obj
@@ -644,7 +644,7 @@ src/random.obj: src/random.c.obj
 
 # target to build an object file
 src/random.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/random.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/random.c.obj
 .PHONY : src/random.c.obj
 
 src/random.i: src/random.c.i
@@ -652,7 +652,7 @@ src/random.i: src/random.c.i
 
 # target to preprocess a source file
 src/random.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/random.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/random.c.i
 .PHONY : src/random.c.i
 
 src/random.s: src/random.c.s
@@ -660,7 +660,7 @@ src/random.s: src/random.c.s
 
 # target to generate assembly for a file
 src/random.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/random.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/random.c.s
 .PHONY : src/random.c.s
 
 src/realpath.obj: src/realpath.c.obj
@@ -668,7 +668,7 @@ src/realpath.obj: src/realpath.c.obj
 
 # target to build an object file
 src/realpath.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/realpath.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/realpath.c.obj
 .PHONY : src/realpath.c.obj
 
 src/realpath.i: src/realpath.c.i
@@ -676,7 +676,7 @@ src/realpath.i: src/realpath.c.i
 
 # target to preprocess a source file
 src/realpath.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/realpath.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/realpath.c.i
 .PHONY : src/realpath.c.i
 
 src/realpath.s: src/realpath.c.s
@@ -684,7 +684,7 @@ src/realpath.s: src/realpath.c.s
 
 # target to generate assembly for a file
 src/realpath.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/realpath.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/realpath.c.s
 .PHONY : src/realpath.c.s
 
 src/reent_syscalls.obj: src/reent_syscalls.c.obj
@@ -692,7 +692,7 @@ src/reent_syscalls.obj: src/reent_syscalls.c.obj
 
 # target to build an object file
 src/reent_syscalls.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/reent_syscalls.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/reent_syscalls.c.obj
 .PHONY : src/reent_syscalls.c.obj
 
 src/reent_syscalls.i: src/reent_syscalls.c.i
@@ -700,7 +700,7 @@ src/reent_syscalls.i: src/reent_syscalls.c.i
 
 # target to preprocess a source file
 src/reent_syscalls.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/reent_syscalls.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/reent_syscalls.c.i
 .PHONY : src/reent_syscalls.c.i
 
 src/reent_syscalls.s: src/reent_syscalls.c.s
@@ -708,7 +708,7 @@ src/reent_syscalls.s: src/reent_syscalls.c.s
 
 # target to generate assembly for a file
 src/reent_syscalls.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/reent_syscalls.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/reent_syscalls.c.s
 .PHONY : src/reent_syscalls.c.s
 
 src/scandir.obj: src/scandir.c.obj
@@ -716,7 +716,7 @@ src/scandir.obj: src/scandir.c.obj
 
 # target to build an object file
 src/scandir.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/scandir.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/scandir.c.obj
 .PHONY : src/scandir.c.obj
 
 src/scandir.i: src/scandir.c.i
@@ -724,7 +724,7 @@ src/scandir.i: src/scandir.c.i
 
 # target to preprocess a source file
 src/scandir.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/scandir.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/scandir.c.i
 .PHONY : src/scandir.c.i
 
 src/scandir.s: src/scandir.c.s
@@ -732,7 +732,7 @@ src/scandir.s: src/scandir.c.s
 
 # target to generate assembly for a file
 src/scandir.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/scandir.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/scandir.c.s
 .PHONY : src/scandir.c.s
 
 src/stdatomic.obj: src/stdatomic.c.obj
@@ -740,7 +740,7 @@ src/stdatomic.obj: src/stdatomic.c.obj
 
 # target to build an object file
 src/stdatomic.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/stdatomic.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/stdatomic.c.obj
 .PHONY : src/stdatomic.c.obj
 
 src/stdatomic.i: src/stdatomic.c.i
@@ -748,7 +748,7 @@ src/stdatomic.i: src/stdatomic.c.i
 
 # target to preprocess a source file
 src/stdatomic.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/stdatomic.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/stdatomic.c.i
 .PHONY : src/stdatomic.c.i
 
 src/stdatomic.s: src/stdatomic.c.s
@@ -756,7 +756,7 @@ src/stdatomic.s: src/stdatomic.c.s
 
 # target to generate assembly for a file
 src/stdatomic.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/stdatomic.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/stdatomic.c.s
 .PHONY : src/stdatomic.c.s
 
 src/string/memcmp.obj: src/string/memcmp.c.obj
@@ -764,7 +764,7 @@ src/string/memcmp.obj: src/string/memcmp.c.obj
 
 # target to build an object file
 src/string/memcmp.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/memcmp.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/memcmp.c.obj
 .PHONY : src/string/memcmp.c.obj
 
 src/string/memcmp.i: src/string/memcmp.c.i
@@ -772,7 +772,7 @@ src/string/memcmp.i: src/string/memcmp.c.i
 
 # target to preprocess a source file
 src/string/memcmp.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/memcmp.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/memcmp.c.i
 .PHONY : src/string/memcmp.c.i
 
 src/string/memcmp.s: src/string/memcmp.c.s
@@ -780,7 +780,7 @@ src/string/memcmp.s: src/string/memcmp.c.s
 
 # target to generate assembly for a file
 src/string/memcmp.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/memcmp.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/memcmp.c.s
 .PHONY : src/string/memcmp.c.s
 
 src/string/strncmp.obj: src/string/strncmp.c.obj
@@ -788,7 +788,7 @@ src/string/strncmp.obj: src/string/strncmp.c.obj
 
 # target to build an object file
 src/string/strncmp.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncmp.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncmp.c.obj
 .PHONY : src/string/strncmp.c.obj
 
 src/string/strncmp.i: src/string/strncmp.c.i
@@ -796,7 +796,7 @@ src/string/strncmp.i: src/string/strncmp.c.i
 
 # target to preprocess a source file
 src/string/strncmp.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncmp.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncmp.c.i
 .PHONY : src/string/strncmp.c.i
 
 src/string/strncmp.s: src/string/strncmp.c.s
@@ -804,7 +804,7 @@ src/string/strncmp.s: src/string/strncmp.c.s
 
 # target to generate assembly for a file
 src/string/strncmp.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncmp.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncmp.c.s
 .PHONY : src/string/strncmp.c.s
 
 src/string/strncpy.obj: src/string/strncpy.c.obj
@@ -812,7 +812,7 @@ src/string/strncpy.obj: src/string/strncpy.c.obj
 
 # target to build an object file
 src/string/strncpy.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncpy.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncpy.c.obj
 .PHONY : src/string/strncpy.c.obj
 
 src/string/strncpy.i: src/string/strncpy.c.i
@@ -820,7 +820,7 @@ src/string/strncpy.i: src/string/strncpy.c.i
 
 # target to preprocess a source file
 src/string/strncpy.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncpy.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncpy.c.i
 .PHONY : src/string/strncpy.c.i
 
 src/string/strncpy.s: src/string/strncpy.c.s
@@ -828,7 +828,7 @@ src/string/strncpy.s: src/string/strncpy.c.s
 
 # target to generate assembly for a file
 src/string/strncpy.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncpy.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/string/strncpy.c.s
 .PHONY : src/string/strncpy.c.s
 
 src/syscalls.obj: src/syscalls.c.obj
@@ -836,7 +836,7 @@ src/syscalls.obj: src/syscalls.c.obj
 
 # target to build an object file
 src/syscalls.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/syscalls.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/syscalls.c.obj
 .PHONY : src/syscalls.c.obj
 
 src/syscalls.i: src/syscalls.c.i
@@ -844,7 +844,7 @@ src/syscalls.i: src/syscalls.c.i
 
 # target to preprocess a source file
 src/syscalls.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/syscalls.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/syscalls.c.i
 .PHONY : src/syscalls.c.i
 
 src/syscalls.s: src/syscalls.c.s
@@ -852,7 +852,7 @@ src/syscalls.s: src/syscalls.c.s
 
 # target to generate assembly for a file
 src/syscalls.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/syscalls.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/syscalls.c.s
 .PHONY : src/syscalls.c.s
 
 src/sysconf.obj: src/sysconf.c.obj
@@ -860,7 +860,7 @@ src/sysconf.obj: src/sysconf.c.obj
 
 # target to build an object file
 src/sysconf.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/sysconf.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/sysconf.c.obj
 .PHONY : src/sysconf.c.obj
 
 src/sysconf.i: src/sysconf.c.i
@@ -868,7 +868,7 @@ src/sysconf.i: src/sysconf.c.i
 
 # target to preprocess a source file
 src/sysconf.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/sysconf.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/sysconf.c.i
 .PHONY : src/sysconf.c.i
 
 src/sysconf.s: src/sysconf.c.s
@@ -876,7 +876,7 @@ src/sysconf.s: src/sysconf.c.s
 
 # target to generate assembly for a file
 src/sysconf.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/sysconf.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/sysconf.c.s
 .PHONY : src/sysconf.c.s
 
 src/termios.obj: src/termios.c.obj
@@ -884,7 +884,7 @@ src/termios.obj: src/termios.c.obj
 
 # target to build an object file
 src/termios.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/termios.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/termios.c.obj
 .PHONY : src/termios.c.obj
 
 src/termios.i: src/termios.c.i
@@ -892,7 +892,7 @@ src/termios.i: src/termios.c.i
 
 # target to preprocess a source file
 src/termios.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/termios.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/termios.c.i
 .PHONY : src/termios.c.i
 
 src/termios.s: src/termios.c.s
@@ -900,7 +900,7 @@ src/termios.s: src/termios.c.s
 
 # target to generate assembly for a file
 src/termios.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/termios.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/termios.c.s
 .PHONY : src/termios.c.s
 
 src/time.obj: src/time.c.obj
@@ -908,7 +908,7 @@ src/time.obj: src/time.c.obj
 
 # target to build an object file
 src/time.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/time.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/time.c.obj
 .PHONY : src/time.c.obj
 
 src/time.i: src/time.c.i
@@ -916,7 +916,7 @@ src/time.i: src/time.c.i
 
 # target to preprocess a source file
 src/time.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/time.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/time.c.i
 .PHONY : src/time.c.i
 
 src/time.s: src/time.c.s
@@ -924,7 +924,7 @@ src/time.s: src/time.c.s
 
 # target to generate assembly for a file
 src/time.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/time.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/time.c.s
 .PHONY : src/time.c.s
 
 src/timekeeping.obj: src/timekeeping.c.obj
@@ -932,7 +932,7 @@ src/timekeeping.obj: src/timekeeping.c.obj
 
 # target to build an object file
 src/timekeeping.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/timekeeping.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/timekeeping.c.obj
 .PHONY : src/timekeeping.c.obj
 
 src/timekeeping.i: src/timekeeping.c.i
@@ -940,7 +940,7 @@ src/timekeeping.i: src/timekeeping.c.i
 
 # target to preprocess a source file
 src/timekeeping.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/timekeeping.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/timekeeping.c.i
 .PHONY : src/timekeeping.c.i
 
 src/timekeeping.s: src/timekeeping.c.s
@@ -948,7 +948,7 @@ src/timekeeping.s: src/timekeeping.c.s
 
 # target to generate assembly for a file
 src/timekeeping.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/timekeeping.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/build.make esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/timekeeping.c.s
 .PHONY : src/timekeeping.c.s
 
 # Help Target
@@ -1072,6 +1072,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpspi//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpspi//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/rule
 .PHONY : esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_esp_hal_gpspi: esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/ru
 
 # fast build rule for target.
 __idf_esp_hal_gpspi/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build
 .PHONY : __idf_esp_hal_gpspi/fast
 
 esp32c3/spi_periph.obj: esp32c3/spi_periph.c.obj
@@ -135,7 +135,7 @@ esp32c3/spi_periph.obj: esp32c3/spi_periph.c.obj
 
 # target to build an object file
 esp32c3/spi_periph.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32c3/spi_periph.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32c3/spi_periph.c.obj
 .PHONY : esp32c3/spi_periph.c.obj
 
 esp32c3/spi_periph.i: esp32c3/spi_periph.c.i
@@ -143,7 +143,7 @@ esp32c3/spi_periph.i: esp32c3/spi_periph.c.i
 
 # target to preprocess a source file
 esp32c3/spi_periph.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32c3/spi_periph.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32c3/spi_periph.c.i
 .PHONY : esp32c3/spi_periph.c.i
 
 esp32c3/spi_periph.s: esp32c3/spi_periph.c.s
@@ -151,7 +151,7 @@ esp32c3/spi_periph.s: esp32c3/spi_periph.c.s
 
 # target to generate assembly for a file
 esp32c3/spi_periph.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32c3/spi_periph.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32c3/spi_periph.c.s
 .PHONY : esp32c3/spi_periph.c.s
 
 spi_hal.obj: spi_hal.c.obj
@@ -159,7 +159,7 @@ spi_hal.obj: spi_hal.c.obj
 
 # target to build an object file
 spi_hal.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.obj
 .PHONY : spi_hal.c.obj
 
 spi_hal.i: spi_hal.c.i
@@ -167,7 +167,7 @@ spi_hal.i: spi_hal.c.i
 
 # target to preprocess a source file
 spi_hal.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.i
 .PHONY : spi_hal.c.i
 
 spi_hal.s: spi_hal.c.s
@@ -175,7 +175,7 @@ spi_hal.s: spi_hal.c.s
 
 # target to generate assembly for a file
 spi_hal.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.s
 .PHONY : spi_hal.c.s
 
 spi_hal_iram.obj: spi_hal_iram.c.obj
@@ -183,7 +183,7 @@ spi_hal_iram.obj: spi_hal_iram.c.obj
 
 # target to build an object file
 spi_hal_iram.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.obj
 .PHONY : spi_hal_iram.c.obj
 
 spi_hal_iram.i: spi_hal_iram.c.i
@@ -191,7 +191,7 @@ spi_hal_iram.i: spi_hal_iram.c.i
 
 # target to preprocess a source file
 spi_hal_iram.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.i
 .PHONY : spi_hal_iram.c.i
 
 spi_hal_iram.s: spi_hal_iram.c.s
@@ -199,7 +199,7 @@ spi_hal_iram.s: spi_hal_iram.c.s
 
 # target to generate assembly for a file
 spi_hal_iram.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.s
 .PHONY : spi_hal_iram.c.s
 
 spi_slave_hal.obj: spi_slave_hal.c.obj
@@ -207,7 +207,7 @@ spi_slave_hal.obj: spi_slave_hal.c.obj
 
 # target to build an object file
 spi_slave_hal.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.obj
 .PHONY : spi_slave_hal.c.obj
 
 spi_slave_hal.i: spi_slave_hal.c.i
@@ -215,7 +215,7 @@ spi_slave_hal.i: spi_slave_hal.c.i
 
 # target to preprocess a source file
 spi_slave_hal.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.i
 .PHONY : spi_slave_hal.c.i
 
 spi_slave_hal.s: spi_slave_hal.c.s
@@ -223,7 +223,7 @@ spi_slave_hal.s: spi_slave_hal.c.s
 
 # target to generate assembly for a file
 spi_slave_hal.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.s
 .PHONY : spi_slave_hal.c.s
 
 spi_slave_hal_iram.obj: spi_slave_hal_iram.c.obj
@@ -231,7 +231,7 @@ spi_slave_hal_iram.obj: spi_slave_hal_iram.c.obj
 
 # target to build an object file
 spi_slave_hal_iram.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.obj
 .PHONY : spi_slave_hal_iram.c.obj
 
 spi_slave_hal_iram.i: spi_slave_hal_iram.c.i
@@ -239,7 +239,7 @@ spi_slave_hal_iram.i: spi_slave_hal_iram.c.i
 
 # target to preprocess a source file
 spi_slave_hal_iram.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.i
 .PHONY : spi_slave_hal_iram.c.i
 
 spi_slave_hal_iram.s: spi_slave_hal_iram.c.s
@@ -247,7 +247,7 @@ spi_slave_hal_iram.s: spi_slave_hal_iram.c.s
 
 # target to generate assembly for a file
 spi_slave_hal_iram.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.s
 .PHONY : spi_slave_hal_iram.c.s
 
 spi_slave_hd_hal.obj: spi_slave_hd_hal.c.obj
@@ -255,7 +255,7 @@ spi_slave_hd_hal.obj: spi_slave_hd_hal.c.obj
 
 # target to build an object file
 spi_slave_hd_hal.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hd_hal.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hd_hal.c.obj
 .PHONY : spi_slave_hd_hal.c.obj
 
 spi_slave_hd_hal.i: spi_slave_hd_hal.c.i
@@ -263,7 +263,7 @@ spi_slave_hd_hal.i: spi_slave_hd_hal.c.i
 
 # target to preprocess a source file
 spi_slave_hd_hal.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hd_hal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hd_hal.c.i
 .PHONY : spi_slave_hd_hal.c.i
 
 spi_slave_hd_hal.s: spi_slave_hd_hal.c.s
@@ -271,7 +271,7 @@ spi_slave_hd_hal.s: spi_slave_hd_hal.c.s
 
 # target to generate assembly for a file
 spi_slave_hd_hal.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hd_hal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/build.make esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hd_hal.c.s
 .PHONY : spi_slave_hd_hal.c.s
 
 # Help Target
@@ -312,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/depend.make
@@ -72,16 +72,16 @@ include esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/flags.make
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/flags.make
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj -MF CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj -MF CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c > CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c > CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.i
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c -o CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c -o CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.s
 
 # Object files for target __idf_esp_psram
 __idf_esp_psram_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_esp_psram_EXTERNAL_OBJECTS =
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram_mspi.c.obj
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_psram.a"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_psram.dir/cmake_clean_target.cmake
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_psram.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_psram.a"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_psram.dir/cmake_clean_target.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_psram.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build: esp-idf/esp_psram/libesp_psram.a
 .PHONY : esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_psram.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_psram.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/clean
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/esp_psram /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/esp_psram /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/depend
 

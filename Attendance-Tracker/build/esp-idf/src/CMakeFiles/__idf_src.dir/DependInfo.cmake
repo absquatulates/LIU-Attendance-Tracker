@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/william-hellstrand/Documents/PlatformIO/Projects/testing/src/main.c" "esp-idf/src/CMakeFiles/__idf_src.dir/main.c.obj" "gcc" "esp-idf/src/CMakeFiles/__idf_src.dir/main.c.obj.d"
+  "/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c" "esp-idf/src/CMakeFiles/__idf_src.dir/main.c.obj" "gcc" "esp-idf/src/CMakeFiles/__idf_src.dir/main.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

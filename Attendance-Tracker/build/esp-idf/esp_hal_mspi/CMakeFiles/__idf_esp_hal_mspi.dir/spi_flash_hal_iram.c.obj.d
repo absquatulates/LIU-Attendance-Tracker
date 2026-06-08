@@ -1,7 +1,7 @@
 esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/spi_flash_hal_iram.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_mspi/spi_flash_hal_iram.c \
  /home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/config.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_hal.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_mspi/esp32c3/include/hal/spi_flash_ll.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_hal_mspi/esp32c3/include/hal/gpspi_flash_ll.h \

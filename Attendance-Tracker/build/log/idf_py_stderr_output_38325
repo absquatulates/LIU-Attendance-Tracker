@@ -1,0 +1,5 @@
+Command: make -j 10 all
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c: In function 'mfrc522_init':
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c:177:13: warning: unused variable 'ver' [-Wunused-variable]
+  177 |     uint8_t ver = mfrc522_read_reg(MFRC522_REG_VERSION);
+      |             ^~~

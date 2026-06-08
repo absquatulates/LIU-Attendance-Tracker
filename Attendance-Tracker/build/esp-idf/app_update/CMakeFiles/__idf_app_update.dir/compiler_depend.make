@@ -35,7 +35,6 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: /home/will
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/queue.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/app_update/include/esp_ota_ops.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
   /home/william-hellstrand/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
@@ -109,8 +108,11 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: /home/will
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_private/esp_flash_internal.h \
   /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
-  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
+  /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
+  config/sdkconfig.h
 
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h:
 
@@ -174,10 +176,6 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: /home/will
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_private/spi_share_hw_ctrl.h:
 
-/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_format.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h:
-
 /home/william-hellstrand/esp/esp-idf/components/log/include/esp_private/log_attr.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h:
@@ -204,6 +202,10 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: /home/will
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdlib.h:
 
+/home/william-hellstrand/esp/esp-idf/components/log/include/esp_log_format.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdio.h:
 
 /home/william-hellstrand/esp/esp-idf/components/hal/esp32c3/include/hal/efuse_ll.h:
@@ -227,8 +229,6 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: /home/will
 /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpspi/include/soc/spi_periph.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/stddef.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/periph_defs.h:
 

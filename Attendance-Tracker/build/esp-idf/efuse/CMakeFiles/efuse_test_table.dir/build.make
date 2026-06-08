@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for efuse_test_table.
 
@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse_test_table:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/efuse/efuse_table_gen.py /home/william-hellstrand/esp/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32c3 --max_blk_len 256
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/efuse/efuse_table_gen.py /home/william-hellstrand/esp/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32c3 --max_blk_len 256
 
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build: efuse_test_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_test_table.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_test_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/efuse/CMakeFiles/efuse_test_table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/efuse/CMakeFiles/efuse_test_table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend
 

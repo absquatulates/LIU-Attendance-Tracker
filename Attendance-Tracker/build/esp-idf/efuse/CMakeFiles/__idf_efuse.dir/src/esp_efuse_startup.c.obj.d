@@ -1,6 +1,6 @@
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/efuse/src/esp_efuse_startup.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/chip_revision.h \

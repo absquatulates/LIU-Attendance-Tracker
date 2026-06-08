@@ -1,6 +1,6 @@
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/unity/unity_utils_cache.c \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
  /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_config.h \

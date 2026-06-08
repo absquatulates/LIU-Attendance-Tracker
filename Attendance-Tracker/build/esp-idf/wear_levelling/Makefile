@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/wear_levelling//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/wear_levelling//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
 .PHONY : esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_wear_levelling: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir
 
 # fast build rule for target.
 __idf_wear_levelling/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build
 .PHONY : __idf_wear_levelling/fast
 
 BDL_Access.obj: BDL_Access.cpp.obj
@@ -180,7 +180,7 @@ BDL_Access.obj: BDL_Access.cpp.obj
 
 # target to build an object file
 BDL_Access.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.obj
 .PHONY : BDL_Access.cpp.obj
 
 BDL_Access.i: BDL_Access.cpp.i
@@ -188,7 +188,7 @@ BDL_Access.i: BDL_Access.cpp.i
 
 # target to preprocess a source file
 BDL_Access.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.i
 .PHONY : BDL_Access.cpp.i
 
 BDL_Access.s: BDL_Access.cpp.s
@@ -196,7 +196,7 @@ BDL_Access.s: BDL_Access.cpp.s
 
 # target to generate assembly for a file
 BDL_Access.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.s
 .PHONY : BDL_Access.cpp.s
 
 Partition.obj: Partition.cpp.obj
@@ -204,7 +204,7 @@ Partition.obj: Partition.cpp.obj
 
 # target to build an object file
 Partition.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
 .PHONY : Partition.cpp.obj
 
 Partition.i: Partition.cpp.i
@@ -212,7 +212,7 @@ Partition.i: Partition.cpp.i
 
 # target to preprocess a source file
 Partition.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.i
 .PHONY : Partition.cpp.i
 
 Partition.s: Partition.cpp.s
@@ -220,7 +220,7 @@ Partition.s: Partition.cpp.s
 
 # target to generate assembly for a file
 Partition.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.s
 .PHONY : Partition.cpp.s
 
 SPI_Flash.obj: SPI_Flash.cpp.obj
@@ -228,7 +228,7 @@ SPI_Flash.obj: SPI_Flash.cpp.obj
 
 # target to build an object file
 SPI_Flash.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
 .PHONY : SPI_Flash.cpp.obj
 
 SPI_Flash.i: SPI_Flash.cpp.i
@@ -236,7 +236,7 @@ SPI_Flash.i: SPI_Flash.cpp.i
 
 # target to preprocess a source file
 SPI_Flash.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.i
 .PHONY : SPI_Flash.cpp.i
 
 SPI_Flash.s: SPI_Flash.cpp.s
@@ -244,7 +244,7 @@ SPI_Flash.s: SPI_Flash.cpp.s
 
 # target to generate assembly for a file
 SPI_Flash.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.s
 .PHONY : SPI_Flash.cpp.s
 
 WL_Ext_Perf.obj: WL_Ext_Perf.cpp.obj
@@ -252,7 +252,7 @@ WL_Ext_Perf.obj: WL_Ext_Perf.cpp.obj
 
 # target to build an object file
 WL_Ext_Perf.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
 .PHONY : WL_Ext_Perf.cpp.obj
 
 WL_Ext_Perf.i: WL_Ext_Perf.cpp.i
@@ -260,7 +260,7 @@ WL_Ext_Perf.i: WL_Ext_Perf.cpp.i
 
 # target to preprocess a source file
 WL_Ext_Perf.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.i
 .PHONY : WL_Ext_Perf.cpp.i
 
 WL_Ext_Perf.s: WL_Ext_Perf.cpp.s
@@ -268,7 +268,7 @@ WL_Ext_Perf.s: WL_Ext_Perf.cpp.s
 
 # target to generate assembly for a file
 WL_Ext_Perf.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.s
 .PHONY : WL_Ext_Perf.cpp.s
 
 WL_Ext_Safe.obj: WL_Ext_Safe.cpp.obj
@@ -276,7 +276,7 @@ WL_Ext_Safe.obj: WL_Ext_Safe.cpp.obj
 
 # target to build an object file
 WL_Ext_Safe.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
 .PHONY : WL_Ext_Safe.cpp.obj
 
 WL_Ext_Safe.i: WL_Ext_Safe.cpp.i
@@ -284,7 +284,7 @@ WL_Ext_Safe.i: WL_Ext_Safe.cpp.i
 
 # target to preprocess a source file
 WL_Ext_Safe.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.i
 .PHONY : WL_Ext_Safe.cpp.i
 
 WL_Ext_Safe.s: WL_Ext_Safe.cpp.s
@@ -292,7 +292,7 @@ WL_Ext_Safe.s: WL_Ext_Safe.cpp.s
 
 # target to generate assembly for a file
 WL_Ext_Safe.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.s
 .PHONY : WL_Ext_Safe.cpp.s
 
 WL_Flash.obj: WL_Flash.cpp.obj
@@ -300,7 +300,7 @@ WL_Flash.obj: WL_Flash.cpp.obj
 
 # target to build an object file
 WL_Flash.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
 .PHONY : WL_Flash.cpp.obj
 
 WL_Flash.i: WL_Flash.cpp.i
@@ -308,7 +308,7 @@ WL_Flash.i: WL_Flash.cpp.i
 
 # target to preprocess a source file
 WL_Flash.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.i
 .PHONY : WL_Flash.cpp.i
 
 WL_Flash.s: WL_Flash.cpp.s
@@ -316,7 +316,7 @@ WL_Flash.s: WL_Flash.cpp.s
 
 # target to generate assembly for a file
 WL_Flash.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.s
 .PHONY : WL_Flash.cpp.s
 
 crc32.obj: crc32.cpp.obj
@@ -324,7 +324,7 @@ crc32.obj: crc32.cpp.obj
 
 # target to build an object file
 crc32.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
 .PHONY : crc32.cpp.obj
 
 crc32.i: crc32.cpp.i
@@ -332,7 +332,7 @@ crc32.i: crc32.cpp.i
 
 # target to preprocess a source file
 crc32.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.i
 .PHONY : crc32.cpp.i
 
 crc32.s: crc32.cpp.s
@@ -340,7 +340,7 @@ crc32.s: crc32.cpp.s
 
 # target to generate assembly for a file
 crc32.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.s
 .PHONY : crc32.cpp.s
 
 wear_levelling.obj: wear_levelling.cpp.obj
@@ -348,7 +348,7 @@ wear_levelling.obj: wear_levelling.cpp.obj
 
 # target to build an object file
 wear_levelling.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
 .PHONY : wear_levelling.cpp.obj
 
 wear_levelling.i: wear_levelling.cpp.i
@@ -356,7 +356,7 @@ wear_levelling.i: wear_levelling.cpp.i
 
 # target to preprocess a source file
 wear_levelling.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.i
 .PHONY : wear_levelling.cpp.i
 
 wear_levelling.s: wear_levelling.cpp.s
@@ -364,7 +364,7 @@ wear_levelling.s: wear_levelling.cpp.s
 
 # target to generate assembly for a file
 wear_levelling.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.s
 .PHONY : wear_levelling.cpp.s
 
 wl_blockdev.obj: wl_blockdev.cpp.obj
@@ -372,7 +372,7 @@ wl_blockdev.obj: wl_blockdev.cpp.obj
 
 # target to build an object file
 wl_blockdev.cpp.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj
 .PHONY : wl_blockdev.cpp.obj
 
 wl_blockdev.i: wl_blockdev.cpp.i
@@ -380,7 +380,7 @@ wl_blockdev.i: wl_blockdev.cpp.i
 
 # target to preprocess a source file
 wl_blockdev.cpp.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.i
 .PHONY : wl_blockdev.cpp.i
 
 wl_blockdev.s: wl_blockdev.cpp.s
@@ -388,7 +388,7 @@ wl_blockdev.s: wl_blockdev.cpp.s
 
 # target to generate assembly for a file
 wl_blockdev.cpp.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.s
 .PHONY : wl_blockdev.cpp.s
 
 # Help Target
@@ -442,6 +442,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

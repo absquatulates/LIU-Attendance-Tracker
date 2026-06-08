@@ -1,0 +1,14 @@
+Command: make -j 10 all
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c: In function 'mfrc522_init':
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c:177:13: warning: unused variable 'ver' [-Wunused-variable]
+  177 |     uint8_t ver = mfrc522_read_reg(MFRC522_REG_VERSION);
+      |             ^~~
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c: In function 'app_main':
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c:559:45: error: 'cnt' undeclared (first use in this function); did you mean 'int'?
+  559 |                         printf("cnt: %u\n", cnt);
+      |                                             ^~~
+      |                                             int
+/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/src/main.c:559:45: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [esp-idf/src/CMakeFiles/__idf_src.dir/build.make:76: esp-idf/src/CMakeFiles/__idf_src.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:7036: esp-idf/src/CMakeFiles/__idf_src.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

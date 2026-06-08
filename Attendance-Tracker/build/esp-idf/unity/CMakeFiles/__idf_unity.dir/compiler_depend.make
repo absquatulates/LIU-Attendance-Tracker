@@ -33,7 +33,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj: 
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -88,7 +87,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj: 
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_cache.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_memory.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_memory.h \
+  config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj: /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -121,7 +121,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj: /home/william-he
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
@@ -131,7 +130,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj: /home/william-he
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_config.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_runner.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
+  config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj: /home/william-hellstrand/esp/esp-idf/components/unity/unity_compat.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -164,7 +164,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj: /home/william-hells
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
@@ -174,7 +173,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj: /home/william-hells
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_config.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_runner.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
+  config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj: /home/william-hellstrand/esp/esp-idf/components/unity/unity_port_esp32.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -214,7 +214,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj: /home/william-h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -246,7 +245,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj: /home/william-h
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_config.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_runner.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
+  config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj: /home/william-hellstrand/esp/esp-idf/components/unity/unity_runner.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -283,7 +283,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj: /home/william-hells
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -298,7 +297,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj: /home/william-hells
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_config.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_runner.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
+  config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj: /home/william-hellstrand/esp/esp-idf/components/unity/unity_utils_cache.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -338,7 +338,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj: /home/william-
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -380,7 +379,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj: /home/william-
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_runner.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_cache.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
+  config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj: /home/william-hellstrand/esp/esp-idf/components/unity/unity_utils_freertos.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -421,7 +421,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj: /home/willi
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -480,7 +479,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj: /home/willi
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_cache.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_memory.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
+  config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj: /home/william-hellstrand/esp/esp-idf/components/unity/unity_utils_memory.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -518,7 +518,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj: /home/william
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -577,7 +576,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj: /home/william
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_cache.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_memory.h \
   /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h \
-  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h
+  /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity_internals.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/unity/unity_utils_memory.c:
@@ -634,6 +634,12 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj: /home/william
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/assert.h:
 
+/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:
+
+/home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_cache.h:
+
+/home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/misc.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/limits.h:
@@ -671,10 +677,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj: /home/william
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/setjmp.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/picolibc.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/spi_mem_reg.h:
 
@@ -728,12 +730,6 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash.h:
 
-/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:
-
-/home/william-hellstrand/esp/esp-idf/components/unity/include/unity_test_utils_cache.h:
-
-/home/william-hellstrand/esp/esp-idf/components/hal/platform_port/include/hal/misc.h:
-
 /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:
 
 /home/william-hellstrand/esp/esp-idf/components/unity/unity_utils_cache.c:
@@ -785,6 +781,10 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/unity/unity/src/unity.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/interrupts.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_stdio/include/esp_system_console.h:
 

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/depend.make
@@ -72,58 +72,58 @@ include esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/flags.make
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/flags.make
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c > CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c > CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.i
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c -o CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c -o CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.s
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/flags.make
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/dedic_gpio_periph.c
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/dedic_gpio_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/dedic_gpio_periph.c
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/dedic_gpio_periph.c > CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/dedic_gpio_periph.c > CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.i
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/dedic_gpio_periph.c -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/dedic_gpio_periph.c -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/dedic_gpio_periph.c.s
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/flags.make
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c > CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c > CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.i
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c -o CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c -o CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.s
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/flags.make
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/sdm_periph.c
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/sdm_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj -MF CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/sdm_periph.c
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/sdm_periph.c > CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/sdm_periph.c > CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.i
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/sdm_periph.c -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/sdm_periph.c -o CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.s
 
 # Object files for target __idf_esp_hal_gpio
 __idf_esp_hal_gpio_OBJECTS = \
@@ -141,19 +141,19 @@ esp-idf/esp_hal_gpio/libesp_hal_gpio.a: esp-idf/esp_hal_gpio/CMakeFiles/__idf_es
 esp-idf/esp_hal_gpio/libesp_hal_gpio.a: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32c3/sdm_periph.c.obj
 esp-idf/esp_hal_gpio/libesp_hal_gpio.a: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/build.make
 esp-idf/esp_hal_gpio/libesp_hal_gpio.a: esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_hal_gpio.a"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_gpio.dir/cmake_clean_target.cmake
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_gpio.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_hal_gpio.a"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_gpio.dir/cmake_clean_target.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_gpio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/build: esp-idf/esp_hal_gpio/libesp_hal_gpio.a
 .PHONY : esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/build
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_gpio.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_gpio.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/clean
 
 esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/depend
 

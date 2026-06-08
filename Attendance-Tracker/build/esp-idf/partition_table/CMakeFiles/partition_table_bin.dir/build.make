@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for partition_table_bin.
 
@@ -69,14 +69,14 @@ include esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/progress.make
 esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partition-table.bin
 esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partition-table.bin
 
-partition_table/partition-table.bin: /home/william-hellstrand/Documents/PlatformIO/Projects/testing/partitions.csv
+partition_table/partition-table.bin: /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/partitions.csv
 partition_table/partition-table.bin: /home/william-hellstrand/esp/esp-idf/components/partition_table/gen_esp32part.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 4MB -- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/partitions.csv /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/partition_table/partition-table.bin
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 4MB -- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/partition_table/partition-table.bin
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 4MB -- /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/partitions.csv /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/partition_table/partition-table.bin
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && /home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 4MB -- /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/partition_table/partition-table.bin
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
 
 partition_table_bin: esp-idf/partition_table/CMakeFiles/partition_table_bin
 partition_table_bin: partition_table/partition-table.bin
@@ -88,10 +88,10 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build: partition_tabl
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/partition_table /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/partition_table /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend
 

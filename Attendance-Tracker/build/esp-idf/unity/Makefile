@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/unity//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/unity//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/unity/CMakeFiles/__idf_unity.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/CMakeFiles/__idf_unity.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/unity/CMakeFiles/__idf_unity.dir/rule
 .PHONY : esp-idf/unity/CMakeFiles/__idf_unity.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_unity: esp-idf/unity/CMakeFiles/__idf_unity.dir/rule
 
 # fast build rule for target.
 __idf_unity/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/build
 .PHONY : __idf_unity/fast
 
 port/esp/unity_utils_memory_esp.obj: port/esp/unity_utils_memory_esp.c.obj
@@ -180,7 +180,7 @@ port/esp/unity_utils_memory_esp.obj: port/esp/unity_utils_memory_esp.c.obj
 
 # target to build an object file
 port/esp/unity_utils_memory_esp.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
 .PHONY : port/esp/unity_utils_memory_esp.c.obj
 
 port/esp/unity_utils_memory_esp.i: port/esp/unity_utils_memory_esp.c.i
@@ -188,7 +188,7 @@ port/esp/unity_utils_memory_esp.i: port/esp/unity_utils_memory_esp.c.i
 
 # target to preprocess a source file
 port/esp/unity_utils_memory_esp.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.i
 .PHONY : port/esp/unity_utils_memory_esp.c.i
 
 port/esp/unity_utils_memory_esp.s: port/esp/unity_utils_memory_esp.c.s
@@ -196,7 +196,7 @@ port/esp/unity_utils_memory_esp.s: port/esp/unity_utils_memory_esp.c.s
 
 # target to generate assembly for a file
 port/esp/unity_utils_memory_esp.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.s
 .PHONY : port/esp/unity_utils_memory_esp.c.s
 
 unity/src/unity.obj: unity/src/unity.c.obj
@@ -204,7 +204,7 @@ unity/src/unity.obj: unity/src/unity.c.obj
 
 # target to build an object file
 unity/src/unity.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
 .PHONY : unity/src/unity.c.obj
 
 unity/src/unity.i: unity/src/unity.c.i
@@ -212,7 +212,7 @@ unity/src/unity.i: unity/src/unity.c.i
 
 # target to preprocess a source file
 unity/src/unity.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.i
 .PHONY : unity/src/unity.c.i
 
 unity/src/unity.s: unity/src/unity.c.s
@@ -220,7 +220,7 @@ unity/src/unity.s: unity/src/unity.c.s
 
 # target to generate assembly for a file
 unity/src/unity.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.s
 .PHONY : unity/src/unity.c.s
 
 unity_compat.obj: unity_compat.c.obj
@@ -228,7 +228,7 @@ unity_compat.obj: unity_compat.c.obj
 
 # target to build an object file
 unity_compat.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
 .PHONY : unity_compat.c.obj
 
 unity_compat.i: unity_compat.c.i
@@ -236,7 +236,7 @@ unity_compat.i: unity_compat.c.i
 
 # target to preprocess a source file
 unity_compat.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.i
 .PHONY : unity_compat.c.i
 
 unity_compat.s: unity_compat.c.s
@@ -244,7 +244,7 @@ unity_compat.s: unity_compat.c.s
 
 # target to generate assembly for a file
 unity_compat.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.s
 .PHONY : unity_compat.c.s
 
 unity_port_esp32.obj: unity_port_esp32.c.obj
@@ -252,7 +252,7 @@ unity_port_esp32.obj: unity_port_esp32.c.obj
 
 # target to build an object file
 unity_port_esp32.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
 .PHONY : unity_port_esp32.c.obj
 
 unity_port_esp32.i: unity_port_esp32.c.i
@@ -260,7 +260,7 @@ unity_port_esp32.i: unity_port_esp32.c.i
 
 # target to preprocess a source file
 unity_port_esp32.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.i
 .PHONY : unity_port_esp32.c.i
 
 unity_port_esp32.s: unity_port_esp32.c.s
@@ -268,7 +268,7 @@ unity_port_esp32.s: unity_port_esp32.c.s
 
 # target to generate assembly for a file
 unity_port_esp32.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.s
 .PHONY : unity_port_esp32.c.s
 
 unity_runner.obj: unity_runner.c.obj
@@ -276,7 +276,7 @@ unity_runner.obj: unity_runner.c.obj
 
 # target to build an object file
 unity_runner.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
 .PHONY : unity_runner.c.obj
 
 unity_runner.i: unity_runner.c.i
@@ -284,7 +284,7 @@ unity_runner.i: unity_runner.c.i
 
 # target to preprocess a source file
 unity_runner.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.i
 .PHONY : unity_runner.c.i
 
 unity_runner.s: unity_runner.c.s
@@ -292,7 +292,7 @@ unity_runner.s: unity_runner.c.s
 
 # target to generate assembly for a file
 unity_runner.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.s
 .PHONY : unity_runner.c.s
 
 unity_utils_cache.obj: unity_utils_cache.c.obj
@@ -300,7 +300,7 @@ unity_utils_cache.obj: unity_utils_cache.c.obj
 
 # target to build an object file
 unity_utils_cache.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
 .PHONY : unity_utils_cache.c.obj
 
 unity_utils_cache.i: unity_utils_cache.c.i
@@ -308,7 +308,7 @@ unity_utils_cache.i: unity_utils_cache.c.i
 
 # target to preprocess a source file
 unity_utils_cache.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.i
 .PHONY : unity_utils_cache.c.i
 
 unity_utils_cache.s: unity_utils_cache.c.s
@@ -316,7 +316,7 @@ unity_utils_cache.s: unity_utils_cache.c.s
 
 # target to generate assembly for a file
 unity_utils_cache.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.s
 .PHONY : unity_utils_cache.c.s
 
 unity_utils_freertos.obj: unity_utils_freertos.c.obj
@@ -324,7 +324,7 @@ unity_utils_freertos.obj: unity_utils_freertos.c.obj
 
 # target to build an object file
 unity_utils_freertos.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
 .PHONY : unity_utils_freertos.c.obj
 
 unity_utils_freertos.i: unity_utils_freertos.c.i
@@ -332,7 +332,7 @@ unity_utils_freertos.i: unity_utils_freertos.c.i
 
 # target to preprocess a source file
 unity_utils_freertos.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.i
 .PHONY : unity_utils_freertos.c.i
 
 unity_utils_freertos.s: unity_utils_freertos.c.s
@@ -340,7 +340,7 @@ unity_utils_freertos.s: unity_utils_freertos.c.s
 
 # target to generate assembly for a file
 unity_utils_freertos.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.s
 .PHONY : unity_utils_freertos.c.s
 
 unity_utils_memory.obj: unity_utils_memory.c.obj
@@ -348,7 +348,7 @@ unity_utils_memory.obj: unity_utils_memory.c.obj
 
 # target to build an object file
 unity_utils_memory.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
 .PHONY : unity_utils_memory.c.obj
 
 unity_utils_memory.i: unity_utils_memory.c.i
@@ -356,7 +356,7 @@ unity_utils_memory.i: unity_utils_memory.c.i
 
 # target to preprocess a source file
 unity_utils_memory.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.i
 .PHONY : unity_utils_memory.c.i
 
 unity_utils_memory.s: unity_utils_memory.c.s
@@ -364,7 +364,7 @@ unity_utils_memory.s: unity_utils_memory.c.s
 
 # target to generate assembly for a file
 unity_utils_memory.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.s
 .PHONY : unity_utils_memory.c.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

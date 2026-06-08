@@ -2,7 +2,7 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/fatfs/src/ffunicode.c \
  /home/william-hellstrand/esp/esp-idf/components/fatfs/src/ff.h \
  /home/william-hellstrand/esp/esp-idf/components/fatfs/src/ffconf.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config/sdkconfig.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \

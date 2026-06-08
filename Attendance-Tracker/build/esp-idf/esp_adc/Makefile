@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_adc//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_adc//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/rule
 .PHONY : esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_adc: esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/rule
 
 # fast build rule for target.
 __idf_esp_adc/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build
 .PHONY : __idf_esp_adc/fast
 
 adc_cali.obj: adc_cali.c.obj
@@ -180,7 +180,7 @@ adc_cali.obj: adc_cali.c.obj
 
 # target to build an object file
 adc_cali.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj
 .PHONY : adc_cali.c.obj
 
 adc_cali.i: adc_cali.c.i
@@ -188,7 +188,7 @@ adc_cali.i: adc_cali.c.i
 
 # target to preprocess a source file
 adc_cali.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.i
 .PHONY : adc_cali.c.i
 
 adc_cali.s: adc_cali.c.s
@@ -196,7 +196,7 @@ adc_cali.s: adc_cali.c.s
 
 # target to generate assembly for a file
 adc_cali.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.s
 .PHONY : adc_cali.c.s
 
 adc_cali_curve_fitting.obj: adc_cali_curve_fitting.c.obj
@@ -204,7 +204,7 @@ adc_cali_curve_fitting.obj: adc_cali_curve_fitting.c.obj
 
 # target to build an object file
 adc_cali_curve_fitting.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj
 .PHONY : adc_cali_curve_fitting.c.obj
 
 adc_cali_curve_fitting.i: adc_cali_curve_fitting.c.i
@@ -212,7 +212,7 @@ adc_cali_curve_fitting.i: adc_cali_curve_fitting.c.i
 
 # target to preprocess a source file
 adc_cali_curve_fitting.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.i
 .PHONY : adc_cali_curve_fitting.c.i
 
 adc_cali_curve_fitting.s: adc_cali_curve_fitting.c.s
@@ -220,7 +220,7 @@ adc_cali_curve_fitting.s: adc_cali_curve_fitting.c.s
 
 # target to generate assembly for a file
 adc_cali_curve_fitting.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.s
 .PHONY : adc_cali_curve_fitting.c.s
 
 adc_common.obj: adc_common.c.obj
@@ -228,7 +228,7 @@ adc_common.obj: adc_common.c.obj
 
 # target to build an object file
 adc_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
 .PHONY : adc_common.c.obj
 
 adc_common.i: adc_common.c.i
@@ -236,7 +236,7 @@ adc_common.i: adc_common.c.i
 
 # target to preprocess a source file
 adc_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.i
 .PHONY : adc_common.c.i
 
 adc_common.s: adc_common.c.s
@@ -244,7 +244,7 @@ adc_common.s: adc_common.c.s
 
 # target to generate assembly for a file
 adc_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.s
 .PHONY : adc_common.c.s
 
 adc_continuous.obj: adc_continuous.c.obj
@@ -252,7 +252,7 @@ adc_continuous.obj: adc_continuous.c.obj
 
 # target to build an object file
 adc_continuous.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
 .PHONY : adc_continuous.c.obj
 
 adc_continuous.i: adc_continuous.c.i
@@ -260,7 +260,7 @@ adc_continuous.i: adc_continuous.c.i
 
 # target to preprocess a source file
 adc_continuous.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.i
 .PHONY : adc_continuous.c.i
 
 adc_continuous.s: adc_continuous.c.s
@@ -268,7 +268,7 @@ adc_continuous.s: adc_continuous.c.s
 
 # target to generate assembly for a file
 adc_continuous.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.s
 .PHONY : adc_continuous.c.s
 
 adc_filter.obj: adc_filter.c.obj
@@ -276,7 +276,7 @@ adc_filter.obj: adc_filter.c.obj
 
 # target to build an object file
 adc_filter.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_filter.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_filter.c.obj
 .PHONY : adc_filter.c.obj
 
 adc_filter.i: adc_filter.c.i
@@ -284,7 +284,7 @@ adc_filter.i: adc_filter.c.i
 
 # target to preprocess a source file
 adc_filter.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_filter.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_filter.c.i
 .PHONY : adc_filter.c.i
 
 adc_filter.s: adc_filter.c.s
@@ -292,7 +292,7 @@ adc_filter.s: adc_filter.c.s
 
 # target to generate assembly for a file
 adc_filter.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_filter.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_filter.c.s
 .PHONY : adc_filter.c.s
 
 adc_monitor.obj: adc_monitor.c.obj
@@ -300,7 +300,7 @@ adc_monitor.obj: adc_monitor.c.obj
 
 # target to build an object file
 adc_monitor.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_monitor.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_monitor.c.obj
 .PHONY : adc_monitor.c.obj
 
 adc_monitor.i: adc_monitor.c.i
@@ -308,7 +308,7 @@ adc_monitor.i: adc_monitor.c.i
 
 # target to preprocess a source file
 adc_monitor.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_monitor.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_monitor.c.i
 .PHONY : adc_monitor.c.i
 
 adc_monitor.s: adc_monitor.c.s
@@ -316,7 +316,7 @@ adc_monitor.s: adc_monitor.c.s
 
 # target to generate assembly for a file
 adc_monitor.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_monitor.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_monitor.c.s
 .PHONY : adc_monitor.c.s
 
 adc_oneshot.obj: adc_oneshot.c.obj
@@ -324,7 +324,7 @@ adc_oneshot.obj: adc_oneshot.c.obj
 
 # target to build an object file
 adc_oneshot.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
 .PHONY : adc_oneshot.c.obj
 
 adc_oneshot.i: adc_oneshot.c.i
@@ -332,7 +332,7 @@ adc_oneshot.i: adc_oneshot.c.i
 
 # target to preprocess a source file
 adc_oneshot.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.i
 .PHONY : adc_oneshot.c.i
 
 adc_oneshot.s: adc_oneshot.c.s
@@ -340,7 +340,7 @@ adc_oneshot.s: adc_oneshot.c.s
 
 # target to generate assembly for a file
 adc_oneshot.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.s
 .PHONY : adc_oneshot.c.s
 
 esp32c3/curve_fitting_coefficients.obj: esp32c3/curve_fitting_coefficients.c.obj
@@ -348,7 +348,7 @@ esp32c3/curve_fitting_coefficients.obj: esp32c3/curve_fitting_coefficients.c.obj
 
 # target to build an object file
 esp32c3/curve_fitting_coefficients.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32c3/curve_fitting_coefficients.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32c3/curve_fitting_coefficients.c.obj
 .PHONY : esp32c3/curve_fitting_coefficients.c.obj
 
 esp32c3/curve_fitting_coefficients.i: esp32c3/curve_fitting_coefficients.c.i
@@ -356,7 +356,7 @@ esp32c3/curve_fitting_coefficients.i: esp32c3/curve_fitting_coefficients.c.i
 
 # target to preprocess a source file
 esp32c3/curve_fitting_coefficients.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32c3/curve_fitting_coefficients.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32c3/curve_fitting_coefficients.c.i
 .PHONY : esp32c3/curve_fitting_coefficients.c.i
 
 esp32c3/curve_fitting_coefficients.s: esp32c3/curve_fitting_coefficients.c.s
@@ -364,7 +364,7 @@ esp32c3/curve_fitting_coefficients.s: esp32c3/curve_fitting_coefficients.c.s
 
 # target to generate assembly for a file
 esp32c3/curve_fitting_coefficients.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32c3/curve_fitting_coefficients.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32c3/curve_fitting_coefficients.c.s
 .PHONY : esp32c3/curve_fitting_coefficients.c.s
 
 gdma/adc_dma.obj: gdma/adc_dma.c.obj
@@ -372,7 +372,7 @@ gdma/adc_dma.obj: gdma/adc_dma.c.obj
 
 # target to build an object file
 gdma/adc_dma.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/gdma/adc_dma.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/gdma/adc_dma.c.obj
 .PHONY : gdma/adc_dma.c.obj
 
 gdma/adc_dma.i: gdma/adc_dma.c.i
@@ -380,7 +380,7 @@ gdma/adc_dma.i: gdma/adc_dma.c.i
 
 # target to preprocess a source file
 gdma/adc_dma.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/gdma/adc_dma.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/gdma/adc_dma.c.i
 .PHONY : gdma/adc_dma.c.i
 
 gdma/adc_dma.s: gdma/adc_dma.c.s
@@ -388,7 +388,7 @@ gdma/adc_dma.s: gdma/adc_dma.c.s
 
 # target to generate assembly for a file
 gdma/adc_dma.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/gdma/adc_dma.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/gdma/adc_dma.c.s
 .PHONY : gdma/adc_dma.c.s
 
 # Help Target
@@ -442,6 +442,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

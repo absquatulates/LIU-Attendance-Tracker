@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for uf2.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2.dir/compiler_depend.make
 include CMakeFiles/uf2.dir/progress.make
 
 CMakeFiles/uf2:
-	/usr/bin/cmake -D IDF_PATH=/home/william-hellstrand/esp/esp-idf -D "UF2_CMD=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python;/home/william-hellstrand/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32c3" -D "UF2_ARGS=--json;/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/flasher_args.json;-o;/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/uf2.bin" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
+	/usr/bin/cmake -D IDF_PATH=/home/william-hellstrand/esp/esp-idf -D "UF2_CMD=/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python;/home/william-hellstrand/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32c3" -D "UF2_ARGS=--json;/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/flasher_args.json;-o;/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/uf2.bin" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
 
 uf2: CMakeFiles/uf2
 uf2: CMakeFiles/uf2.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uf2.dir/clean:
 .PHONY : CMakeFiles/uf2.dir/clean
 
 CMakeFiles/uf2.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/uf2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/uf2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uf2.dir/depend
 

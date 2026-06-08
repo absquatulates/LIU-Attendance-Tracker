@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/freertos//CMakeFiles/progress.marks
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/freertos//CMakeFiles/progress.marks
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/clean
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule
 .PHONY : esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_freertos: esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule
 
 # fast build rule for target.
 __idf_freertos/fast:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build
 .PHONY : __idf_freertos/fast
 
 FreeRTOS-Kernel/event_groups.obj: FreeRTOS-Kernel/event_groups.c.obj
@@ -180,7 +180,7 @@ FreeRTOS-Kernel/event_groups.obj: FreeRTOS-Kernel/event_groups.c.obj
 
 # target to build an object file
 FreeRTOS-Kernel/event_groups.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.obj
 .PHONY : FreeRTOS-Kernel/event_groups.c.obj
 
 FreeRTOS-Kernel/event_groups.i: FreeRTOS-Kernel/event_groups.c.i
@@ -188,7 +188,7 @@ FreeRTOS-Kernel/event_groups.i: FreeRTOS-Kernel/event_groups.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/event_groups.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.i
 .PHONY : FreeRTOS-Kernel/event_groups.c.i
 
 FreeRTOS-Kernel/event_groups.s: FreeRTOS-Kernel/event_groups.c.s
@@ -196,7 +196,7 @@ FreeRTOS-Kernel/event_groups.s: FreeRTOS-Kernel/event_groups.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/event_groups.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.s
 .PHONY : FreeRTOS-Kernel/event_groups.c.s
 
 FreeRTOS-Kernel/list.obj: FreeRTOS-Kernel/list.c.obj
@@ -204,7 +204,7 @@ FreeRTOS-Kernel/list.obj: FreeRTOS-Kernel/list.c.obj
 
 # target to build an object file
 FreeRTOS-Kernel/list.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
 .PHONY : FreeRTOS-Kernel/list.c.obj
 
 FreeRTOS-Kernel/list.i: FreeRTOS-Kernel/list.c.i
@@ -212,7 +212,7 @@ FreeRTOS-Kernel/list.i: FreeRTOS-Kernel/list.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/list.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.i
 .PHONY : FreeRTOS-Kernel/list.c.i
 
 FreeRTOS-Kernel/list.s: FreeRTOS-Kernel/list.c.s
@@ -220,7 +220,7 @@ FreeRTOS-Kernel/list.s: FreeRTOS-Kernel/list.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/list.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.s
 .PHONY : FreeRTOS-Kernel/list.c.s
 
 FreeRTOS-Kernel/portable/riscv/port.obj: FreeRTOS-Kernel/portable/riscv/port.c.obj
@@ -228,7 +228,7 @@ FreeRTOS-Kernel/portable/riscv/port.obj: FreeRTOS-Kernel/portable/riscv/port.c.o
 
 # target to build an object file
 FreeRTOS-Kernel/portable/riscv/port.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.obj
 .PHONY : FreeRTOS-Kernel/portable/riscv/port.c.obj
 
 FreeRTOS-Kernel/portable/riscv/port.i: FreeRTOS-Kernel/portable/riscv/port.c.i
@@ -236,7 +236,7 @@ FreeRTOS-Kernel/portable/riscv/port.i: FreeRTOS-Kernel/portable/riscv/port.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/portable/riscv/port.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.i
 .PHONY : FreeRTOS-Kernel/portable/riscv/port.c.i
 
 FreeRTOS-Kernel/portable/riscv/port.s: FreeRTOS-Kernel/portable/riscv/port.c.s
@@ -244,7 +244,7 @@ FreeRTOS-Kernel/portable/riscv/port.s: FreeRTOS-Kernel/portable/riscv/port.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/portable/riscv/port.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.s
 .PHONY : FreeRTOS-Kernel/portable/riscv/port.c.s
 
 FreeRTOS-Kernel/portable/riscv/portasm.obj: FreeRTOS-Kernel/portable/riscv/portasm.S.obj
@@ -252,7 +252,7 @@ FreeRTOS-Kernel/portable/riscv/portasm.obj: FreeRTOS-Kernel/portable/riscv/porta
 
 # target to build an object file
 FreeRTOS-Kernel/portable/riscv/portasm.S.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/portasm.S.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/portasm.S.obj
 .PHONY : FreeRTOS-Kernel/portable/riscv/portasm.S.obj
 
 FreeRTOS-Kernel/queue.obj: FreeRTOS-Kernel/queue.c.obj
@@ -260,7 +260,7 @@ FreeRTOS-Kernel/queue.obj: FreeRTOS-Kernel/queue.c.obj
 
 # target to build an object file
 FreeRTOS-Kernel/queue.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
 .PHONY : FreeRTOS-Kernel/queue.c.obj
 
 FreeRTOS-Kernel/queue.i: FreeRTOS-Kernel/queue.c.i
@@ -268,7 +268,7 @@ FreeRTOS-Kernel/queue.i: FreeRTOS-Kernel/queue.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/queue.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.i
 .PHONY : FreeRTOS-Kernel/queue.c.i
 
 FreeRTOS-Kernel/queue.s: FreeRTOS-Kernel/queue.c.s
@@ -276,7 +276,7 @@ FreeRTOS-Kernel/queue.s: FreeRTOS-Kernel/queue.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/queue.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.s
 .PHONY : FreeRTOS-Kernel/queue.c.s
 
 FreeRTOS-Kernel/stream_buffer.obj: FreeRTOS-Kernel/stream_buffer.c.obj
@@ -284,7 +284,7 @@ FreeRTOS-Kernel/stream_buffer.obj: FreeRTOS-Kernel/stream_buffer.c.obj
 
 # target to build an object file
 FreeRTOS-Kernel/stream_buffer.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
 .PHONY : FreeRTOS-Kernel/stream_buffer.c.obj
 
 FreeRTOS-Kernel/stream_buffer.i: FreeRTOS-Kernel/stream_buffer.c.i
@@ -292,7 +292,7 @@ FreeRTOS-Kernel/stream_buffer.i: FreeRTOS-Kernel/stream_buffer.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/stream_buffer.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.i
 .PHONY : FreeRTOS-Kernel/stream_buffer.c.i
 
 FreeRTOS-Kernel/stream_buffer.s: FreeRTOS-Kernel/stream_buffer.c.s
@@ -300,7 +300,7 @@ FreeRTOS-Kernel/stream_buffer.s: FreeRTOS-Kernel/stream_buffer.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/stream_buffer.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.s
 .PHONY : FreeRTOS-Kernel/stream_buffer.c.s
 
 FreeRTOS-Kernel/tasks.obj: FreeRTOS-Kernel/tasks.c.obj
@@ -308,7 +308,7 @@ FreeRTOS-Kernel/tasks.obj: FreeRTOS-Kernel/tasks.c.obj
 
 # target to build an object file
 FreeRTOS-Kernel/tasks.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
 .PHONY : FreeRTOS-Kernel/tasks.c.obj
 
 FreeRTOS-Kernel/tasks.i: FreeRTOS-Kernel/tasks.c.i
@@ -316,7 +316,7 @@ FreeRTOS-Kernel/tasks.i: FreeRTOS-Kernel/tasks.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/tasks.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.i
 .PHONY : FreeRTOS-Kernel/tasks.c.i
 
 FreeRTOS-Kernel/tasks.s: FreeRTOS-Kernel/tasks.c.s
@@ -324,7 +324,7 @@ FreeRTOS-Kernel/tasks.s: FreeRTOS-Kernel/tasks.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/tasks.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.s
 .PHONY : FreeRTOS-Kernel/tasks.c.s
 
 FreeRTOS-Kernel/timers.obj: FreeRTOS-Kernel/timers.c.obj
@@ -332,7 +332,7 @@ FreeRTOS-Kernel/timers.obj: FreeRTOS-Kernel/timers.c.obj
 
 # target to build an object file
 FreeRTOS-Kernel/timers.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
 .PHONY : FreeRTOS-Kernel/timers.c.obj
 
 FreeRTOS-Kernel/timers.i: FreeRTOS-Kernel/timers.c.i
@@ -340,7 +340,7 @@ FreeRTOS-Kernel/timers.i: FreeRTOS-Kernel/timers.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/timers.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.i
 .PHONY : FreeRTOS-Kernel/timers.c.i
 
 FreeRTOS-Kernel/timers.s: FreeRTOS-Kernel/timers.c.s
@@ -348,7 +348,7 @@ FreeRTOS-Kernel/timers.s: FreeRTOS-Kernel/timers.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/timers.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.s
 .PHONY : FreeRTOS-Kernel/timers.c.s
 
 app_startup.obj: app_startup.c.obj
@@ -356,7 +356,7 @@ app_startup.obj: app_startup.c.obj
 
 # target to build an object file
 app_startup.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
 .PHONY : app_startup.c.obj
 
 app_startup.i: app_startup.c.i
@@ -364,7 +364,7 @@ app_startup.i: app_startup.c.i
 
 # target to preprocess a source file
 app_startup.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.i
 .PHONY : app_startup.c.i
 
 app_startup.s: app_startup.c.s
@@ -372,7 +372,7 @@ app_startup.s: app_startup.c.s
 
 # target to generate assembly for a file
 app_startup.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.s
 .PHONY : app_startup.c.s
 
 esp_additions/idf_additions.obj: esp_additions/idf_additions.c.obj
@@ -380,7 +380,7 @@ esp_additions/idf_additions.obj: esp_additions/idf_additions.c.obj
 
 # target to build an object file
 esp_additions/idf_additions.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.obj
 .PHONY : esp_additions/idf_additions.c.obj
 
 esp_additions/idf_additions.i: esp_additions/idf_additions.c.i
@@ -388,7 +388,7 @@ esp_additions/idf_additions.i: esp_additions/idf_additions.c.i
 
 # target to preprocess a source file
 esp_additions/idf_additions.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.i
 .PHONY : esp_additions/idf_additions.c.i
 
 esp_additions/idf_additions.s: esp_additions/idf_additions.c.s
@@ -396,7 +396,7 @@ esp_additions/idf_additions.s: esp_additions/idf_additions.c.s
 
 # target to generate assembly for a file
 esp_additions/idf_additions.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.s
 .PHONY : esp_additions/idf_additions.c.s
 
 esp_additions/idf_additions_event_groups.obj: esp_additions/idf_additions_event_groups.c.obj
@@ -404,7 +404,7 @@ esp_additions/idf_additions_event_groups.obj: esp_additions/idf_additions_event_
 
 # target to build an object file
 esp_additions/idf_additions_event_groups.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.obj
 .PHONY : esp_additions/idf_additions_event_groups.c.obj
 
 esp_additions/idf_additions_event_groups.i: esp_additions/idf_additions_event_groups.c.i
@@ -412,7 +412,7 @@ esp_additions/idf_additions_event_groups.i: esp_additions/idf_additions_event_gr
 
 # target to preprocess a source file
 esp_additions/idf_additions_event_groups.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.i
 .PHONY : esp_additions/idf_additions_event_groups.c.i
 
 esp_additions/idf_additions_event_groups.s: esp_additions/idf_additions_event_groups.c.s
@@ -420,7 +420,7 @@ esp_additions/idf_additions_event_groups.s: esp_additions/idf_additions_event_gr
 
 # target to generate assembly for a file
 esp_additions/idf_additions_event_groups.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.s
 .PHONY : esp_additions/idf_additions_event_groups.c.s
 
 heap_idf.obj: heap_idf.c.obj
@@ -428,7 +428,7 @@ heap_idf.obj: heap_idf.c.obj
 
 # target to build an object file
 heap_idf.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj
 .PHONY : heap_idf.c.obj
 
 heap_idf.i: heap_idf.c.i
@@ -436,7 +436,7 @@ heap_idf.i: heap_idf.c.i
 
 # target to preprocess a source file
 heap_idf.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.i
 .PHONY : heap_idf.c.i
 
 heap_idf.s: heap_idf.c.s
@@ -444,7 +444,7 @@ heap_idf.s: heap_idf.c.s
 
 # target to generate assembly for a file
 heap_idf.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.s
 .PHONY : heap_idf.c.s
 
 port_common.obj: port_common.c.obj
@@ -452,7 +452,7 @@ port_common.obj: port_common.c.obj
 
 # target to build an object file
 port_common.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.obj
 .PHONY : port_common.c.obj
 
 port_common.i: port_common.c.i
@@ -460,7 +460,7 @@ port_common.i: port_common.c.i
 
 # target to preprocess a source file
 port_common.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.i
 .PHONY : port_common.c.i
 
 port_common.s: port_common.c.s
@@ -468,7 +468,7 @@ port_common.s: port_common.c.s
 
 # target to generate assembly for a file
 port_common.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.s
 .PHONY : port_common.c.s
 
 port_systick.obj: port_systick.c.obj
@@ -476,7 +476,7 @@ port_systick.obj: port_systick.c.obj
 
 # target to build an object file
 port_systick.c.obj:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj
 .PHONY : port_systick.c.obj
 
 port_systick.i: port_systick.c.i
@@ -484,7 +484,7 @@ port_systick.i: port_systick.c.i
 
 # target to preprocess a source file
 port_systick.c.i:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.i
 .PHONY : port_systick.c.i
 
 port_systick.s: port_systick.c.s
@@ -492,7 +492,7 @@ port_systick.s: port_systick.c.s
 
 # target to generate assembly for a file
 port_systick.c.s:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.s
 .PHONY : port_systick.c.s
 
 # Help Target
@@ -559,6 +559,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

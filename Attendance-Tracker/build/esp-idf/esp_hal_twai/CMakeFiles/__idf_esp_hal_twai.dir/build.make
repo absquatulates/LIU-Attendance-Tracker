@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/depend.make
@@ -72,30 +72,30 @@ include esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/flags.make
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/flags.make
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/esp32c3/twai_periph.c
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj -MF CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/esp32c3/twai_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj -MF CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/esp32c3/twai_periph.c
 
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/esp32c3/twai_periph.c > CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/esp32c3/twai_periph.c > CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.i
 
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/esp32c3/twai_periph.c -o CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/esp32c3/twai_periph.c -o CMakeFiles/__idf_esp_hal_twai.dir/esp32c3/twai_periph.c.s
 
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/flags.make
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj: /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj -MF CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj.d -o CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj -MF CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj.d -o CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj -c /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c
 
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c > CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c > CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.i
 
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c -o CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c -o CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.s
 
 # Object files for target __idf_esp_hal_twai
 __idf_esp_hal_twai_OBJECTS = \
@@ -109,19 +109,19 @@ esp-idf/esp_hal_twai/libesp_hal_twai.a: esp-idf/esp_hal_twai/CMakeFiles/__idf_es
 esp-idf/esp_hal_twai/libesp_hal_twai.a: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/twai_hal_v1.c.obj
 esp-idf/esp_hal_twai/libesp_hal_twai.a: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/build.make
 esp-idf/esp_hal_twai/libesp_hal_twai.a: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libesp_hal_twai.a"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_twai.dir/cmake_clean_target.cmake
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_twai.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libesp_hal_twai.a"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_twai.dir/cmake_clean_target.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_twai.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/build: esp-idf/esp_hal_twai/libesp_hal_twai.a
 .PHONY : esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/build
 
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_twai.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_twai.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/clean
 
 esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/esp_hal_twai /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/depend
 

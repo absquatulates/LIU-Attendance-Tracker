@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for custom_bundle.
 
@@ -74,10 +74,10 @@ esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/build: custom_bundle
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/build
 
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/custom_bundle.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/custom_bundle.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/clean
 
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/mbedtls /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/mbedtls /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/depend
 

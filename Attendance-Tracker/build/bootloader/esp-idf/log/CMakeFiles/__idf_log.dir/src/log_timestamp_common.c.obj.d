@@ -1,7 +1,7 @@
 esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj: \
  /home/william-hellstrand/esp/esp-idf/components/log/src/log_timestamp_common.c \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
- /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/config/sdkconfig.h \
+ /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/config/sdkconfig.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdlib.h \
  /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/cdefs.h \

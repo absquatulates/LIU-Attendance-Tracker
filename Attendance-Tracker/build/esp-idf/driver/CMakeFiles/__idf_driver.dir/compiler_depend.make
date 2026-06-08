@@ -38,7 +38,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: /home/william-hellstra
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/driver/i2c/include/driver/i2c_types_legacy.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -143,7 +142,8 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: /home/william-hellstra
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/william-hellstrand/esp/esp-idf/components/driver/twai/twai.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -180,7 +180,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/william-hellst
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/driver/twai/include/driver/twai_types_legacy.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -276,7 +275,8 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/william-hellst
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/system_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/register/soc/twai_struct.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h \
-  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+  /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_clk_tree.h:
@@ -296,8 +296,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/william-hellst
 /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/regdma.h:
 
 /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/gpio_periph.h:
-
-/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/periph_defs.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_periph.h:
 
@@ -327,6 +325,10 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/william-hellst
 
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
+config/sdkconfig.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_hal.h:
@@ -334,6 +336,8 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/william-hellst
 /home/william-hellstrand/esp/esp-idf/components/heap/include/multi_heap.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h:
 
@@ -370,10 +374,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/william-hellst
 /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_stdint.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hal_gpio/esp32c3/include/hal/gpio_ll.h:
 
@@ -435,15 +435,13 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/strings.h:
 
-/home/william-hellstrand/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h:
-
-/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h:
+/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/stdio.h:
 
-/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h:
+/home/william-hellstrand/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h:
+
+/home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:
 
@@ -518,6 +516,8 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h:
 
 /home/william-hellstrand/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:
+
+/home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/periph_defs.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_types.h:
 

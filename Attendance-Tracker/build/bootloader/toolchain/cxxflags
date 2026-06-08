@@ -1,4 +1,4 @@
-"-specs=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/specs/picolibc.specs"
+"-specs=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/specs/picolibc.specs"
 -march=rv32imc_zicsr_zifencei
 -mtune=esp-base
 -fno-rtti

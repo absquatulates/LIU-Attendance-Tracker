@@ -1,2 +1,2 @@
-source /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/gdbinit/symbols
-source /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/gdbinit/connect
+source /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/gdbinit/symbols
+source /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/gdbinit/connect

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for app_check_size.
 
@@ -67,7 +67,7 @@ include CMakeFiles/app_check_size.dir/compiler_depend.make
 include CMakeFiles/app_check_size.dir/progress.make
 
 CMakeFiles/app_check_size:
-	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/partition_table/partition-table.bin /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/testing.bin
+	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/partition_table/partition-table.bin /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/testing.bin
 
 app_check_size: CMakeFiles/app_check_size
 app_check_size: CMakeFiles/app_check_size.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/app_check_size.dir/clean:
 .PHONY : CMakeFiles/app_check_size.dir/clean
 
 CMakeFiles/app_check_size.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/app_check_size.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/app_check_size.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/app_check_size.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for confserver.
 
@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config.env
-	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python -m kconfserver --env-file /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config.env --kconfig /home/william-hellstrand/esp/esp-idf/Kconfig --sdkconfig-rename /home/william-hellstrand/esp/esp-idf/sdkconfig.rename --config /home/william-hellstrand/Documents/PlatformIO/Projects/testing/sdkconfig --env KCONFIG_REPORT_VERBOSITY=default
+	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python /home/william-hellstrand/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config.env
+	/home/william-hellstrand/.espressif/python_env/idf6.1_py3.12_env/bin/python -m kconfserver --env-file /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config.env --kconfig /home/william-hellstrand/esp/esp-idf/Kconfig --sdkconfig-rename /home/william-hellstrand/esp/esp-idf/sdkconfig.rename --config /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/sdkconfig --env KCONFIG_REPORT_VERBOSITY=default
 
 confserver: CMakeFiles/confserver
 confserver: CMakeFiles/confserver.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/confserver.dir/clean:
 .PHONY : CMakeFiles/confserver.dir/clean
 
 CMakeFiles/confserver.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/confserver.dir/depend
 

@@ -1,4 +1,4 @@
-/* * Data converted from /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

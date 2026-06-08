@@ -42,7 +42,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -199,7 +198,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-ec.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -242,7 +242,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -407,7 +406,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -451,7 +451,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -621,7 +620,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/tls/rsa.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -666,7 +666,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -830,7 +829,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpbkdf2.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -874,7 +874,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -1023,7 +1022,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/os.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpsk.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1051,7 +1051,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -1077,7 +1076,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
   /home/william-hellstrand/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/tls_mbedtls.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1131,7 +1131,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -1323,7 +1322,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1366,7 +1366,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -1472,7 +1471,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_eap_client.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1516,7 +1516,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -1703,7 +1702,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/state_machine.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/state_machine.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_hostap.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1746,7 +1746,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -1855,7 +1854,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_owe.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -1898,7 +1898,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -1991,7 +1990,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2_api_port.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2017,14 +2017,14 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/features.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/lock.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_eap_client.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_eap_client.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa3.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2067,7 +2067,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -2168,7 +2167,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa_main.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2211,7 +2211,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -2336,7 +2335,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpas_glue.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2379,7 +2379,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -2476,7 +2475,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wps.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2519,7 +2519,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -2631,7 +2630,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/eloop.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2675,7 +2675,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj: /ho
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -2764,7 +2763,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj: /ho
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/eloop.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/os_xtensa.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2815,7 +2815,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj:
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/unistd.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/unistd.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -2916,7 +2915,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj:
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/os.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/ap_config.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -2959,7 +2959,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -3057,7 +3056,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.ob
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3100,7 +3100,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -3196,7 +3195,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3239,7 +3239,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.o
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -3343,7 +3342,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.o
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3386,7 +3386,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.o
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -3491,7 +3490,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.o
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/eloop.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_auth.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3534,7 +3534,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_au
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -3631,7 +3630,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_au
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/eloop.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/sta_info.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3674,7 +3674,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -3779,7 +3778,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3822,7 +3822,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -3938,7 +3937,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/eloop.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/state_machine.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/state_machine.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -3981,7 +3981,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -4077,7 +4076,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/common/dragonfly.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -4120,7 +4120,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -4209,7 +4208,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/const_time.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -4252,7 +4252,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -4345,7 +4344,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/drivers/driver.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/common/sae.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -4388,7 +4388,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj:
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -4485,7 +4484,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj:
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/const_time.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/common/sae_pk.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -4528,7 +4528,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.o
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -4627,7 +4626,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.o
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/base64.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -4670,7 +4670,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -4769,7 +4768,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -4812,7 +4812,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -4900,7 +4899,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes_wrap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -4943,7 +4943,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5031,7 +5030,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes_wrap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5074,7 +5074,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5163,7 +5162,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes_wrap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5206,7 +5206,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5294,7 +5293,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes_wrap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5337,7 +5337,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5425,7 +5424,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes_wrap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5468,7 +5468,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5557,7 +5556,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/aes_wrap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5600,7 +5600,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5693,7 +5692,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-internal.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5736,7 +5736,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-intern
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5824,7 +5823,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-intern
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/des_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5867,7 +5867,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -5955,7 +5954,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -5998,7 +5998,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -6087,7 +6086,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/random.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-internal.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -6130,7 +6130,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-intern
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -6217,7 +6216,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-intern
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -6260,7 +6260,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -6349,7 +6348,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/rc4.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -6392,7 +6392,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj:
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -6479,7 +6478,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj:
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -6522,7 +6522,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -6610,7 +6609,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlsprf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -6653,7 +6653,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlspr
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -6741,7 +6740,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlspr
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -6784,7 +6784,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -6872,7 +6871,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -6915,7 +6915,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7002,7 +7001,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7045,7 +7045,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7133,7 +7132,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tlsprf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7176,7 +7176,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tls
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7263,7 +7262,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tls
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7306,7 +7306,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7394,7 +7393,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tlsprf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7437,7 +7437,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tls
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7524,7 +7523,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tls
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_wsc_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7567,7 +7567,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_ws
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7659,7 +7658,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_ws
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7702,7 +7702,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.o
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7790,7 +7789,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.o
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7833,7 +7833,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -7939,7 +7938,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.ob
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/state_machine.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/state_machine.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -7982,7 +7982,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_comm
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -8070,7 +8069,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_comm
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -8113,7 +8113,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -8213,7 +8212,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tlv_common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -8256,7 +8256,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -8347,7 +8346,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tlv_common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_pac.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -8390,7 +8390,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -8484,7 +8483,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -8527,7 +8527,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_msch
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -8630,7 +8629,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_msch
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -8673,7 +8673,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -8771,7 +8770,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tlv_common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -8814,7 +8814,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -8902,7 +8901,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -8945,7 +8945,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9040,7 +9039,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -9083,7 +9083,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9179,7 +9178,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -9222,7 +9222,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9322,7 +9321,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -9365,7 +9365,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9453,7 +9452,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -9496,7 +9496,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_ca
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9591,7 +9590,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_ca
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/eloop.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -9634,7 +9634,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9744,7 +9743,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.ob
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/eloop.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -9787,7 +9787,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9881,7 +9880,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/base64.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -9924,7 +9924,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -9996,7 +9995,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.ob
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/os.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/base64.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10039,7 +10039,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -10126,7 +10125,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10170,7 +10170,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/time.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -10258,7 +10257,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.ob
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_password.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10301,7 +10301,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_passwor
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -10389,7 +10388,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_passwor
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password_i.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/json.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10432,7 +10432,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj:
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -10520,7 +10519,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj:
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/json.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10563,7 +10563,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj:
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -10650,7 +10649,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj:
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10693,7 +10693,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -10779,7 +10778,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10822,7 +10822,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.ob
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -10908,7 +10907,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.ob
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -10951,7 +10951,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj: /h
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -11044,7 +11043,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj: /h
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -11087,7 +11087,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_buil
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -11183,7 +11182,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_buil
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -11226,7 +11226,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_pars
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -11316,7 +11315,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_pars
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/list.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -11359,7 +11359,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_proc
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -11451,7 +11450,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_proc
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_common.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -11494,7 +11494,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -11595,7 +11594,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -11638,7 +11638,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -11730,7 +11729,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h \
+  config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj: /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h \
@@ -11773,7 +11773,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/string.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h \
   /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/types.h \
-  config/sdkconfig.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_attr.h \
   /home/william-hellstrand/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -11872,7 +11871,8 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_defs.h \
   /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.h \
-  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h
+  /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_i.h \
+  config/sdkconfig.h
 
 
 /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c:
@@ -12116,6 +12116,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_misc.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_ciphersuites_internal.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/md5.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_key_derivation.h:
 
 /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/json.h:
 
@@ -12397,12 +12401,6 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/_types.h:
 
-config/sdkconfig.h:
-
-/home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/psa_util.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include/float.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_wifi/wifi_apps/roaming_app/include/esp_roaming.h:
@@ -12427,12 +12425,6 @@ config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:
 
-/home/william-hellstrand/esp/esp-idf/components/esp_wifi/include/esp_wifi.h:
-
-/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h:
-
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/limits.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h:
@@ -12444,8 +12436,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/machine/_types.h:
-
-/home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_netif/include/esp_netif.h:
 
@@ -12462,6 +12452,8 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/esp_netif/include/esp_netif_ip_addr.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/errno.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/config.h:
 
@@ -12492,6 +12484,18 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h:
 
 /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/param.h:
+
+/home/william-hellstrand/esp/esp-idf/components/esp_wifi/include/esp_wifi.h:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h:
+
+/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include/sys/syslimits.h:
+
+/home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c:
+
+/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/psa_util.h:
+
+config/sdkconfig.h:
 
 /home/william-hellstrand/esp/esp-idf/components/esp_wifi/include/esp_wifi_default.h:
 
@@ -12536,10 +12540,6 @@ config/sdkconfig.h:
 /home/william-hellstrand/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h:
 
 /home/william-hellstrand/esp/esp-idf/components/mbedtls/port/include/mbedtls/ecp.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/md5.h:
-
-/home/william-hellstrand/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_key_derivation.h:
 
 /home/william-hellstrand/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c:
 

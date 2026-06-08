@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader
 
 # Include any dependencies generated for this target.
 include esp-idf/riscv/CMakeFiles/__idf_riscv.dir/depend.make
@@ -72,16 +72,16 @@ include esp-idf/riscv/CMakeFiles/__idf_riscv.dir/flags.make
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj: esp-idf/riscv/CMakeFiles/__idf_riscv.dir/flags.make
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj: /home/william-hellstrand/esp/esp-idf/components/riscv/rv_utils.c
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj: esp-idf/riscv/CMakeFiles/__idf_riscv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj -MF CMakeFiles/__idf_riscv.dir/rv_utils.c.obj.d -o CMakeFiles/__idf_riscv.dir/rv_utils.c.obj -c /home/william-hellstrand/esp/esp-idf/components/riscv/rv_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj -MF CMakeFiles/__idf_riscv.dir/rv_utils.c.obj.d -o CMakeFiles/__idf_riscv.dir/rv_utils.c.obj -c /home/william-hellstrand/esp/esp-idf/components/riscv/rv_utils.c
 
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_riscv.dir/rv_utils.c.i"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/riscv/rv_utils.c > CMakeFiles/__idf_riscv.dir/rv_utils.c.i
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/william-hellstrand/esp/esp-idf/components/riscv/rv_utils.c > CMakeFiles/__idf_riscv.dir/rv_utils.c.i
 
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_riscv.dir/rv_utils.c.s"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/riscv/rv_utils.c -o CMakeFiles/__idf_riscv.dir/rv_utils.c.s
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv && /home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william-hellstrand/esp/esp-idf/components/riscv/rv_utils.c -o CMakeFiles/__idf_riscv.dir/rv_utils.c.s
 
 # Object files for target __idf_riscv
 __idf_riscv_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_riscv_EXTERNAL_OBJECTS =
 esp-idf/riscv/libriscv.a: esp-idf/riscv/CMakeFiles/__idf_riscv.dir/rv_utils.c.obj
 esp-idf/riscv/libriscv.a: esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build.make
 esp-idf/riscv/libriscv.a: esp-idf/riscv/CMakeFiles/__idf_riscv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libriscv.a"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv && $(CMAKE_COMMAND) -P CMakeFiles/__idf_riscv.dir/cmake_clean_target.cmake
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_riscv.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libriscv.a"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv && $(CMAKE_COMMAND) -P CMakeFiles/__idf_riscv.dir/cmake_clean_target.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_riscv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build: esp-idf/riscv/libriscv.a
 .PHONY : esp-idf/riscv/CMakeFiles/__idf_riscv.dir/build
 
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv && $(CMAKE_COMMAND) -P CMakeFiles/__idf_riscv.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv && $(CMAKE_COMMAND) -P CMakeFiles/__idf_riscv.dir/cmake_clean.cmake
 .PHONY : esp-idf/riscv/CMakeFiles/__idf_riscv.dir/clean
 
 esp-idf/riscv/CMakeFiles/__idf_riscv.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/riscv /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/bootloader/esp-idf/riscv/CMakeFiles/__idf_riscv.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/esp/esp-idf/components/bootloader/subproject /home/william-hellstrand/esp/esp-idf/components/riscv /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/bootloader/esp-idf/riscv/CMakeFiles/__idf_riscv.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/riscv/CMakeFiles/__idf_riscv.dir/depend
 

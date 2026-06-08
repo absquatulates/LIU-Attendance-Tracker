@@ -1,5 +1,0 @@
-Command: make -j 10 all
-/home/william-hellstrand/Documents/PlatformIO/Projects/testing/src/main.c: In function 'app_main':
-/home/william-hellstrand/Documents/PlatformIO/Projects/testing/src/main.c:478:30: warning: unused variable 'elapsed' [-Wunused-variable]
-  478 |                     uint32_t elapsed = esp_cpu_get_cycle_count() - start;
-      |                              ^~~~~~~

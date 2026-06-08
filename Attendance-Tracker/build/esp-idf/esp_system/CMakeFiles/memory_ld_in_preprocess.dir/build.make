@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing
+CMAKE_SOURCE_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build
+CMAKE_BINARY_DIR = /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build
 
 # Utility rule file for memory_ld_in_preprocess.
 
@@ -70,8 +70,8 @@ esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess: esp-idf/esp_system/ld/mem
 
 esp-idf/esp_system/ld/memory.ld: /home/william-hellstrand/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in
 esp-idf/esp_system/ld/memory.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/william-hellstrand/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in -> /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_system/ld/memory.ld"
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_system && /usr/bin/cmake -DCC=/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/home/william-hellstrand/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in -DTARGET=/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_system/ld/memory.ld "-DCFLAGS=-I\"/home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/config\" -I\"/home/william-hellstrand/esp/esp-idf/components/esp_system/ld\"" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/linker_script_preprocessor.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/william-hellstrand/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in -> /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_system/ld/memory.ld"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_system && /usr/bin/cmake -DCC=/home/william-hellstrand/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/home/william-hellstrand/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in -DTARGET=/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_system/ld/memory.ld "-DCFLAGS=-I\"/home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/config\" -I\"/home/william-hellstrand/esp/esp-idf/components/esp_system/ld\"" -P /home/william-hellstrand/esp/esp-idf/tools/cmake/linker_script_preprocessor.cmake
 
 memory_ld_in_preprocess: esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess
 memory_ld_in_preprocess: esp-idf/esp_system/ld/memory.ld
@@ -83,10 +83,10 @@ esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/build: memory_ld_in_pr
 .PHONY : esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/build
 
 esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/clean:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory_ld_in_preprocess.dir/cmake_clean.cmake
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory_ld_in_preprocess.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/clean
 
 esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/depend:
-	cd /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/Documents/PlatformIO/Projects/testing /home/william-hellstrand/esp/esp-idf/components/esp_system /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_system /home/william-hellstrand/Documents/PlatformIO/Projects/testing/build/esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/william-hellstrand/school/tqdt11/C2_ESP32-C3 /home/william-hellstrand/esp/esp-idf/components/esp_system /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_system /home/william-hellstrand/school/tqdt11/C2_ESP32-C3/build/esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/depend
 
