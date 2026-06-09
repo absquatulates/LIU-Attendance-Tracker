@@ -78,7 +78,7 @@ Open the `Attendance-Tracker/` directory in VS Code with the PlatformIO extensio
 ### 3. Build and upload
 
 ```bash
-pio run -e hardware --target upload
+pio run -e esp32-c3-devkitm-t --target upload
 ```
 
 PlatformIO will compile the firmware using ESP-IDF and the RISC-V GCC cross-compiler, then flash it to the connected device over USB.
